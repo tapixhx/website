@@ -419,10 +419,12 @@ background-color: #ffff99;
         font-size:0.7rem;
     }
 }
-@media only screen and (max-width:990px) {
-    .news-particular-info {
-        font-size:1.5rem;
+@media only screen and (max-width:992px) {
+    .news-particular {
+        display:none;
     }
+}
+@media only screen and (max-width:990px) {
     .vertical-line {
         border-left:0px;
     }
@@ -713,14 +715,6 @@ background-color: #ffff99;
      font-family: 'Raleway', sans-serif;
  }
  
- .event-paragraph{
-     margin: 2rem 0rem;
-     color: #5a5a5a;
-     font-family: 'Open Sans', sans-serif;
-     font-size: 16px;
-     font-weight: 600
- }
- 
  .event-date{
      font-weight: 800;
      font-size: 1.8rem;
@@ -740,6 +734,11 @@ background-color: #ffff99;
 
  .events_link {
     margin-top:2rem;
+ }
+ @media only screen and (max-width:990px) {
+     .event_card {
+         margin-bottom:2rem;
+     }
  }
  /* upcoming events */
  
