@@ -77,6 +77,37 @@ background-color: #ffff99;
 .students {
     margin-top:3rem !important;
 }
+
+/* hamburger */
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+/* hamburger */
+@media only screen and (max-width:1240px) {
+    .quality-students {
+        margin-top:10rem;
+    }
+}
+@media only screen and (max-width:990px) {
+    .quality-students {
+        margin-top:8rem;
+    }
+}
 /* First sec */
 
 /* Common */
@@ -238,6 +269,31 @@ background-color: #ffff99;
 }
 .box {
     background-color: rgb(154, 167, 255 , 0.14) !important;
+}
+@media only screen and (max-width:1200px) {
+    .card_2_1 {
+        padding:0rem;
+    }
+}
+@media only screen and (max-width:990px) {
+    .card_2_1 {
+        padding:0rem 12rem;
+    }
+}
+@media only screen and (max-width:767px) {
+    .card_2_1 {
+        padding:0rem 6rem;
+    }
+}
+@media only screen and (max-width:505px) {
+    .card_2_1 {
+        padding:0rem 4rem;
+    }
+}
+@media only screen and (max-width:410px) {
+    .card_2_1 {
+        padding:0rem 0rem;
+    }
 }
 /* About */
 
@@ -745,4 +801,69 @@ background-color: #ffff99;
      background-color: #FCCB67;
      border:0px;
  }
+ @media only screen and (max-width:1190px) {
+    .regis_form {
+        padding:0rem 4rem !important;
+    }
+}
+@media only screen and (max-width:1160px) {
+    .regis_btn {
+        padding:0.5rem 5rem;
+    }
+}
+@media only screen and (max-width:1090px) {
+    .regis_btn {
+        padding:0.5rem 3rem;
+    }
+}
+@media only screen and (max-width:990px) {
+    .regis_form {
+        margin-top:4rem;
+        padding:0rem 10rem !important;
+    }
+    .regis_btn {
+        padding:0.5rem 8rem;
+    }
+}
+@media only screen and (max-width:870px) {
+    .regis_form {
+        padding:0rem 6rem !important;
+    }
+}
+@media only screen and (max-width:750px) {
+    .regis_form {
+        padding:0rem 2rem !important;
+    }
+}
+@media only screen and (max-width:575px) {
+    .vertical_line {
+        border-right:0px solid #ffffff;
+    }
+    .regis_form {
+        margin-top:2rem;
+        padding:0rem 0rem !important;
+    }
+    .regis_img {
+        margin-bottom:2rem;
+    }
+    .regis_desc {
+        font-size:14px;
+    }
+    .regis_heading {
+        font-size:28px;
+    }
+}
+@media only screen and (max-width:450px) {
+    .regis_btn {
+        padding:0.5rem 4rem;
+    }
+}
+@media only screen and (max-width:330px) {
+    .regis_btn {
+        padding:0.5rem 2rem;
+    }
+    .regis_desc {
+        font-size:12px;
+    }
+}
  /* register end */
