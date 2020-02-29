@@ -866,3 +866,19 @@ background-color: #ffff99;
     }
 }
  /* register end */
+
+ /* Faculty */
+@media only screen and (max-width:2560px) {
+    .faculty_medium {
+        display:none;
+    }
+}
+@media only screen and (max-width:992px) {
+    .faculty_large {
+        display:none;
+    }
+    .faculty_medium {
+        display:block;
+    }
+}
+ /* Faculty end */
