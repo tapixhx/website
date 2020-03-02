@@ -301,7 +301,7 @@ background-color: #ffff99;
 .campusimage {
     height:100vh;
     width:100%;
-    background:url(../images/tour.jpg);
+    background:url(../images/home/tour.jpg);
     background-size:cover;
     background-attachment:fixed;
 }
@@ -514,7 +514,7 @@ background-color: #ffff99;
 
 /* Why AKGEC */
 .akg-img-first {
-    background:url(../images/college.jpg);
+    background:url(../images/home/college.jpg);
     height:100vh;
     width:100%;
     background-size:cover;
@@ -552,7 +552,7 @@ background-color: #ffff99;
     margin-top:4rem;
 }
 .akg-img-second {
-    background:url(../images/whyakg.jpg);
+    background:url(../images/home/whyakg.jpg);
     height:100vh;
     width:100%;
     background-size:cover;
@@ -566,7 +566,7 @@ background-color: #ffff99;
     padding:8rem 6rem;
 }
 .akg-img-third {
-    background:url(../images/whyakg2.jpg);
+    background:url(../images/home/whyakg2.jpg);
     height:100vh;
     width:100%;
     background-size:cover;
@@ -580,7 +580,7 @@ background-color: #ffff99;
     padding:8rem 6rem;
 }
 .akg-img-fourth {
-    background:url(../images/whyakg3.jpg);
+    background:url(../images/home/whyakg3.jpg);
     height:100vh;
     width:100%;
     background-size:cover;
