@@ -12,6 +12,7 @@
 .underline {
     border:2px solid #FCCB67;
     width:4rem;
+    margin-bottom:2rem;
 }
 .sec_text {
     font-family: 'Open Sans', sans-serif;  
@@ -61,3 +62,82 @@
 /* hamburger */
 
 /* navbar */
+
+/* overview */
+.card_2{
+    color:black !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img_2{
+    height : 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35% !important;
+}
+.card_2_1{
+    box-shadow: none !important;
+    padding : 0rem 2rem;
+}
+.box {
+    background-color: rgb(154, 167, 255 , 0.14) !important;
+}
+.overview_part_head {
+    color:#1D194F;
+    font-weight:800;
+}
+/* overview */
+
+/* Labs */
+.labs_name {
+    background-color: #5E5E5E;
+    font-family: 'Open Sans', sans-serif;
+    color:#ffffff;
+}
+/* Labs */
+/* hod */
+.container_hod {
+    padding:0rem 6rem;
+}
+/* hod */
+/* placement */
+.placement_company {
+    padding:1rem 1.2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(170,170,169,.329), 0 2px 10px 0 rgba(170,170,169,.329);
+    width:fit-content;
+}
+/* placement */
+/* media queries */
+@media only screen and (max-width:1024px) {
+    .card_2_1 {
+        padding:0rem;
+    }
+}
+@media only screen and (max-width:768px) {
+    .card_2_1 {
+        padding:0rem 11rem;
+    }
+}
+@media only screen and (max-width:455px) {
+    .card_2_1 {
+        padding:0rem 3rem;
+    }
+}
+@media only screen and (max-width:425px) {
+    .card_2_1 {
+        padding:0rem 2rem;
+    }
+}
+@media only screen and (max-width:375px) {
+    .card_2_1 {
+        padding:0rem 1rem;
+    }
+}
+@media only screen and (max-width:320px) {
+    .card_2_1 {
+        padding:0rem;
+    }
+}
+/* media queries */
