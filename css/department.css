@@ -111,7 +111,10 @@
 /* placement */
 /* student achievement */
 .students_name_col {
-    padding:0rem 0rem 0rem 4px !important;
+    padding:0rem !important;
+}
+.students_year_col {
+    padding:0rem 15px 0rem 0rem !important;
 }
 /* student achievement */
 /* media queries */
