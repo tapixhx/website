@@ -109,6 +109,11 @@
     width:fit-content;
 }
 /* placement */
+/* student achievement */
+.students_name_col {
+    padding:0rem 0rem 0rem 4px !important;
+}
+/* student achievement */
 /* media queries */
 @media only screen and (max-width:1024px) {
     .card_2_1 {
