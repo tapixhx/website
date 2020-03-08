@@ -173,34 +173,46 @@
 /* student achievement */
 /* media queries */
 @media only screen and (max-width:1024px) {
+    /* overview */
     .card_2_1 {
         padding:0rem;
     }
+    /* overview */
 }
 @media only screen and (max-width:768px) {
+    /* overview */
     .card_2_1 {
         padding:0rem 11rem;
     }
+    /* overview */
 }
 @media only screen and (max-width:455px) {
+    /* overview */
     .card_2_1 {
         padding:0rem 3rem;
     }
+    /* overview */
 }
 @media only screen and (max-width:425px) {
+    /* overview */
     .card_2_1 {
         padding:0rem 2rem;
     }
+    /* overview */
 }
 @media only screen and (max-width:375px) {
+    /* overview */
     .card_2_1 {
         padding:0rem 1rem;
     }
+    /* overview */
 }
 @media only screen and (max-width:320px) {
+    /* overview */
     .card_2_1 {
         padding:0rem;
     }
+    /* overview */
 }
 /* media queries */
 
