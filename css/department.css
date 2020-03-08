@@ -63,6 +63,27 @@
 
 /* navbar */
 
+/* landing */
+.sec_pad_landing{
+    padding:10rem 0rem;
+}
+.landing_text{
+    font-size: 1.4rem;
+    padding:1rem 5.5rem 0 0;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;  
+    
+}
+.landing_placement{
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.landing_std_placed{
+    font-size:1.2rem ;
+    font-weight: 400;
+}
+/* landing */
+
 /* overview */
 .card_2{
     color:black !important;
@@ -96,6 +117,39 @@
     color:#ffffff;
 }
 /* Labs */
+
+/* research_highlight */
+.research_box{
+    padding: 0 6.8rem!important;
+}
+.research_box_highlight{
+    box-shadow: 2px 2px 18px 5px rgba(0,0,0,.1);
+    padding: 2.5rem 1.3rem;
+    margin: 3rem 0 4rem!important;
+    border-radius: 5px;
+}
+.research_box_heading{
+    color:#E3A669;
+    padding:1.3rem 0;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.research_no{
+    font-size:2.8rem;
+    margin-top: -.7rem;
+    padding:0 0 0 .7rem!important;
+    font-weight: 500;
+}
+.research_text{
+    padding: 0 0 0 1.9rem!important;
+    text-align:left;
+}
+.research_box_2row{
+    padding: 0 9.6rem!important;
+}
+/* research_highlight */
+
 /* hod */
 .container_hod {
     padding:0rem 6rem;
