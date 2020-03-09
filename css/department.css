@@ -261,6 +261,12 @@
     /* faculty */
 }
 @media only screen and (max-width:455px) {
+    /* landing */
+    .landing_text {
+        padding: 1rem 2rem 0rem 0rem;
+    }
+    /* landing */
+    
     /* overview */
     .card_2_1 {
         padding:0rem 3rem;
@@ -317,6 +323,17 @@
     /* faculty */
 }
 @media only screen and (max-width:425px) {
+    /* landing */
+    .landing_text p {
+        font-size:16px;
+    }
+    .landing_placement {
+        font-size:20px;
+    }
+    .landing_placement_info {
+        font-size:14px;
+    }
+    /* landing */
     /* overview */
     .card_2_1 {
         padding:0rem 2rem;
