@@ -111,6 +111,9 @@
 /* overview */
 
 /* Labs */
+.labs_medium {
+    display:none;
+}
 .labs_name {
     background-color: #5E5E5E;
     font-family: 'Open Sans', sans-serif;
@@ -224,6 +227,19 @@
         font-size:16px;
     }
     /* hod */
+
+    /* labs */
+    .labs_large {
+        display:none;
+    }
+    .labs_medium {
+        display:block;
+    }
+    .labs_card {
+        width:23rem !important;
+        margin-left:10rem;
+    }
+    /* labs */
 }
 @media only screen and (max-width:455px) {
     /* overview */
@@ -268,6 +284,12 @@
         text-align: justify;
     }
     /* hod */
+
+    /* labs */
+    .labs_card {
+        margin-left:2rem;
+    }
+    /* labs */
 }
 @media only screen and (max-width:425px) {
     /* overview */
@@ -275,6 +297,12 @@
         padding:0rem 2rem;
     }
     /* overview */
+
+    /* labs */
+    .labs_card {
+        margin-left:1rem;
+    }
+    /* labs */
 }
 @media only screen and (max-width:375px) {
     /* overview */
@@ -314,6 +342,16 @@
         padding:0rem 1rem !important;
     }
     /* eligiblity */
+
+    /* labs */
+    .labs_card {
+        width:18rem !important;
+        margin-left:0rem;
+    }
+    .labs_medium_carousel {
+        height:350px !important;
+    }
+    /* labs */
 }
 /* media queries */
 
