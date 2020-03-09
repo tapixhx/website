@@ -190,6 +190,12 @@
         width:25rem;
     }
     /* placement insight */
+
+    /* hod */
+    .hod_desc {
+        font-size:12px;
+    }
+    /* hod */
 }
 @media only screen and (max-width:768px) {
     /* overview */
@@ -212,6 +218,12 @@
         margin-top:01rem;
     }
     /* student achievement */
+
+    /* hod */
+    .hod_desc {
+        font-size:16px;
+    }
+    /* hod */
 }
 @media only screen and (max-width:455px) {
     /* overview */
@@ -249,6 +261,13 @@
         text-align:center;
     }
     /* student achievement */
+
+    /* hod */
+    .hod_desc {
+        font-size:12px;
+        text-align: justify;
+    }
+    /* hod */
 }
 @media only screen and (max-width:425px) {
     /* overview */
@@ -276,6 +295,12 @@
         padding:0rem 2rem !important;
     }
     /* student achievement */
+
+    /* hod */
+    .container_hod {
+        padding:0rem 2rem;
+    }
+    /* hod */
 }
 @media only screen and (max-width:320px) {
     /* overview */
@@ -283,6 +308,7 @@
         padding:0rem;
     }
     /* overview */
+
     /* eligiblity */
     .eligible_row {
         padding:0rem 1rem !important;
