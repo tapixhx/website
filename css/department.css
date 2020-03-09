@@ -180,6 +180,12 @@
 }
 /* student achievement */
 
+/* faculty */
+.faculty_medium {
+    display:none;
+}
+/* faculty */
+
 /* media queries */
 @media only screen and (max-width:1024px) {
     /* overview */
@@ -240,6 +246,19 @@
         margin-left:10rem;
     }
     /* labs */
+
+    /* faculty */
+    .faculty_large {
+        display:none;
+    }
+    .faculty_medium {
+        display:block;
+    }
+    .faculty_card {
+        width:24rem !important;
+        margin-left:10rem;
+    }
+    /* faculty */
 }
 @media only screen and (max-width:455px) {
     /* overview */
@@ -290,6 +309,12 @@
         margin-left:2rem;
     }
     /* labs */
+
+    /* faculty */
+    .faculty_card {
+        margin-left:1rem;
+    }
+    /* faculty */
 }
 @media only screen and (max-width:425px) {
     /* overview */
@@ -329,6 +354,16 @@
         padding:0rem 2rem;
     }
     /* hod */
+
+    /* faculty */
+    .faculty_card {
+        width:20rem !important;
+        margin-left:1rem;
+    }
+    .faculty_medium_carousel {
+        height:460px !important;
+    }
+    /* faculty */
 }
 @media only screen and (max-width:320px) {
     /* overview */
@@ -352,6 +387,16 @@
         height:350px !important;
     }
     /* labs */
+
+    /* faculty */
+    .faculty_card {
+        width:18rem !important;
+        margin-left:0rem;
+    }
+    .faculty_medium_carousel {
+        height:440px !important;
+    }
+    /* faculty */
 }
 /* media queries */
 
