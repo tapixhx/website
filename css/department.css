@@ -178,6 +178,12 @@
         padding:0rem;
     }
     /* overview */
+    
+    /* placement insight */
+    .placement_pie img {
+        width:25rem;
+    }
+    /* placement insight */
 }
 @media only screen and (max-width:768px) {
     /* overview */
@@ -185,6 +191,12 @@
         padding:0rem 11rem;
     }
     /* overview */
+
+    /* placement insight */
+    .placement_pie img {
+        margin: 1rem 0rem 0rem 9rem;
+    }
+    /* placement insight */
 }
 @media only screen and (max-width:455px) {
     /* overview */
@@ -204,6 +216,18 @@
         text-align: justify;
     }
     /* eligiblity */
+
+    /* placement insight */
+    .placement_pie img {
+        margin: 1rem 0rem 0rem 1rem;
+    }
+    .placement_col_img {
+        margin-top:1.5rem
+    }
+    .placement_col_img2 {
+        margin-top:-1.5rem;
+    }
+    /* placement insight */
 }
 @media only screen and (max-width:425px) {
     /* overview */
@@ -218,6 +242,13 @@
         padding:0rem 1rem;
     }
     /* overview */
+
+    /* placement insight */
+    .placement_pie img {
+        margin:1rem 0rem 0rem 0rem;
+        width:20rem;
+    }
+    /* placement insight */
 }
 @media only screen and (max-width:320px) {
     /* overview */
