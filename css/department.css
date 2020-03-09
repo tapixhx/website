@@ -192,6 +192,18 @@
         padding:0rem 3rem;
     }
     /* overview */
+
+    /* eligiblity */
+    .eligible_img {
+        width:7rem;
+    }
+    .eligible_col {
+        margin-top:1.2rem;
+    }
+    .eligible_text {
+        text-align: justify;
+    }
+    /* eligiblity */
 }
 @media only screen and (max-width:425px) {
     /* overview */
@@ -213,6 +225,11 @@
         padding:0rem;
     }
     /* overview */
+    /* eligiblity */
+    .eligible_row {
+        padding:0rem 1rem !important;
+    }
+    /* eligiblity */
 }
 /* media queries */
 
