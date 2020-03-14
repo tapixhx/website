@@ -25,26 +25,6 @@
 .sec_color_bg {
     background-color:#FBFBFB;
 }
-
-/* .carousel-indicators li {
-display: inline-block;
-width: 48px;
-height: 48px;
-margin: 10px;
-text-indent: 0;
-cursor: pointer;
-border: none;
-border-radius: 50%;
-background-color: #0000ff;
-box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
-}
-.carousel-indicators .active {
-width: 48px;
-height: 48px;
-margin: 10px;
-background-color: #ffff99;
-} */
-
 .carousel .carousel-indicators li {
     margin-top: 20px;
     background-color: #fff;
@@ -54,8 +34,6 @@ background-color: #ffff99;
   .carousel .carousel-indicators .active {
     background-color: #444;
 }
-
-
 /* Common */
 
 /* First sec */
@@ -210,7 +188,7 @@ background-color: #ffff99;
     padding:16px 16px;
     font-size:12px !important;
 }
-@media only screen and (max-width:1365px) {
+/* @media only screen and (max-width:1365px) {
     .news-particular-info {
         font-size:1rem;
     }
@@ -252,7 +230,7 @@ background-color: #ffff99;
     .news {
         padding:0px 60px;
     }
-}
+} */
 /* News */
 
 /* About */
@@ -276,7 +254,7 @@ background-color: #ffff99;
 .box {
     background-color: rgb(154, 167, 255 , 0.14) !important;
 }
-@media only screen and (max-width:1200px) {
+/* @media only screen and (max-width:1200px) {
     .card_2_1 {
         padding:0rem;
     }
@@ -300,7 +278,7 @@ background-color: #ffff99;
     .card_2_1 {
         padding:0rem 0rem;
     }
-}
+} */
 /* About */
 
 /* Campus-Tour */
@@ -401,7 +379,7 @@ background-color: #ffff99;
     padding:16px 16px;
     font-size:12px !important;
 }
-@media only screen and (max-width:1365px) {
+/* @media only screen and (max-width:1365px) {
     .news-particular-info {
         font-size:1rem;
     }
@@ -445,7 +423,7 @@ background-color: #ffff99;
     .news {
         padding:0px 60px;
     }
-}
+} */
 /* News */
 
 /* What People Will Say */
@@ -480,7 +458,7 @@ background-color: #ffff99;
     border-radius:5px;
     margin-left:-8rem;
 }
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
     .people-img {
         margin-left:7rem;
         margin-top:4rem;
@@ -515,7 +493,7 @@ background-color: #ffff99;
     .people-img {
         margin-left:1rem;
     }
-}
+} */
 /* What People Will Say */
 
 /* Why AKGEC */
@@ -741,11 +719,11 @@ background-color: #ffff99;
  .events_link {
     margin-top:2rem;
  }
- @media only screen and (max-width:990px) {
+ /* @media only screen and (max-width:990px) {
      .event_card {
          margin-bottom:2rem;
      }
- }
+ } */
  /* upcoming events */
  
  .underline{
@@ -806,7 +784,7 @@ background-color: #ffff99;
      background-color: #FCCB67;
      border:0px;
  }
- @media only screen and (max-width:1190px) {
+ /* @media only screen and (max-width:1190px) {
     .regis_form {
         padding:0rem 4rem !important;
     }
@@ -870,11 +848,11 @@ background-color: #ffff99;
     .regis_desc {
         font-size:12px;
     }
-}
+} */
  /* register end */
 
  /* Faculty */
-@media only screen and (max-width:2560px) {
+/* @media only screen and (max-width:2560px) {
     .faculty_medium {
         display:none;
     }
@@ -886,5 +864,34 @@ background-color: #ffff99;
     .faculty_medium {
         display:block;
     }
-}
+} */
  /* Faculty end */
+
+/* media queries */
+@media only screen and (max-width:1024px) {
+
+}
+@media only screen and (max-width:768px) {
+    
+}
+@media only screen and (max-width:455px) {
+    /* first section */
+    .students {
+        margin-top:1rem !important;
+    }
+    /* first section */
+}
+@media only screen and (max-width:425px) {
+    
+}
+@media only screen and (max-width:375px) {
+    /* first section */
+    .contain-students {
+        padding:0rem 1rem;
+    }
+    /* first section */
+}
+@media only screen and (max-width:320px) {
+    
+}
+/* media queries */
