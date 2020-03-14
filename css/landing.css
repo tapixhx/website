@@ -129,12 +129,6 @@
 .contain-news-desc {
     padding:0rem 6rem;
 }
-/* .news {
-    padding:0px 0px 0px 60px !important;
-}
-.news-particular {
-    padding:0px 8rem !important;
-} */
 .news-card {
     margin:2rem 0;
     overflow:hidden;
@@ -188,49 +182,6 @@
     padding:16px 16px;
     font-size:12px !important;
 }
-/* @media only screen and (max-width:1365px) {
-    .news-particular-info {
-        font-size:1rem;
-    }
-    .eventdesc {
-        font-size:0.8rem;
-    }
-}
-@media only screen and (max-width:1270px) {
-    .news-particular-info {
-        font-size:.8rem;
-    }
-}
-@media only screen and (max-width:1110px) {
-    .date {
-        font-size:2rem;
-    }
-    .month {
-        font-size:1rem;
-    }
-    .eventdesc {
-        font-size:0.7rem;
-    }
-}
-@media only screen and (max-width:990px) {
-    .news-particular-info {
-        font-size:1.5rem;
-    }
-    .vertical-line {
-        border-left:0px;
-    }
-    .news {
-        padding:0px 10rem;
-    }
-}
-@media only screen and (max-width:700px) {
-    .news-particular {
-        padding:0px 60px;
-    }
-    .news {
-        padding:0px 60px;
-    }
-} */
 /* News */
 
 /* About */
@@ -254,31 +205,6 @@
 .box {
     background-color: rgb(154, 167, 255 , 0.14) !important;
 }
-/* @media only screen and (max-width:1200px) {
-    .card_2_1 {
-        padding:0rem;
-    }
-}
-@media only screen and (max-width:990px) {
-    .card_2_1 {
-        padding:0rem 12rem;
-    }
-}
-@media only screen and (max-width:767px) {
-    .card_2_1 {
-        padding:0rem 6rem;
-    }
-}
-@media only screen and (max-width:505px) {
-    .card_2_1 {
-        padding:0rem 4rem;
-    }
-}
-@media only screen and (max-width:410px) {
-    .card_2_1 {
-        padding:0rem 0rem;
-    }
-} */
 /* About */
 
 /* Campus-Tour */
@@ -379,51 +305,6 @@
     padding:16px 16px;
     font-size:12px !important;
 }
-/* @media only screen and (max-width:1365px) {
-    .news-particular-info {
-        font-size:1rem;
-    }
-    .eventdesc {
-        font-size:0.8rem;
-    }
-}
-@media only screen and (max-width:1270px) {
-    .news-particular-info {
-        font-size:.8rem;
-    }
-}
-@media only screen and (max-width:1110px) {
-    .date {
-        font-size:2rem;
-    }
-    .month {
-        font-size:1rem;
-    }
-    .eventdesc {
-        font-size:0.7rem;
-    }
-}
-@media only screen and (max-width:992px) {
-    .news-particular {
-        display:none;
-    }
-}
-@media only screen and (max-width:990px) {
-    .vertical-line {
-        border-left:0px;
-    }
-    .news {
-        padding:0px 10rem;
-    }
-}
-@media only screen and (max-width:700px) {
-    .news-particular {
-        padding:0px 60px;
-    }
-    .news {
-        padding:0px 60px;
-    }
-} */
 /* News */
 
 /* What People Will Say */
@@ -458,42 +339,6 @@
     border-radius:5px;
     margin-left:-8rem;
 }
-/* @media only screen and (max-width:768px) {
-    .people-img {
-        margin-left:7rem;
-        margin-top:4rem;
-    }
-}
-@media only screen and (max-width:577px) {
-    .people-img {
-        margin-left:7.5rem;
-    }
-}
-@media only screen and (max-width:520px) {
-    .people-img {
-        margin-left:5rem;
-    }
-}
-@media only screen and (max-width:420px) {
-    .people-img {
-        margin-left:4rem;
-    }
-}
-@media only screen and (max-width:380px) {
-    .people-img {
-        margin-left:3rem;
-    }
-}
-@media only screen and (max-width:360px) {
-    .people-img {
-        margin-left:2rem;
-    }
-}
-@media only screen and (max-width:330px) {
-    .people-img {
-        margin-left:1rem;
-    }
-} */
 /* What People Will Say */
 
 /* Why AKGEC */
@@ -719,11 +564,6 @@
  .events_link {
     margin-top:2rem;
  }
- /* @media only screen and (max-width:990px) {
-     .event_card {
-         margin-bottom:2rem;
-     }
- } */
  /* upcoming events */
  
  .underline{
@@ -807,6 +647,11 @@
  }
  /* faculty */
 
+ /* stories */
+ .medium_story {
+     display:none;
+ }
+/* stories */
 /* media queries */
 @media only screen and (max-width:1024px) {
     /* about */
@@ -922,6 +767,19 @@
         display:block;
     }
     /* placement */
+
+    /* stories */
+    .large_story {
+        display:none;
+    }
+    .medium_story {
+        display:block;
+    }
+    .story_card {
+        margin-left:11rem;
+        width:25rem;
+    }
+    /* stories */
 }
 @media only screen and (max-width:455px) {
     /* first section */
@@ -995,6 +853,13 @@
         display:block;
     }
     /* placement */
+
+    /* stories */
+    .story_card {
+        width:20rem;
+        margin-left:3rem;
+    }
+    /* stories */
 }
 @media only screen and (max-width:425px) {
     /* about */
@@ -1049,6 +914,12 @@
         width:20rem;
     }
     /* faculty */
+
+    /* stories */
+    .story_card {
+        margin-left:1rem;
+    }
+    /* stories */
 }
 @media only screen and (max-width:320px) {
     /* about */
@@ -1084,5 +955,15 @@
         width:16rem;
     }
     /* faculty */
+
+    /* stories */
+    .medium_story {
+        height:550px !important;
+    }
+    .story_card {
+        width:18rem;
+        margin-left:0rem;
+    }
+    /* stories */
 }
 /* media queries */
