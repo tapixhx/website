@@ -823,7 +823,7 @@
             <!-- Card content -->
             <div class="card-body">
               <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 news-date-column">
                   <!-- Title -->
                   <h4 class="card-title my-auto text-center news-particular-info">
                     28 AUG
@@ -1319,7 +1319,7 @@ rgba(0,0,0,1.00)">
 <!--SUCCESS STORIES END-->
 
 <!-- placements -->
-<section class="sec_pad">
+<section class="sec_pad" style="overflow:hidden;">
   <!--Carousel Wrapper-->
   <h2 class="text-center text-uppercase event-heading">OUR PLACEMENTS</h2>
   <div class="underline mx-auto"></div>
@@ -1585,7 +1585,7 @@ rgba(0,0,0,1.00)">
 <!-- placements -->
 
 <!--Faculty START-->
-<section class="sec_pad sec_color_bg">
+<section class="sec_pad sec_color_bg" style="overflow:hidden;">
   <h2 class="text-center sec_heading">AKGEC FACULTY</h2>
   <div class="underline mx-auto"></div>
   <!--Carousel Wrapper-->
@@ -2389,7 +2389,7 @@ rgba(0,0,0,1.00)">
     <h2 class="text-center text-uppercase sec_heading">What people will say</h2>
     <div class="underline mx-auto"></div>
     <!--Carousel Wrapper-->
-    <div style="height: 305px;" id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    <div style="height: 305px;" id="people" class="carousel slide carousel-multi-item what_people_say" data-ride="carousel">
 
       <!--Controls-->
       <!-- <div class="controls-top">
@@ -2400,21 +2400,21 @@ rgba(0,0,0,1.00)">
       
       <!--Indicators-->
       <ol class="carousel-indicators">
-        <li data-target="#multi-item-example" data-slide-to="0"></li>
-        <li data-target="#multi-item-example" data-slide-to="1" class="active"></li>
-        <li data-target="#multi-item-example" data-slide-to="2"></li>
+        <li data-target="#people" data-slide-to="0"></li>
+        <li data-target="#people" data-slide-to="1" class="active"></li>
+        <li data-target="#people" data-slide-to="2"></li>
       </ol>
       <!--/.Indicators-->
 
       <!--Slides-->
-      <div class="carousel-inner" role="listbox">
-        <div class="container-people">
+      <div class="carousel-inner container-people" role="listbox">
+        <div>
 
           <!--First slide-->
           <div class="carousel-item">
             <div class="row">
-              
-              <div class="col-md-10 mx-auto">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-10 col-md-12 mx-auto">
                 <div class="card mb-2 people-card">
                   <div class="row">
                     <div class="col-md-2 col-sm-12 view-cascade overlay mx-auto my-auto">
@@ -2442,8 +2442,8 @@ rgba(0,0,0,1.00)">
           <!--Second slide-->
           <div class="carousel-item active">
             <div class="row">
-
-              <div class="col-md-10 mx-auto">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-10 col-md-12 mx-auto">
                 <div class="card mb-2 people-card">
                   <div class="row">
                     <div class="col-md-2 col-sm-12 view-cascade overlay mx-auto my-auto">
@@ -2471,8 +2471,8 @@ rgba(0,0,0,1.00)">
           <!--Third slide-->
           <div class="carousel-item">
             <div class="row">
-
-            <div class="col-md-10 mx-auto">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 col-md-12 mx-auto">
               <div class="card mb-2 people-card">
                 <div class="row">
                   <div class="col-md-2 col-sm-12 view-cascade overlay mx-auto my-auto">
@@ -2513,148 +2513,298 @@ rgba(0,0,0,1.00)">
     <p class="text-center event-paragraph sec_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 
     <!--Carousel Wrapper-->
-  <div style="height: 570px;" id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    <div style="height: 570px;" id="blog_large" class="carousel slide carousel-multi-item large_blog" data-ride="carousel">
 
-  <!--Controls-->
-  <!-- <div class="controls-top">
-    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
-  </div> -->
-  <!--/.Controls-->
+    <!--Controls-->
+    <!-- <div class="controls-top">
+      <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+    </div> -->
+    <!--/.Controls-->
 
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-example" data-slide-to="1"></li>
-    <li data-target="#multi-item-example" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-  <div class="container">
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#blog_large" data-slide-to="0" class="active"></li>
+      <li data-target="#blog_large" data-slide-to="1"></li>
+      <li data-target="#blog_large" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <div class="container">
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
 
-    <!--First slide-->
-    <div class="carousel-item active">
-      <div class="row">
-      <div class="col-md-6">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text" style="color:#A7A7A7">
-              <img src="images/home/cal.png" alt="calendar" height="20">
-               B.Tech 2nd
-            </p>
-            <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
-            <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text" style="color:#A7A7A7">
+                <img src="images/home/cal.png" alt="calendar" height="20">
+                B.Tech 2nd
+              </p>
+              <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+              <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text" style="color:#A7A7A7">
+                <img src="images/home/cal.png" alt="calendar" height="20">
+                B.Tech 2nd
+              </p>
+              <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+              <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
           </div>
         </div>
       </div>
+      </div>
+      <!--/.First slide-->
 
-      <div class="col-md-6">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text" style="color:#A7A7A7">
-              <img src="images/home/cal.png" alt="calendar" height="20">
-               B.Tech 2nd
-            </p>
-            <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
-            <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text" style="color:#A7A7A7">
+                <img src="images/home/cal.png" alt="calendar" height="20">
+                B.Tech 2nd
+              </p>
+              <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+              <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text" style="color:#A7A7A7">
+                <img src="images/home/cal.png" alt="calendar" height="20">
+                B.Tech 2nd
+              </p>
+              <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+              <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-    <!--/.First slide-->
+      </div>
+      <!--/.Second slide-->
 
-    <!--Second slide-->
-    <div class="carousel-item">
-      <div class="row">
-      <div class="col-md-6">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text" style="color:#A7A7A7">
-              <img src="images/home/cal.png" alt="calendar" height="20">
-               B.Tech 2nd
-            </p>
-            <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
-            <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text" style="color:#A7A7A7">
+                <img src="images/home/cal.png" alt="calendar" height="20">
+                B.Tech 2nd
+              </p>
+              <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+              <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text" style="color:#A7A7A7">
+                <img src="images/home/cal.png" alt="calendar" height="20">
+                B.Tech 2nd
+              </p>
+              <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+              <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            </div>
           </div>
         </div>
       </div>
+      </div>
+      <!--/.Third slide-->
 
-      <div class="col-md-6">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text" style="color:#A7A7A7">
-              <img src="images/home/cal.png" alt="calendar" height="20">
-               B.Tech 2nd
-            </p>
-            <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
-            <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+    </div>
+    <!--/.Slides-->
+    </div>
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <!--Carousel Wrapper-->
+    <div style="height: 570px;" id="blog_medium" class="carousel slide carousel-multi-item medium_blog" data-ride="carousel">
+
+      <!--Controls-->
+      <!-- <div class="controls-top">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+      </div> -->
+      <!--/.Controls-->
+  
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#blog_medium" data-slide-to="0" class="active"></li>
+        <li data-target="#blog_medium" data-slide-to="1"></li>
+        <li data-target="#blog_medium" data-slide-to="2"></li>
+        <li data-target="#blog_medium" data-slide-to="3"></li>
+        <li data-target="#blog_medium" data-slide-to="4"></li>
+        <li data-target="#blog_medium" data-slide-to="5"></li>
+      </ol>
+      <!--/.Indicators-->
+      <div class="container">
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+  
+        <!--First slide-->
+        <div class="carousel-item active">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text" style="color:#A7A7A7">
+                  <img src="images/home/cal.png" alt="calendar" height="20">
+                  B.Tech 2nd
+                </p>
+                <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+                <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+  
+          <div class="carousel-item">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text" style="color:#A7A7A7">
+                  <img src="images/home/cal.png" alt="calendar" height="20">
+                  B.Tech 2nd
+                </p>
+                <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+                <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    </div>
-    <!--/.Second slide-->
-
-    <!--Third slide-->
-    <div class="carousel-item">
-      <div class="row">
-      <div class="col-md-6">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text" style="color:#A7A7A7">
-              <img src="images/home/cal.png" alt="calendar" height="20">
-               B.Tech 2nd
-            </p>
-            <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
-            <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+        </div>
+        <!--/.First slide-->
+  
+        <!--Second slide-->
+        <div class="carousel-item">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text" style="color:#A7A7A7">
+                  <img src="images/home/cal.png" alt="calendar" height="20">
+                  B.Tech 2nd
+                </p>
+                <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+                <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+          <div class="carousel-item">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text" style="color:#A7A7A7">
+                  <img src="images/home/cal.png" alt="calendar" height="20">
+                  B.Tech 2nd
+                </p>
+                <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+                <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text" style="color:#A7A7A7">
-              <img src="images/home/cal.png" alt="calendar" height="20">
-               B.Tech 2nd
-            </p>
-            <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
-            <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+        </div>
+        <!--/.Second slide-->
+  
+        <!--Third slide-->
+        <div class="carousel-item">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text" style="color:#A7A7A7">
+                  <img src="images/home/cal.png" alt="calendar" height="20">
+                  B.Tech 2nd
+                </p>
+                <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+                <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+  
+          <div class="carousel-item">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text" style="color:#A7A7A7">
+                  <img src="images/home/cal.png" alt="calendar" height="20">
+                  B.Tech 2nd
+                </p>
+                <p class="card-title">Lorem Ipsum is simply dummy text of the printing</p>
+                <p class="card-text" style="color:#A7A7A7">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
           </div>
         </div>
+        </div>
+        <!--/.Third slide-->
+  
       </div>
-    </div>
-    </div>
-    <!--/.Third slide-->
-
-  </div>
-  <!--/.Slides-->
-  </div>
-
-  </div>
-  <!--/.Carousel Wrapper-->
+      <!--/.Slides-->
+      </div>
+  
+      </div>
+      <!--/.Carousel Wrapper-->
   </section>
   <!-- From the blog -->
   

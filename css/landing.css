@@ -867,12 +867,104 @@
 } */
  /* Faculty end */
 
+ /* blog */
+ .medium_blog {
+    display:none;
+ }
+ /* blog */
+
 /* media queries */
 @media only screen and (max-width:1024px) {
+    /* about */
+    .card_2_1 {
+        padding:0rem .8rem;
+    }
+    /* about */
 
+    /* register */
+    .regis_form {
+        padding:0rem 2rem !important;
+    }
+    /* register */
+
+    /* news */
+    .news-text {
+        padding:.5rem .2rem;
+    }
+    .news-particular-info {
+        font-size:16px;
+    }
+    .news-date-column {
+        padding:.8rem 0rem !important;
+    }
+    .eventdesc {
+        font-size: 14px !important;
+    }
+    /* news */
+
+    /* upcoming events */
+    .event_card {
+        padding:2rem 10rem !important;
+    }
+    /* upcoming events */
+
+    /* blog */
+    .large_blog {
+        height:520px !important;
+    }
+    /* blog */
+
+    /* what people will say */
+    .what_people_say {
+        height:360px !important;
+    }
+    .container-people {
+        padding:0rem 6rem;
+    }
+    /* what people will say */
 }
 @media only screen and (max-width:768px) {
-    
+    /* about */
+    .card_2_1 {
+        padding:0rem 12rem;
+    }
+    /* about */
+
+    /* register */
+    .regis_form {
+        margin-top:3rem;
+    }
+    /* register */
+
+    /* news */
+    .news-particular {
+        display:none;
+    }
+    .container-news {
+        padding:0rem 15rem !important;
+    }
+    /* news */
+
+    /* upcoming events */
+    .event_card {
+        padding:2rem 4rem !important;
+    }
+    /* upcoming events */
+
+    /* what people will say */
+    .what_people_say {
+        height:380px !important;
+    }
+    .container-people {
+        padding:0rem 2rem;
+    }
+    .people-img {
+        margin-left:2rem !important;
+    }
+    .people-card-body {
+        padding:3rem 6rem !important;
+    }
+    /* what people will say */
 }
 @media only screen and (max-width:455px) {
     /* first section */
@@ -880,9 +972,60 @@
         margin-top:1rem !important;
     }
     /* first section */
+
+    /* about */
+    .card_2_1 {
+        padding:0rem 3rem;
+    }
+    /* about */
+
+    /* register */
+    .regis_form {
+        padding:0rem 0rem !important;
+    }
+    .vertical_line {
+        border-right: 0px solid;
+    }
+    .regis_img {
+        margin-top:2rem;
+    }
+    /* register */
+
+    /* news */
+    .container-news {
+        padding:0rem 6rem !important;
+    }
+    /* news */
+
+    /* blog */
+    .large_blog {
+        display:none;
+    }
+    .medium_blog {
+        display:block;
+        height:500px !important;
+    }
+    /* blog */
+
+    /* what people will say */
+    .people-img {
+        margin-top:2rem;
+        margin-left:4rem !important;
+    }
+    .what_people_say {
+        height:640px !important;
+    }
+    .people-card-body {
+        padding: 3rem 3rem !important;
+    }
+    /* what people will say */
 }
 @media only screen and (max-width:425px) {
-    
+    /* about */
+    .card_2_1 {
+        padding:0rem 1rem;
+    }
+    /* about */
 }
 @media only screen and (max-width:375px) {
     /* first section */
@@ -890,8 +1033,63 @@
         padding:0rem 1rem;
     }
     /* first section */
+
+    /* regiister */
+    .regis_sec {
+        padding:6rem 2rem;
+    }
+    /* regiister */
+
+     /* news */
+     .container-news {
+        padding:0rem 4rem !important;
+    }
+    /* news */
+    
+    /* upcoming events */
+    .event_card {
+        padding:2rem 2rem !important;
+    }
+    /* upcoming events */
+
+    /* blog */
+    .medium_blog {
+        height:450px !important;
+    }
+    /* blog */
+
+    /* what people will say */
+    .people-img {
+        margin-left:2rem !important;
+    }
+    .what_people_say {
+        height:700px !important;
+    }
+    /* what people will say */
 }
 @media only screen and (max-width:320px) {
-    
+    /* about */
+    .card_2_1 {
+        padding:0rem 0rem;
+    }
+    /* about */
+
+     /* news */
+     .container-news {
+        padding:0rem 2rem !important;
+    }
+    /* news */
+
+    /* what people will say */
+    .people-img {
+        margin-top:3.5rem;
+        margin-left:2.5rem !important;
+        width:10rem;
+        height:10rem;
+    }
+    .what_people_say {
+        height:800px !important;
+    }
+    /* what people will say */
 }
 /* media queries */
