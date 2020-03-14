@@ -741,6 +741,15 @@
  .card-body-placement {
      padding:0px !important;
  }
+ .placement_yr {
+     padding-right:5px !important;
+ }
+ .medium_placement {
+     display:none;
+ }
+ .small_placement {
+     display:none;
+ }
  /* placements */
  
  /* Industry_partners */
@@ -784,87 +793,6 @@
      background-color: #FCCB67;
      border:0px;
  }
- /* @media only screen and (max-width:1190px) {
-    .regis_form {
-        padding:0rem 4rem !important;
-    }
-}
-@media only screen and (max-width:1160px) {
-    .regis_btn {
-        padding:0.5rem 5rem;
-    }
-}
-@media only screen and (max-width:1090px) {
-    .regis_btn {
-        padding:0.5rem 3rem;
-    }
-}
-@media only screen and (max-width:990px) {
-    .regis_form {
-        margin-top:4rem;
-        padding:0rem 10rem !important;
-    }
-    .regis_btn {
-        padding:0.5rem 8rem;
-    }
-}
-@media only screen and (max-width:870px) {
-    .regis_form {
-        padding:0rem 6rem !important;
-    }
-}
-@media only screen and (max-width:750px) {
-    .regis_form {
-        padding:0rem 2rem !important;
-    }
-}
-@media only screen and (max-width:575px) {
-    .vertical_line {
-        border-right:0px solid #ffffff;
-    }
-    .regis_form {
-        margin-top:2rem;
-        padding:0rem 0rem !important;
-    }
-    .regis_img {
-        margin-bottom:2rem;
-    }
-    .regis_desc {
-        font-size:14px;
-    }
-    .regis_heading {
-        font-size:28px;
-    }
-}
-@media only screen and (max-width:450px) {
-    .regis_btn {
-        padding:0.5rem 4rem;
-    }
-}
-@media only screen and (max-width:330px) {
-    .regis_btn {
-        padding:0.5rem 2rem;
-    }
-    .regis_desc {
-        font-size:12px;
-    }
-} */
- /* register end */
-
- /* Faculty */
-/* @media only screen and (max-width:2560px) {
-    .faculty_medium {
-        display:none;
-    }
-}
-@media only screen and (max-width:992px) {
-    .faculty_large {
-        display:none;
-    }
-    .faculty_medium {
-        display:block;
-    }
-} */
  /* Faculty end */
 
  /* blog */
@@ -985,6 +913,15 @@
         width:25rem;
     }
     /* faculty */
+
+    /* placement */
+    .large_placement {
+        display:none;
+    }
+    .medium_placement {
+        display:block;
+    }
+    /* placement */
 }
 @media only screen and (max-width:455px) {
     /* first section */
@@ -1049,6 +986,15 @@
         height:500px !important;
     }
     /* faculty */
+
+    /* placement */
+    .medium_placement {
+        display:none;
+    }
+    .small_placement {
+        display:block;
+    }
+    /* placement */
 }
 @media only screen and (max-width:425px) {
     /* about */
