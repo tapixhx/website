@@ -873,6 +873,12 @@
  }
  /* blog */
 
+ /* faculty */
+ .faculty_medium {
+     display:none;
+ }
+ /* faculty */
+
 /* media queries */
 @media only screen and (max-width:1024px) {
     /* about */
@@ -965,6 +971,20 @@
         padding:3rem 6rem !important;
     }
     /* what people will say */
+
+    /* faculty */
+    .faculty_medium {
+        display:block;
+        height:550px !important;
+    }
+    .faculty_large {
+        display:none;
+    }
+    .faculty-card {
+        margin-left:10rem;
+        width:25rem;
+    }
+    /* faculty */
 }
 @media only screen and (max-width:455px) {
     /* first section */
@@ -1019,6 +1039,16 @@
         padding: 3rem 3rem !important;
     }
     /* what people will say */
+
+    /* faculty */
+    .faculty-card {
+        margin-left:2rem;
+        width:20rem;
+    }
+    .faculty_medium {
+        height:500px !important;
+    }
+    /* faculty */
 }
 @media only screen and (max-width:425px) {
     /* about */
@@ -1066,6 +1096,13 @@
         height:700px !important;
     }
     /* what people will say */
+
+    /* faculty */
+    .faculty-card {
+        margin-left:.5rem;
+        width:20rem;
+    }
+    /* faculty */
 }
 @media only screen and (max-width:320px) {
     /* about */
@@ -1091,5 +1128,15 @@
         height:800px !important;
     }
     /* what people will say */
+
+    /* faculty */
+    .faculty_medium {
+        height:460px !important;
+    }
+    .faculty-card {
+        margin-left:1rem;
+        width:16rem;
+    }
+    /* faculty */
 }
 /* media queries */
