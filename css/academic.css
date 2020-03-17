@@ -63,7 +63,52 @@
 
 /* navbar */
 
+/* landing */
+.sec_pad_landing{
+    padding:10rem 0rem;
+}
+.btn-outline{
+    border: 1.5px solid #707070!important;
+    background-color: transparent!important;
+    color: #000000!important;
+    border-radius:40px!important;
+    padding: .5rem 2.3rem!important;
+}
+.landing_box_highlight{
+    box-shadow: 0 19px 38px -5px rgba(0,0,0,0.30), 0 15px 12px -5px rgba(0,0,0,0.22);
+    padding: 2.5rem 5.3rem 1.7rem;
+    margin: 3rem 5rem 4rem!important;
+    border-radius: 10px;
+}
+.landing_box_heading{
+    padding: 1rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:.5px;
+    color: rgba(112, 112, 112, 0.8);;
+    font-weight: 600;
+}
+.landing_box_text{
+    padding: 2.7rem 0 1.5rem;
+    font-family: 'Open Sans', sans-serif; 
+    color: #000000;
+}
+.landing_imp{
+    font-family: 'Open Sans', sans-serif; 
+    margin: 3rem 6.5rem 0;
+}
+.landing_imp_heading{
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+.landing_imp_text{
+    padding-top: 1rem;
+    text-align: justify;
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.1rem;
 
+}
 
 
 
@@ -71,22 +116,71 @@
 
 /* media queries */
 @media only screen and (max-width:1024px) {
+    .landing_box_highlight{
+        padding: 2.5rem .7rem 1.7rem;
+        margin: 3rem 3rem 4rem!important;
+        
+    }
+    .landing_imp{
+        margin: 3rem 4.5rem 0;
+    }
+    
 
 }
 @media only screen and (max-width:768px) {
     
 }
 @media only screen and (max-width:455px) {
+    .landing_box_highlight{
+        padding: 2.5rem 1rem 1.7rem;
+        margin: 3rem 1.5rem 4rem!important;
+        
+    }
+    .landing_imp{
+        margin: 3rem 3rem 0;
+    }
+    
     
 }
 @media only screen and (max-width:428px) {
+    .landing_box_highlight{
+        padding: 2.5rem .7rem 1.7rem;
+        margin: 3rem 1.5rem 4rem!important;
+        
+    }
+    .landing_imp{
+        margin: 3rem 3rem 0;
+    }
     
 }
 @media only screen and (max-width:375px) {
+    .landing_box_highlight{
+        padding: 2rem .3rem 1rem;
+        margin: 3rem .7rem 4rem!important;
+        
+    }
+    .landing_box_text{
+        padding: 1.7rem 0 1rem;
+        
+    }
+    .landing_imp{
+        margin: 3rem 2rem 0;
+    }
     
 }
 @media only screen and (max-width:320px) {
-    
+    .landing_box_highlight{
+        padding: 1rem .9rem .5rem;
+        margin: 3rem .1rem 4rem!important;
+        
+    }
+    .landing_box_text{
+        padding: 1rem 0 1rem;
+        
+    }
+    .landing_imp{
+        margin: 3rem 1.1rem 0;
+    }
 }
 /* media queries */
 
