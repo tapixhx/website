@@ -75,14 +75,14 @@
     padding: .5rem 2.3rem!important;
 }
 .landing_box_highlight{
-    box-shadow: 0 19px 38px -5px rgba(0,0,0,0.30), 0 15px 12px -5px rgba(0,0,0,0.22);
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
     padding: 2.5rem 3rem;
-    margin: 3rem 8.5rem 4rem!important;
+    margin: 3rem 6rem 4rem!important;
     border-radius: 10px;
 }
 .landing_box_highlight_bottom{
-    box-shadow: 0 19px 38px -5px rgba(0,0,0,0.30), 0 15px 12px -5px rgba(0,0,0,0.22);
-    margin: 3rem 8.5rem 4rem!important;
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
+    margin: 3rem 6rem 4rem!important;
     border-radius: 10px;
 }
 .issuance_box_1 {
@@ -151,7 +151,9 @@
     .landing_box_highlight_bottom {
         margin: 3rem 2rem 4rem!important;
     }
-
+    .issuance_box_1 {
+        padding:2rem 2.5rem;
+    }
 }
 @media only screen and (max-width:768px) {
     
