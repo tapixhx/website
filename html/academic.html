@@ -18,51 +18,65 @@
 <body>
 
 <!-- Navbar -->
-  <nav class="mb-1 navbar fixed-top navbar-expand-lg mynav">
-    <img src="../images/department/logo.png" class="img-fluid navbar-brand" alt="logo">
-    <h2 style="float: left; font-weight: bold;" class="navbar-brand clg_name">AJAY KUMAR GARG <br>
-      <div style="font-weight: lighter;font-size: medium;"> ENGINEERING COLLEGE</div></h2>
+<nav class="mb-1 navbar fixed-top navbar-expand-lg mynav">
+  <img src="../images/home/logo.png" class="img-fluid navbar-brand" alt="logo">
+  <h2 style="float: left; font-weight: bold;" class="navbar-brand clg_name">AJAY KUMAR GARG <br>
+    <div style="font-weight: lighter;font-size: medium;"> ENGINEERING COLLEGE</div></h2>
 
-    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text">
-        <i class="fas fa-align-justify fa-1x"></i></span></button>
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text">
+      <i class="fas fa-align-justify fa-1x"></i></span></button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-      <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav ml-auto">
 
-        <li class="nav-item active">
-          <a class="nav-link nav-content" href="../index.html">
-            HOME
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-content" href="#">
-            ABOUT
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-content" href="./html/department.html">
-            DEPARTMENTS
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-content" href="#">
-            ACADEMICS
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-content" href="#">
-            ADMISSIONS
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-content" href="#">
-            PLACEMENTS
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+      <li class="nav-item active navbar-element">
+        <a class="nav-link nav-content" href="../index.html">
+          HOME
+        </a>
+      </li>
+      <li class="nav-item navbar-element">
+        <a class="nav-link nav-content" href="#">
+          ABOUT
+        </a>
+      </li>
+      <li class="nav-item">
+        <!-- <a class="nav-link nav-content" href="./html/department.html">
+          DEPARTMENTS
+        </a> -->
+        <!-- Basic dropdown -->
+        <button class="nav-link nav-content dropdown-toggle d-button" type="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">DEPARTMENTS</button>
+
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="./department/appliedsc.html">Applied Sciences & Humanities</a>
+          <a class="dropdown-item" href="./department/cse.html">Computer Science and Engineering</a>
+          <a class="dropdown-item" href="./department/it.html">Information Technology</a>
+          <a class="dropdown-item" href="./department/ece.html">Electronics and Communication Engineering</a>
+          <a class="dropdown-item" href="./department/ee.html">Electrical and Electronics Engineering</a>
+          <a class="dropdown-item" href="./department/me.html">Mechanical Engineering</a>
+          <a class="dropdown-item" href="./department/civil.html">Civil Engineering</a>
+        </div>
+        <!-- Basic dropdown -->
+      </li>
+      <li class="nav-item navbar-element">
+        <a class="nav-link nav-content" href="./academic.html">
+          ACADEMICS
+        </a>
+      </li>
+      <li class="nav-item navbar-element">
+        <a class="nav-link nav-content" href="#">
+          ADMISSIONS
+        </a>
+      </li>
+      <li class="nav-item navbar-element">
+        <a class="nav-link nav-content" href="#">
+          PLACEMENTS
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <!--/.Navbar -->
 
 <!-- Issuance -->

@@ -39,6 +39,18 @@
 .mynav {
     background-color: #ffffff;
 }
+.d-button {
+    border:0;
+    background-color:transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+}
+.navbar-element {
+    font-family: 'Open Sans', sans-serif;
+}
+.d-button:focus {
+    outline:none;
+}
 
 /* hamburger */
 .fa-1x {

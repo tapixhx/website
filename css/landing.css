@@ -29,9 +29,9 @@
     margin-top: 20px;
     background-color: #fff;
     background-color: rgba(70, 70, 70, 0.25);
-  }
+}
   
-  .carousel .carousel-indicators .active {
+.carousel .carousel-indicators .active {
     background-color: #444;
 }
 /* Common */
@@ -60,6 +60,18 @@
 }
 .students {
     margin-top:3rem !important;
+}
+.d-button {
+    border:0;
+    background-color:transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+}
+.navbar-element {
+    font-family: 'Open Sans', sans-serif;
+}
+.d-button:focus {
+    outline:none;
 }
 
 /* hamburger */
