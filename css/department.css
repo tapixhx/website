@@ -302,10 +302,11 @@
 
     /* eligiblity */
     .eligible_img {
-        width:7rem;
+        /* width:7rem; */
+        width: 28%;
     }
     .eligible_col {
-        margin-top:1.2rem;
+        margin:1.2rem 0 1rem;
     }
     .eligible_text {
         text-align: justify;
