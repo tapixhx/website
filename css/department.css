@@ -329,6 +329,9 @@
     .stories_info {
         text-align:center;
     }
+    .achievement_all {
+        padding:0rem 2rem !important;
+    }
     /* student achievement */
 
     /* hod */
@@ -352,14 +355,14 @@
 
     /* research highlight */
     .research_box_1 {
-        padding:0rem 5rem !important;
+        padding:0rem 2rem !important;
     }
     .research_box {
-        padding:0rem 5rem !important;
+        padding:0rem 2rem !important;
     }
     /* research highlight */
 }
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:430px) {
     /* landing */
     .landing_text p {
         font-size:16px;
@@ -377,6 +380,12 @@
     }
     /* overview */
 
+    /* placements */
+    .placement_pie img {
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    /* placements */
+
     /* labs */
     .labs_card {
         margin-left:1rem;
@@ -392,7 +401,7 @@
 
     /* placement insight */
     .placement_pie img {
-        margin:1rem 0rem 0rem 0rem;
+        margin:1rem 0rem 0rem 1.6rem;
         width:18rem;
     }
     /* placement insight */
@@ -421,10 +430,10 @@
 
     /* research highlight */
     .research_box_1 {
-        padding:0rem 3rem !important;
+        padding:0rem 1rem !important;
     }
     .research_box {
-        padding:0rem 3rem !important;
+        padding:0rem 1rem !important;
     }
     /* research highlight */
 }
@@ -434,6 +443,12 @@
         padding:0rem;
     }
     /* overview */
+
+    /* placement */
+    .placement_pie img {
+        margin:1rem 0 0 0;
+    }
+    /* placement */
 
     /* eligiblity */
     .eligible_row {
@@ -451,6 +466,12 @@
     }
     /* labs */
 
+    /* student achievement */
+    .achievement_all {
+        padding:0rem .8rem !important;
+    }
+    /* student achievement */
+
     /* faculty */
     .faculty_card {
         width:18rem !important;
@@ -463,10 +484,13 @@
 
     /* research highlight */
     .research_box_1 {
-        padding:0rem 2rem !important;
+        padding:0rem .5rem !important;
     }
     .research_box {
-        padding:0rem 2rem !important;
+        padding:0rem .5rem !important;
+    }
+    .research_box_highlight {
+        padding:2.5rem .5rem;
     }
     /* research highlight */
 }
