@@ -96,6 +96,12 @@
     box-shadow: none !important;
     padding : 0rem 2rem;
 }
+.wwd_part_1 {
+    margin-top:4rem;
+}
+.wwd_part_2 {
+    margin-top:4rem;
+}
 .wwd_img{
     height : 100px;
     display: block;
@@ -142,7 +148,23 @@
 .faculty_head_name {
     font-weight: 800;
 }
+.head_image {
+    text-align: right;
+}
 /* faculty head */
+
+/* contact */
+.con_text {
+    color:#000;
+    font-weight: 800;
+}
+.con_text_2 {
+    color:#000;
+}
+/* contact */
+
+
+
 
 /* media queries */
 @media only screen and (max-width:1024px) {
@@ -157,7 +179,19 @@
     .card_2 {
         padding:0rem 11rem;
     }
+    .wwd_part_2 {
+        margin-top:1.5rem;
+    }
     /* what we do */
+
+    /* faculty head */
+    .fac_head {
+        margin-bottom:2rem;
+    }
+    .faculty_box {
+        margin-right:6rem;
+    }
+    /* faculty head */
 }
 @media only screen and (max-width:455px) {
     /* what we do */
@@ -165,6 +199,18 @@
         padding:0rem 3rem;
     }
     /* what we do */
+
+    /* faculty head */
+    .faculty_box {
+        margin-right:2rem;
+    }
+    /* faculty head */
+
+    /* contact */
+    .con_det_col {
+        margin-top:2rem;
+    }
+    /* contact */
 }
 @media only screen and (max-width:430px) {
     /* what we do */
@@ -172,6 +218,12 @@
         padding:0rem 2rem;
     }
     /* what we do */
+
+    /* faculty head */
+    .faculty_box {
+        margin-right:1.6rem;
+    }
+    /* faculty head */
 }
 @media only screen and (max-width:375px) {
     /* what we do */
@@ -179,6 +231,13 @@
         padding:0rem 1rem;
     }
     /* what we do */
+
+    /* faculty head */
+    .faculty_box {
+        margin-right:1.4rem;
+        padding:.6rem 1.5rem;
+    }
+    /* faculty head */
 }
 @media only screen and (max-width:320px) {
     /* what we do */
@@ -186,6 +245,12 @@
         padding:0rem;
     }
     /* what we do */
+
+    /* faculty head */
+    .faculty_box {
+        padding:.1rem 1.5rem;
+    }
+    /* faculty head */
 }
 /* media queries */
 
