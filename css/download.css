@@ -105,7 +105,7 @@
     width:8rem !important;
     box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
     border:0px solid black !important;
-    padding:1rem;
+    padding:.5rem;
     margin-left:1rem;
 }
 .download_select_box:focus {
@@ -116,9 +116,21 @@
     background-color:transparent;
     color:#1D194F;
 }
+.download_button:focus {
+    outline:none;
+}
+.sem_r_button {
+    color: #1D194F;
+}
+.box-height {
+    height:485.45px;
+}
 /* application form */
 
 /* quick links */
+.quick_sec_pad {
+    padding-bottom:4rem;
+}
 .quick_link_card {
     box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
     margin: 3rem 2rem 4rem!important;
@@ -139,10 +151,12 @@
 
 /* media queries */
 @media only screen and (max-width:1024px) {
+    /* application form */
     .landing_box_highlight{
         padding: 2.5rem 3.3rem;
         margin: 3rem 2rem 4rem!important;
     }
+    /* application form */
 }
 
 @media only screen and (max-width:768px) {
@@ -150,6 +164,7 @@
 }
 
 @media only screen and (max-width:455px) {
+    /* application form */
     .landing_box_highlight{
         padding: 2.5rem 2.1rem 1.7rem;
         margin: 3rem 1.5rem 4rem!important;
@@ -157,9 +172,11 @@
     .academic_img {
         width:4rem;
     }
+    /* application form */
 }
 
 @media only screen and (max-width:430px) {
+    /* application form */
     .landing_box_highlight{
         padding: 1.7rem 1.7rem;
         margin: 3rem .9rem 4rem!important;
@@ -167,9 +184,11 @@
     .landing_box_text{
         padding: 2.1rem 0 .5rem;
     }
+    /* application form */
 }
 
 @media only screen and (max-width:375px) {
+    /* application form */
     .landing_box_highlight{
         padding: .5rem 3rem;
         margin: 3rem .7rem 4rem!important;
@@ -177,9 +196,11 @@
     .landing_box_text{
         padding: .5rem 0 .3rem;
     }
+    /* application form */
 }
 
 @media only screen and (max-width:320px) {
+    /* application form */
     .landing_box_highlight{
         padding: .5rem 1.5rem .3rem;
         margin: 3rem .5rem 4rem!important;
@@ -187,6 +208,7 @@
     .landing_box_text{
         padding: .1rem 0 .1rem;
     }
+    /* application form */
 }
 /* media queries */
 
