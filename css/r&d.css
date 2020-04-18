@@ -28,6 +28,9 @@
 .carousel .carousel-indicators .active {
     background-color: #444;
 }
+.shadow {
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
+}
 /* common */
 /* navbar */
 .nav-content {
@@ -119,7 +122,27 @@
 }
 /* what we do */
 
-
+/* faculty head */
+.head_sec {
+    background:#F2F2F2;
+}
+.faculty_box {
+    background-color:#fff;
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
+    padding:.8rem 1.5rem;
+    border-radius:5px;
+}
+.head_desc {
+    padding:0 !important;
+}
+.head_str {
+    font-weight:800;
+    color:#FDD329;
+}
+.faculty_head_name {
+    font-weight: 800;
+}
+/* faculty head */
 
 /* media queries */
 @media only screen and (max-width:1024px) {
