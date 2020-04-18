@@ -75,28 +75,94 @@
 
 /* navbar */
 
+/* introduction */
+.si_sec_pad {
+    padding:8rem 0rem 0 0;
+}
+.r_desc {
+    color:#5A5A5A;
+}
+.r_desc p {
+    text-align: justify;
+}
+/* introduction */
 
+/* what we do */
+.card_2{
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: none !important;
+    padding : 0rem 2rem;
+}
+.wwd_img{
+    height : 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35% !important;
+}
+.wwd_box {
+    background-color: #F1F3FF !important;
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
+}
+.wwd_part_head {
+    color:#000;
+    font-weight:800;
+    letter-spacing: 5px;
+}
+.wwd_explore {
+    font-weight:800;
+    color:#000;
+    letter-spacing: 2px;
+}
+.wwd_body {
+    padding:0rem !important;
+}
+/* what we do */
 
 
 
 /* media queries */
 @media only screen and (max-width:1024px) {
-
+    /* what we do */
+    .card_2 {
+        padding:0rem;
+    }
+    /* what we do */
 }
 @media only screen and (max-width:768px) {
-
+    /* what we do */
+    .card_2 {
+        padding:0rem 11rem;
+    }
+    /* what we do */
 }
 @media only screen and (max-width:455px) {
-
+    /* what we do */
+    .card_2 {
+        padding:0rem 3rem;
+    }
+    /* what we do */
 }
 @media only screen and (max-width:430px) {
-
+    /* what we do */
+    .card_2 {
+        padding:0rem 2rem;
+    }
+    /* what we do */
 }
 @media only screen and (max-width:375px) {
-
+    /* what we do */
+    .card_2 {
+        padding:0rem 1rem;
+    }
+    /* what we do */
 }
 @media only screen and (max-width:320px) {
-
+    /* what we do */
+    .card_2 {
+        padding:0rem;
+    }
+    /* what we do */
 }
 /* media queries */
 
