@@ -337,6 +337,7 @@
 }
 .people-card-body {
     padding:3rem !important;
+    height:250px;
 }
 .people-education {
     color:#FFDF3D;
@@ -640,6 +641,15 @@
  .regis_form {
      padding:0rem 6rem !important;
  }
+ .regis_select {
+     border:0px solid #000;
+     border-bottom: 1px solid #979797;
+     width:26.2rem;
+    color:#979797;
+ }
+ .regis_select:focus {
+     outline:none;
+ }
  .regis_btn {
      padding:0.5rem 6rem;
      background-color: #FCCB67;
@@ -682,6 +692,9 @@
     .regis_form {
         padding:0rem 2rem !important;
     }
+    .regis_select {
+        width:19rem;
+    }
     /* register */
 
     /* news */
@@ -713,7 +726,7 @@
 
     /* what people will say */
     .what_people_say {
-        height:360px !important;
+        height:350px !important;
     }
     .container-people {
         padding:0rem 6rem;
@@ -730,6 +743,9 @@
     /* register */
     .regis_form {
         margin-top:3rem;
+    }
+    .regis_select {
+        width:35rem;
     }
     /* register */
 
@@ -836,6 +852,9 @@
     .regis_img {
         margin-top:2rem;
     }
+    .regis_select {
+        width:19.8rem;
+    }
     /* register */
 
     /* news */
@@ -860,7 +879,7 @@
         margin-left:4rem !important;
     }
     .what_people_say {
-        height:640px !important;
+        height:550px !important;
     }
     .people-card-body {
         padding: 3rem 3rem !important;
@@ -900,7 +919,7 @@
     }
     /* featured courses */
 }
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:430px) {
     /* about */
     .card_2_1 {
         padding:0rem 1rem;
@@ -912,6 +931,12 @@
         margin-left:3rem;
     }
     /* featured courses */
+
+    /* register */
+    .regis_select {
+        width:18rem;
+    }
+    /* register */
 }
 @media only screen and (max-width:375px) {
     /* first section */
@@ -923,6 +948,9 @@
     /* regiister */
     .regis_sec {
         padding:6rem 2rem;
+    }
+    .regis_select {
+        width:19rem;
     }
     /* regiister */
 
@@ -949,7 +977,7 @@
         margin-left:2rem !important;
     }
     .what_people_say {
-        height:700px !important;
+        height:550px !important;
     }
     /* what people will say */
 
@@ -985,6 +1013,12 @@
     }
     /* news */
 
+    /* register */
+    .regis_select {
+        width:15rem;
+    }
+    /* regisster */
+
     /* what people will say */
     .people-img {
         margin-top:3.5rem;
@@ -993,7 +1027,10 @@
         height:10rem;
     }
     .what_people_say {
-        height:800px !important;
+        height:580px !important;
+    }
+    .people-card-body {
+        height:300px;
     }
     /* what people will say */
 
