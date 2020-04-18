@@ -29,7 +29,6 @@
     background-color: #444;
 }
 /* common */
-
 /* navbar */
 .nav-content {
     color:#1D194F;
@@ -76,148 +75,31 @@
 
 /* navbar */
 
-/* application form */
-/* same as in academic : text-color:change */
-.sec_pad_landing{
-    padding:10rem 0rem;
-}
-.landing_box_heading{
-    padding: 1rem;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing:.5px;
-    color: #355C7D;
-    font-weight: 600;
-}
-.landing_box_text{
-    padding: 2.7rem 0 1.5rem;
-    font-family: 'Open Sans', sans-serif; 
-    color: #355C7D;    
-}
-/* same as in academic : text-color:change */
 
-.landing_box_highlight_download{
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
-    padding: 2.5rem 3rem;
-    margin: 3rem 6rem 6rem!important;
-    border-radius: 10px;
-}
-.download_select_box {
-    width:8rem !important;
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
-    border:0px solid black !important;
-    padding:.5rem;
-    margin-left:1rem;
-}
-.download_select_box:focus {
-    outline:none;
-}
-.download_button {
-    border:0;
-    background-color:transparent;
-    color:#1D194F;
-}
-.download_button:focus {
-    outline:none;
-}
-.sem_r_button {
-    color: #1D194F;
-}
-.box-height {
-    height:485.45px;
-}
-.select-wrapper span.caret {
-    position: absolute;
-    top: .8rem;
-    right: 0;
-    font-size: .63rem;
-    color: #FDD329 !important;
-}
-/* application form */
 
-/* quick links */
-.quick_sec_pad {
-    padding-bottom:4rem;
-}
-.quick_link_card {
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
-    margin: 3rem 2rem 4rem!important;
-    border-radius: 10px;
-    padding:1rem;
-}
-.quick_link_desc {
-    padding:2rem 0 ;
-}
-.link_desc {
-    font-family: 'Open Sans', sans-serif;
-    font-weight:bolder;
-    font-size:22px;
-    color:#1D194F;
-}
-/* quick links */
 
 
 /* media queries */
 @media only screen and (max-width:1024px) {
-    /* application form */
-    .landing_box_highlight{
-        padding: 2.5rem 3.3rem;
-        margin: 3rem 2rem 4rem!important;
-    }
-    /* application form */
-}
 
+}
 @media only screen and (max-width:768px) {
-    
-}
 
+}
 @media only screen and (max-width:455px) {
-    /* application form */
-    .landing_box_highlight{
-        padding: 2.5rem 2.1rem 1.7rem;
-        margin: 3rem 1.5rem 4rem!important;
-    }
-    .academic_img {
-        width:4rem;
-    }
-    /* application form */
-}
 
+}
 @media only screen and (max-width:430px) {
-    /* application form */
-    .landing_box_highlight{
-        padding: 1.7rem 1.7rem;
-        margin: 3rem .9rem 4rem!important;
-    }
-    .landing_box_text{
-        padding: 2.1rem 0 .5rem;
-    }
-    /* application form */
-}
 
+}
 @media only screen and (max-width:375px) {
-    /* application form */
-    .landing_box_highlight{
-        padding: .5rem 3rem;
-        margin: 3rem .7rem 4rem!important;
-    }
-    .landing_box_text{
-        padding: .5rem 0 .3rem;
-    }
-    /* application form */
-}
 
+}
 @media only screen and (max-width:320px) {
-    /* application form */
-    .landing_box_highlight{
-        padding: .5rem 1.5rem .3rem;
-        margin: 3rem .5rem 4rem!important;
-    }
-    .landing_box_text{
-        padding: .1rem 0 .1rem;
-    }
-    /* application form */
+
 }
 /* media queries */
+
 
 /* footer */
 .list-unstyled{
