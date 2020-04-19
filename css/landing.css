@@ -714,9 +714,9 @@
     /* news */
 
     /* upcoming events */
-    .event_card {
+    /* .event_card {
         padding:2rem 10rem !important;
-    }
+    } */
     /* upcoming events */
 
     /* blog */
@@ -724,6 +724,12 @@
         height:520px !important;
     }
     /* blog */
+
+    /* campus-tour */
+    .campushead {
+        font-size:2.5rem;
+    }
+    /* campus-tour */
 
     /* what people will say */
     .what_people_say {
@@ -816,6 +822,12 @@
     }
     /* stories */
 
+    /* campus-tour */
+    .campushead {
+        font-size:2rem;
+    }
+    /* campus-tour */
+
     /* featured courses */
     .large_course {
         display:none;
@@ -873,6 +885,19 @@
         height:500px !important;
     }
     /* blog */
+
+    /* campus-tour */
+    .campusimage {
+        height:40vh;
+    }
+    .textcampustour {
+        height:80vh;
+    }
+    .campushead {
+        font-size:1.3rem;
+        letter-spacing: 0px;
+    }
+    /* campus-tour */
 
     /* what people will say */
     .people-img {
@@ -973,6 +998,12 @@
     }
     /* blog */
 
+    /* campus-tour */
+    .campushead {
+        font-size:1rem;
+    }
+    /* campus-tour */
+
     /* what people will say */
     .people-img {
         margin-left:2rem !important;
@@ -1054,6 +1085,12 @@
         margin-left:0rem;
     }
     /* stories */
+
+    /* campus-tour */
+    .campushead {
+        font-size:.8rem;
+    }
+    /* campus-tour */
 
     /* featured courses */
     .medium_course {
