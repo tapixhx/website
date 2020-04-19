@@ -646,6 +646,7 @@
      border-bottom: 1px solid #979797;
      width:26.2rem;
     color:#979797;
+    background-color:#fff;
  }
  .regis_select:focus {
      outline:none;
