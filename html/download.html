@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKGEC</title>
-    <link rel="icon" href="../images/home/logo.png">
     <link rel="stylesheet" href="../css/download.css">
 
     <!-- Font Awesome -->
@@ -160,7 +159,7 @@
               <div class="landing_box_text">
                 <div class="text-center py-3">
                   Select The Academic Year  -
-                  <select class="download_select_box">
+                  <select class=" download_select_box">
                     <option value="2019-20" selected>2019-20</option>
                     <option value="2018-19">2018-19</option>
                     <option value="2017-18">2017-18</option>
@@ -187,18 +186,24 @@
                     <option value="2016-17">2016-17</option>
                   </select>
                 </div>
-                <!-- Default inline 1-->
-                <div class="custom-control custom-radio custom-control-inline sem_r_button">
-                  <input type="radio" class="custom-control-input" id="defaultInline1" name="sem" checked>
-                  <label class="custom-control-label" for="defaultInline1">Odd</label>
-                </div>
-
-                <!-- Default inline 2-->
-                <div class="custom-control custom-radio custom-control-inline sem_r_button">
-                  <input type="radio" class="custom-control-input" id="defaultInline2" name="sem">
-                  <label class="custom-control-label" for="defaultInline2">Even</label>
-                </div>
-                <div class="contain_download_button text-center mx-auto mt-4">
+               
+                <ul type="none" class="sem">
+                  <li>
+                    <input type="radio" id="f-option" name="selector">
+                    <label for="f-option">Odd</label>
+                    
+                    <div class="check"></div>
+                  </li>
+                  
+                  <li>
+                    <input type="radio" id="s-option" name="selector">
+                    <label for="s-option">Even</label>
+                    
+                    <div class="check"></div>
+                  </li> 
+                  </ul>
+                  
+                  <div class="contain_download_button text-center mx-auto mt-5">
                   <button class="download_button">Download  <img src="../images/downloads/downloadcloud.png" alt="icloud"></button>
                 </div>
               </div>
