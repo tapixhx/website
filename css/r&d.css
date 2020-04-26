@@ -110,7 +110,9 @@
     width: 35% !important;
 }
 .wwd_box {
-    background-color: #F1F3FF !important;
+    background-color: #FFF !important;
+    border-radius: 5px;
+    border:1.5px solid #FCCB67;
     box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
 }
 .wwd_part_head {
