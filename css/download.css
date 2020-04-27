@@ -85,7 +85,7 @@
 /* application form */
 /* same as in academic : text-color:change */
 .sec_pad_landing{
-    padding:10rem 0rem;
+    padding:10rem 0rem 2rem;
 }
 .landing_box_heading{
     padding: 1rem;
@@ -197,7 +197,7 @@
   border: 5px solid #000000;
 } */
 
-.sem li .check::before {
+/* .sem li .check::before {
   display: block;
   position: absolute;
   content: '';
@@ -210,7 +210,7 @@
 	transition: background 0.25s linear ;
     -webkit-transition: background 0.25s linear;
     
-}
+} */
 
 /* input[type=radio]:checked ~ .check {
   border: 5px solid #FCCB67;
