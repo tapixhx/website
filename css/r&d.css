@@ -78,13 +78,22 @@
 
 /* navbar */
 
+.full {
+    position:relative;
+}
+
 /* popup */
 .contain-popup {
     position: absolute;
     height:100vh;
     width:100%;
     display:none;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
     background-color: rgba(0,0,0,0.5);
+    /* backdrop-filter:blur(8px); */
     z-index:500;
 }
 /* .close-popup {
@@ -97,11 +106,12 @@
 } */
 .card-popup {
     background-color: #fff;
-    position:relative;
-    top:10rem;
-    left:30rem;
+    position:fixed;
+    top:50%;
+    left:50%;
     width:35rem;
     height:25rem;
+    border:1px solid #FCCB67;
     overflow:auto;
     border-radius:10px;
     animation: appear .7s 1;

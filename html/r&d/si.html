@@ -92,6 +92,7 @@
     </nav>
     <!--/.Navbar -->
 
+    <section class="full">
     <!-- introduction -->
     <section class="si_sec_pad">
       <div class="text-center mx-auto">
@@ -118,17 +119,6 @@
     </section>
     <!-- introduction -->
 
-    <!-- popup -->
-    <div id="explore" class="contain-popup">
-      <div class="card-popup">
-        <!-- <div class="close-popup">
-          <img src="../../images/r&d/si/close.png" class="close-popup-img" alt="close">
-        </div> -->
-        <h1>Hello!</h1>
-      </div>
-    </div>
-    <!-- popup -->
-
     <!-- what we do -->
     <section class="sec_pad">
       <div class="text-center text-uppercase sec_heading issuance_head mt-4">What We do</div>
@@ -144,7 +134,8 @@
                 <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Web Development</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a onclick="document.getElementById('explore').style.display='block'"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick="document.getElementById('explore').style.display='block';
+                              document.getElementById('full').style.display='none';"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
                 </div>
               </div>
             </div>
@@ -405,6 +396,19 @@
     </section>
     <!-- footer -->
 
+    <!-- popup -->
+    <div id="explore" class="contain-popup">
+      <div class="card-popup">
+        <!-- <div class="close-popup">
+          <img src="../../images/r&d/si/close.png" class="close-popup-img" alt="close">
+        </div> -->
+        <h1>Hello!</h1>
+      </div>
+    </div>
+    <!-- popup -->
+
+  </section>
+
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -417,11 +421,13 @@
     <script>
       // Get the modal
       var modal = document.getElementById('explore');
+      var full = document.getElementById('full');
       
       // When the user clicks anywhere outside of the modal, close it
       window.onclick = function(event) {
         if (event.target == modal) {
           modal.style.display = "none";
+          full.style.display = "block"; 
         }
       }
       </script>
