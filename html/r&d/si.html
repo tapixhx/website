@@ -134,12 +134,26 @@
                 <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Web Development</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a onclick="document.getElementById('explore').style.display='block';
-                              document.getElementById('full').style.display='none';"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="first"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
                 </div>
               </div>
             </div>
         </div>
+
+        <!-- popup -->
+        <div id="first_popup" class="contain-popup">
+          <div class="card-popup sec_text">
+            <h2 class="text-center popup-head">Web Development</h2>
+            <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+            <p class="text-center mt-3">
+              We offer great Websites and Web applications, understanding the clients' needs and requirements.
+              We deliver the projects built using the latest technologies in the market-place at most trivial cost.
+              We give a big hand to the latest trends in website development,
+              especially SEO. The websites we deliver are fully secure and supports data security and integrity.
+            </p>
+          </div>
+        </div>
+        <!-- popup -->
         
         <div class="col-lg-4 col-md-12">
           <div class="card mb-4 card_2">
@@ -150,11 +164,25 @@
               <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">App Development</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="second"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- popup -->
+        <div id="second_popup" class="contain-popup">
+          <div class="card-popup sec_text">
+            <h2 class="text-center popup-head">App Development</h2>
+            <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+            <p class="text-center mt-3">
+              We realize that the world is changing it’s trends from typewriter to keyboard and now from click to touch.
+              Hence, we here at Software Incubator develop mobile as well as tablet apps.
+              The apps we make are for Android, iOS and Windows devices. Today in the market and even tomorrow, our apps never die.
+            </p>
+          </div>
+        </div>
+        <!-- popup -->
           
         <div class="col-lg-4 col-md-12">
           <div class="card mb-2 card_2">
@@ -165,13 +193,28 @@
               <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Machine Learning</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="third"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
           </div>
         </div>
       </div>
       </div>
+
+      <!-- popup -->
+      <div id="third_popup" class="contain-popup">
+        <div class="card-popup sec_text">
+          <h2 class="text-center popup-head">Machine Learning</h2>
+          <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+          <p class="text-center mt-3">
+            Many of our team members are currently working on Machine Learning which is the latest approach to digital
+            transformation making our computer processes more efficient, cost-effective and reliable. Here they study and
+            construct algorithms that can learn on and make predictions on data.
+            Such algorithms overcome strictly static program instructions by making data-driven predictions or decisions.
+          </p>
+        </div>
+      </div>
+      <!-- popup -->
 
       <div class="container sec_text wwd_part_2">
         <div class = "row">
@@ -182,13 +225,27 @@
                 src="../../images/r&d/si/wwd2.png"
                 alt="Card image cap">
                 <div class="card-body wwd_body">
-                  <p class="text-center wwd_part_head">Blockchain</p>
+                  <p class="text-center wwd_part_head">Competitive Coding</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="fourth"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
                 </div>
               </div>
             </div>
+          </div>
+
+      <!-- popup -->
+      <div id="fourth_popup" class="contain-popup">
+        <div class="card-popup sec_text">
+          <h2 class="text-center popup-head">Competitive Coding</h2>
+          <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+          <p class="text-center mt-3">
+            Many of our team members are preparing for various prestigious contests which helps in writing efficient code with
+            less time and space complexities.
+            Here they learn and practice data structures and algorithms. Coding competitions are organized for the team weekly.
+          </p>
         </div>
+      </div>
+      <!-- popup -->
         
         <div class="col-lg-4 col-md-12">
           <div class="card mb-4 card_2">
@@ -197,13 +254,27 @@
               src="../../images/r&d/si/wwd2.png"
               alt="Card image cap">
               <div class="card-body wwd_body">
-                  <p class="text-center wwd_part_head">Blockchain</p>
+                  <p class="text-center wwd_part_head">Open Source</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="fifth"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- popup -->
+        <div id="fifth_popup" class="contain-popup">
+          <div class="card-popup sec_text">
+            <h2 class="text-center popup-head">Open Source</h2>
+            <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+            <p class="text-center mt-3">
+              Many of our team members are contributing to the various open source organizations like Mozilla Firefox
+              and Bootstrap etc. and some of them also got selected for GSoC and Fossasia etc.
+              It helps us to write standard code and understand how the tasks are carried out in an organization
+            </p>
+          </div>
+        </div>
+        <!-- popup -->
           
         <div class="col-lg-4 col-md-12">
           <div class="card mb-2 card_2">
@@ -214,11 +285,26 @@
               <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Blockchain</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="sixth"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- popup -->
+        <div id="sixth_popup" class="contain-popup">
+          <div class="card-popup sec_text">
+            <h2 class="text-center popup-head">Blockchain</h2>
+            <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+            <p class="text-center mt-3">
+              Many of our team members are contributing to the various open source organizations like Mozilla Firefox
+              and Bootstrap etc. and some of them also got selected for GSoC and Fossasia etc.
+              It helps us to write standard code and understand how the tasks are carried out in an organization
+            </p>
+          </div>
+        </div>
+        <!-- popup -->
+
       </div>
       </div>
     </section>
@@ -396,17 +482,6 @@
     </section>
     <!-- footer -->
 
-    <!-- popup -->
-    <div id="explore" class="contain-popup">
-      <div class="card-popup">
-        <!-- <div class="close-popup">
-          <img src="../../images/r&d/si/close.png" class="close-popup-img" alt="close">
-        </div> -->
-        <h1>Hello!</h1>
-      </div>
-    </div>
-    <!-- popup -->
-
   </section>
 
     <!-- JQuery -->
@@ -418,18 +493,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
     <!-- popup -->
-    <script>
-      // Get the modal
-      var modal = document.getElementById('explore');
-      var full = document.getElementById('full');
-      
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-          full.style.display = "block"; 
-        }
-      }
-      </script>
+    <script type="text/javascript" src="../../js/popup.js"></script>
+
 </body>
 </html>

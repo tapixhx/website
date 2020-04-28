@@ -78,10 +78,6 @@
 
 /* navbar */
 
-.full {
-    position:relative;
-}
-
 /* popup */
 .contain-popup {
     position: fixed;
@@ -109,17 +105,69 @@
     position:fixed;
     top:12rem;
     left:30rem;
-    width:35rem;
-    height:25rem;
-    border:1px solid #FCCB67;
+    width:30rem;
+    height:20rem;
+    padding:1.5rem 1rem 1rem 1rem;
     overflow:auto;
     border-radius:10px;
-    animation: appear .7s 1;
+    animation: appear .5s 1;
+}
+.popup-head {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
 }
 @keyframes appear {
     from{transform: scale(0);}
     to{transform: scale(1);}
 }
+
+/* media queries */
+@media only screen and (max-width:1024px) {
+    .card-popup {
+        top:15rem;
+        left:16.5rem;
+    }
+}
+@media only screen and (max-width:768px) {
+    .card-popup {
+        top:15rem;
+        left:9rem;
+    }
+}
+@media only screen and (max-width:455px) {
+    .card-popup {
+        top:13rem;
+        left:4.5rem;
+        width:20rem;
+        height:22rem;
+    }
+}
+@media only screen and (max-width:430px) {
+    .card-popup {
+        top:12rem;
+        left:3.5rem;
+        width:20rem;
+        height:22rem;
+    }
+}
+@media only screen and (max-width:375px) {
+    .card-popup {
+        top:12rem;
+        left:1.8rem;
+        width:20rem;
+        height:22rem;
+    }
+}
+@media only screen and (max-width:320px) {
+    .card-popup {
+        top:12rem;
+        left:1rem;
+        width:18rem;
+        height:23rem;
+    }
+}
+/* media queries */
+
 /* popup */
 
 /* introduction */
