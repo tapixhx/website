@@ -78,6 +78,40 @@
 
 /* navbar */
 
+/* popup */
+.contain-popup {
+    position: absolute;
+    height:100vh;
+    width:100%;
+    display:none;
+    background-color: rgba(0,0,0,0.5);
+    z-index:500;
+}
+/* .close-popup {
+    position: relative;
+    left:15rem;
+    top:1rem;
+}
+.close-popup-img {
+    width:5%;
+} */
+.card-popup {
+    background-color: #fff;
+    position:relative;
+    top:10rem;
+    left:30rem;
+    width:35rem;
+    height:25rem;
+    overflow:auto;
+    border-radius:10px;
+    animation: appear .7s 1;
+}
+@keyframes appear {
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
+/* popup */
+
 /* introduction */
 .si_sec_pad {
     padding:8rem 0rem 0 0;
@@ -126,7 +160,7 @@
     letter-spacing: 2px;
 }
 .wwd_body {
-    padding:0rem !important;
+    padding:0 !important;
 }
 /* what we do */
 

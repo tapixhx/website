@@ -118,6 +118,17 @@
     </section>
     <!-- introduction -->
 
+    <!-- popup -->
+    <div id="explore" class="contain-popup">
+      <div class="card-popup">
+        <!-- <div class="close-popup">
+          <img src="../../images/r&d/si/close.png" class="close-popup-img" alt="close">
+        </div> -->
+        <h1>Hello!</h1>
+      </div>
+    </div>
+    <!-- popup -->
+
     <!-- what we do -->
     <section class="sec_pad">
       <div class="text-center text-uppercase sec_heading issuance_head mt-4">What We do</div>
@@ -132,8 +143,8 @@
                 alt="Card image cap">
                 <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Web Development</p>
-                  <hr style="border:.5px solid #FCCB67">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+                  <a onclick="document.getElementById('explore').style.display='block'"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
                 </div>
               </div>
             </div>
@@ -147,7 +158,7 @@
               alt="Card image cap">
               <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">App Development</p>
-                  <hr style="border:.5px solid #FCCB67">
+                  <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
                   <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
@@ -162,7 +173,7 @@
                   alt="Card image cap">
               <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Machine Learning</p>
-                  <hr style="border:.5px solid #FCCB67">
+                  <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
                   <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
@@ -181,7 +192,7 @@
                 alt="Card image cap">
                 <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Blockchain</p>
-                  <hr style="border:.5px solid #FCCB67">
+                  <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
                   <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
                 </div>
               </div>
@@ -196,7 +207,7 @@
               alt="Card image cap">
               <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Blockchain</p>
-                  <hr style="border:.5px solid #FCCB67">
+                  <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
                   <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
@@ -211,7 +222,7 @@
                   alt="Card image cap">
               <div class="card-body wwd_body">
                   <p class="text-center wwd_part_head">Blockchain</p>
-                  <hr style="border:.5px solid #FCCB67">
+                  <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
                   <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
@@ -402,5 +413,17 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+    <!-- popup -->
+    <script>
+      // Get the modal
+      var modal = document.getElementById('explore');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
 </body>
 </html>
