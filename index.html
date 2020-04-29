@@ -96,17 +96,47 @@
 
             <!--Menu-->
             <div class="dropdown-menu dropdown-primary">
-              <a class="dropdown-item" href="./html/r&d/si.html">Events</a>
-              <a class="dropdown-item" href="./html/r&d/ccc.html">Societies</a>
-            </div>
+            <ul class="life-akg">
+              <li class="nav-li"><a  href="{% url 'society' %}">Societies &#x25B8</a>
+                <ul class="nav-menu">
+                  <li class="nav-li"><a href="{% url 'avk' %}">
+                    DEPARTMENTAL SOCIETIES &#x25B8</a>
+                    <ul class="nav-menu">
+                      <li class="nav-li"><a href="{% url 'avk' %}">CONATUS</a></li>
+                      <li class="nav-li"><a href="{% url 'BDC' %}">NIRMAAN</a></li>
+                      <li class="nav-li"><a href="{% url 'Env_Eco' %}">OORJA</a></li>
+                      <li class="nav-li"><a href="{% url 'Skill_school' %}">PHOENIX</a></li>
+                      <li class="nav-li"><a href="{% url 'Skill_school' %}">SAMVEG</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-li"><a href="{% url 'BDC' %}">
+                    EXTRA-CURRICULAR SOCITIES &#x25B8</a>
+                    <ul class="nav-menu">
+                      <li class="nav-li"><a href="{% url 'avk' %}">EUPHONY</a></li>
+                      <li class="nav-li"><a href="{% url 'BDC' %}">FOOTPRINTS</a></li>
+                      <li class="nav-li"><a href="{% url 'Env_Eco' %}">HORIZON</a></li>
+                      <li class="nav-li"><a href="{% url 'Skill_school' %}">GOONJ</a></li>
+                      <li class="nav-li"><a href="{% url 'Skill_school' %}">RENAISSANCE</a></li>
+                      <li class="nav-li"><a href="{% url 'Skill_school' %}">TAAL</a></li>
+                      <li class="nav-li"><a href="{% url 'Skill_school' %}">VERVE</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-li"><a href="{% url 'Env_Eco' %}">
+                    STUDENT CHAPTERS &#x25B8</a>
+                    <ul class="nav-menu">
+                      <li class="nav-li"><a href="{% url 'avk' %}">CSI</a></li>
+                      <li class="nav-li"><a href="{% url 'BDC' %}">ISTE</a></li>
+                      <li class="nav-li"><a href="{% url 'Env_Eco' %}">SAE India</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-li"><a  href="{% url 'event' %}">Events</a></li>
+          </ul>
+          </div>
           </div>
         </li>
-        <!--/Dropdown primary-->
-        <!-- <li class="nav-item navbar-element">
-          <a class="nav-link nav-content" href="./html/r&d/si.html">
-            R&D
-          </a>
-        </li> -->
+        
         <li class="nav-item navbar-element">
           <a class="nav-link nav-content" href="./html/download.html">
             DOWNLOADS
