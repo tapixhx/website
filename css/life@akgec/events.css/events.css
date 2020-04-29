@@ -121,191 +121,29 @@
 
 /* navbar */
 
-/* landing */
-.sec_pad_landing{
-    padding:10rem 0rem;
-}
-.btn-outline{
-    border: 1.5px solid #707070!important;
-    background-color: transparent!important;
-    color: #000000!important;
-    border-radius:40px!important;
-    padding: .5rem 2.3rem!important;
-}
-.landing_box_highlight{
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
-    padding: 2.5rem 3rem;
-    margin: 3rem 6rem 4rem!important;
-    border-radius: 10px;
-}
-.landing_box_highlight_bottom{
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
-    margin: 3rem 6rem 4rem!important;
-    border-radius: 10px;
-}
-.issuance_box_1 {
-    padding:2.5rem 2.5rem;
-}
-.issuance_box_2 {
-    padding:2.5rem 3rem 4rem 3rem;
-}
-.landing_box_heading{
-    padding: 1rem;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing:.5px;
-    color: rgba(112, 112, 112, 0.8);;
-    font-weight: 600;
-}
-.landing_box_text{
-    padding: 2.7rem 0 1.5rem;
-    font-family: 'Open Sans', sans-serif; 
-    color: #000000;    
-}
-.landing_box_text_exp1{
-    padding: 1.7rem 0 1.2rem;
-    font-family: 'Open Sans', sans-serif; 
-    color: #000000;    
-}
-.landing_box_text_exp2{
-    padding: 2.7rem 0 1.8rem;
-    font-family: 'Open Sans', sans-serif; 
-    color: #000000;    
-}
-.apply_academic {
-    box-shadow: none !important;
-}
-.landing_imp{
-    font-family: 'Open Sans', sans-serif; 
-    margin: 3rem 5rem 0;
-}
-.landing_imp_heading{
-    font-weight: 800;
-    letter-spacing: 1px;
-    font-size: 1.3rem;
-}
-.landing_imp_text{
-    padding-top: 1rem;
-    text-align: justify;
-    font-weight: 500;
-    color: #000000;
-    font-size: 1.1rem;
-
-}
-/* landing */
-
 
 
 
 /* media queries */
 @media only screen and (max-width:1024px) {
-    .landing_box_highlight{
-        padding: 2.5rem 3.3rem;
-        margin: 3rem 2rem 4rem!important;
-    }
-    .landing_imp{
-        margin: 3rem 4.5rem 0;
-    }
-    .landing_box_highlight_bottom {
-        margin: 3rem 2rem 4rem!important;
-    }
-    .issuance_box_1 {
-        padding:2rem 2.5rem;
-    }
+
 }
 @media only screen and (max-width:768px) {
     
 }
 @media only screen and (max-width:455px) {
-    .landing_box_highlight{
-        padding: 2.5rem 2.1rem 1.7rem;
-        margin: 3rem 1.5rem 4rem!important;
-    }
-    .landing_imp{
-        margin: 3rem 0rem 0;
-        padding:0 1.4rem;
-    }
-    .issuance_head {
-        font-size:1.8rem;
-        padding:0 1rem;
-    }
-    .academic_img {
-        width:4rem;
-    }
-    .landing_box_highlight_bottom {
-        margin: 3rem 1.5rem 4rem!important;
-    }
-    .issuance_box_2 {
-        padding:2.5rem 3rem;
-    }
+    
 }
-@media only screen and (max-width:428px) {
-    .landing_box_highlight{
-        padding: 1.7rem 1.7rem;
-        margin: 3rem .9rem 4rem!important;
-    }
-    .landing_imp{
-        margin: 3rem 1.9rem 0;
-    }
-    .landing_box_text{
-        padding: 2.1rem 0 .5rem;
-    }
-    .landing_box_highlight_bottom {
-        padding: 1.7rem 1.7rem;
-        margin: 3rem .9rem 4rem!important;
-    }
+@media only screen and (max-width:430px) {
+    
 }
 @media only screen and (max-width:375px) {
-    .landing_box_highlight{
-        padding: .5rem 3rem;
-        margin: 3rem .7rem 4rem!important;
-    }
-    .landing_box_text{
-        padding: .5rem 0 .3rem;
-    }
-    .landing_imp{
-        margin: 3rem 1.7rem 0;
-    }
-    .landing_box_text_exp1{
-        padding: .5rem 0 .3rem;
-    }
-    .landing_box_text_exp2{
-        padding: .5rem 0 .3rem;
-    }
+    
 }
 @media only screen and (max-width:320px) {
-    .landing_box_highlight{
-        padding: .5rem 1.5rem .3rem;
-        margin: 3rem .5rem 4rem!important;
-    }
-    .landing_box_text{
-        padding: .1rem 0 .1rem;
-    }
-    .landing_imp{
-        margin: 3rem 1.5rem 0;
-    }
-    .btn-outline{
-        border-radius:40px!important;
-        padding: .3rem 1.9rem!important;
-    }
-    .issuance_head {
-        font-size:1.4rem;
-    }
-    .academic_img {
-        width:3rem;
-    }
-    .landing_box_highlight_bottom{
-        padding: .5rem 1.5rem .3rem;
-        margin: 3rem .5rem 4rem!important;
-    }
-    .landing_box_text_exp1{
-        padding: .1rem 0 .1rem;
-    }
-    .landing_box_text_exp2{
-        padding: .1rem 0 .1rem;
-    }
+    
 }
 /* media queries */
-
 
 /* footer */
 .list-unstyled{
