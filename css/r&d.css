@@ -116,6 +116,31 @@
     font-family: 'Raleway', sans-serif;
     color:#1D194F;
 }
+
+/* Scrollbar */
+/* width */
+.card-popup::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.card-popup::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 2px;
+}
+
+/* Handle */
+.card-popup::-webkit-scrollbar-thumb {
+    background: #696969; 
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+.card-popup::-webkit-scrollbar-thumb:hover {
+    background: #696969; 
+}
+/* Scrollbar */
+
 @keyframes appear {
     from{transform: scale(0);}
     to{transform: scale(1);}
@@ -210,7 +235,7 @@
 .wwd_part_head {
     color:#000;
     font-weight:800;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 .wwd_explore {
     font-weight:800;

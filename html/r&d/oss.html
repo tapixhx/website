@@ -17,6 +17,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="mb-1 navbar fixed-top navbar-expand-lg mynav">
       <img src="../../images/home/logo.png" class="img-fluid navbar-brand" alt="logo">
@@ -118,50 +119,49 @@
 
     <!-- what we do -->
     <section class="sec_pad">
-      <div class="text-center text-uppercase sec_heading issuance_head mt-4">What We do</div>
+      <div class="text-center text-uppercase sec_heading issuance_head mt-4">Activities</div>
       <div class="underline mx-auto"></div>
       <div class="container sec_text wwd_part_1">
         <div class = "row">
-          <div class="col-lg-4 col-md-12">
+          <div class="col-lg-6 col-md-12">
             <div class="card mb-4 card_2">
               <div class="wwd_box">
                 <img class="card-img-top my-3 wwd_img"
                 src="../../images/r&d/si/wwd.png"
                 alt="Card image cap">
                 <div class="card-body wwd_body">
-                  <p class="text-center wwd_part_head">Web Development</p>
+                  <p class="text-center wwd_part_head">CYPHER 2019</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="first"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
                 </div>
               </div>
             </div>
         </div>
+
+        <!-- popup -->
+        <div id="first_popup" class="contain-popup">
+          <div class="card-popup sec_text">
+            <h2 class="text-center popup-head">CYPHER 2019</h2>
+            <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+            <p class="text-center mt-3">
+              OSS R&D Centre conducted “Cypher’19” – a Workshop on Cyber security and Linux on 09 & 10 March 2019.
+              ‘Cypher 19’ was a workshop conducted to
+              spread awareness amongst college students about cyber security paving a way towards building a strong foundation. 
+            </p>
+          </div>
+        </div>
+        <!-- popup -->
         
-        <div class="col-lg-4 col-md-12">
+        <div class="col-lg-6 col-md-12">
           <div class="card mb-4 card_2">
             <div class="wwd_box">
               <img class="card-img-top my-3 wwd_img"
               src="../../images/r&d/si/wwd.png"
               alt="Card image cap">
               <div class="card-body wwd_body">
-                  <p class="text-center wwd_part_head">App Development</p>
+                  <p class="text-center wwd_part_head">The Codechef Event 2018</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
-              </div>
-            </div>
-          </div>
-        </div>
-          
-        <div class="col-lg-4 col-md-12">
-          <div class="card mb-2 card_2">
-            <div class="wwd_box">
-              <img class="card-img-top my-3 wwd_img"
-                  src="../../images/r&d/si/wwd.png"
-                  alt="Card image cap">
-              <div class="card-body wwd_body">
-                  <p class="text-center wwd_part_head">Machine Learning</p>
-                  <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="second"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
           </div>
@@ -169,52 +169,79 @@
       </div>
       </div>
 
+      <!-- popup -->
+      <div id="second_popup" class="contain-popup">
+        <div class="card-popup sec_text">
+          <h2 class="text-center popup-head">The Codechef Event 2018</h2>
+          <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+          <p class="text-center mt-3">
+            CONATUS and OSS R&D Centre, AKGEC in association with CodeChef conducted “Code-O-Fiesta 2018 – an Online Coding
+            Contest on 20 September 2018. ‘Code-O-Fiesta’
+            was an initiative which aroused from a combative attitude that paves a way towards building a strong foundation.
+          </p>
+        </div>
+      </div>
+      <!-- popup -->
+
       <div class="container sec_text wwd_part_2">
         <div class = "row">
-          <div class="col-lg-4 col-md-12">
+          <div class="col-lg-6 col-md-12">
             <div class="card mb-4 card_2">
               <div class="wwd_box">
                 <img class="card-img-top my-3 wwd_img"
                 src="../../images/r&d/si/wwd2.png"
                 alt="Card image cap">
                 <div class="card-body wwd_body">
-                  <p class="text-center wwd_part_head">Blockchain</p>
+                  <p class="text-center wwd_part_head">The Codechef Event 2017</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="third"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
                 </div>
               </div>
             </div>
         </div>
+
+        <!-- popup -->
+        <div id="third_popup" class="contain-popup">
+          <div class="card-popup sec_text">
+            <h2 class="text-center popup-head">The Codechef Event 2017</h2>
+            <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+            <p class="text-center mt-3">
+              The event was conducted on 6 September, 2017 where over 60 teams participated in the coding event powered by CodeChef and OSSRNDC.
+              The top 3 teams were awarded with Rs 1000, Rs 800 and Rs 500 respectively and certificates.
+            </p>
+          </div>
+        </div>
+        <!-- popup -->
         
-        <div class="col-lg-4 col-md-12">
+        <div class="col-lg-6 col-md-12">
           <div class="card mb-4 card_2">
             <div class="wwd_box">
               <img class="card-img-top my-3 wwd_img"
               src="../../images/r&d/si/wwd2.png"
               alt="Card image cap">
               <div class="card-body wwd_body">
-                  <p class="text-center wwd_part_head">Blockchain</p>
+                  <p class="text-center wwd_part_head">The Triwazard Tournament 2017</p>
                   <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
+                  <a onclick=popup(this) id="fourth"><p class="text-center wwd_explore text-uppercase">Explore</p></a>
               </div>
             </div>
           </div>
         </div>
-          
-        <div class="col-lg-4 col-md-12">
-          <div class="card mb-2 card_2">
-            <div class="wwd_box">
-              <img class="card-img-top my-3 wwd_img"
-                  src="../../images/r&d/si/wwd2.png"
-                  alt="Card image cap">
-              <div class="card-body wwd_body">
-                  <p class="text-center wwd_part_head">Blockchain</p>
-                  <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
-                  <a><p class="text-center wwd_explore text-uppercase">Explore</p></a>
-              </div>
-            </div>
+
+        <!-- popup -->
+        <div id="fourth_popup" class="contain-popup">
+          <div class="card-popup sec_text">
+            <h2 class="text-center popup-head">The Triwazard Tournament 2017</h2>
+            <hr style="border:.5px solid #FCCB67;margin:1rem 2rem;">
+            <p class="text-center mt-3">
+              The event was conducted on 4 March 2017 where over 30 teams participated in first round.
+              In the final round 3 teams were selected based on their coding performance in previous rounds.
+              The winner teams were awarded with certificates.
+            </p>
           </div>
         </div>
+        <!-- popup -->
+
       </div>
       </div>
     </section>
@@ -307,128 +334,128 @@
 
 
     <!-- footer -->
-  <section>
-    <!-- Footer -->
-<footer class="footer-main">
+    <section>
+      <!-- Footer -->
+  <footer class="footer-main">
 
-    <!-- Footer Links -->
-    <div class="container-fluid text-center pt-5 pb-4 text-md-left">
-  
-      <!-- Grid row -->
-      <div class="row">
-  
-        <!-- Grid column -->
-        <div class="col-md-3 footer-akg">
-  
-          <!-- Content -->
-              <img src="images/home/logo.png" class="img-fluid footer-logo"
-                alt="logo">
-              <div class="footer-college1">AJAY KUMAR GARG</div>
-              <div class="footer-college2">ENGINEERING COLLEGE</div>
-              
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-3 footer-vertical-line">
-  
-          <!-- Links -->
-  
-          <ul class="list-unstyled footer-list1">
-            <li>
-              27th Km Stone
-            </li>
-            <li>
-              Delhi - Hapur Bypass Road,
-            </li>
-            <li>
-              Adhyatmik Nagar
-            </li>
-            <li>
-              Ghaziabad - 201009
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
+      <!-- Footer Links -->
+      <div class="container-fluid text-center pt-5 pb-4 text-md-left">
+    
+        <!-- Grid row -->
+        <div class="row">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 footer-akg">
+    
+            <!-- Content -->
+                <img src="../../images/home/logo.png" class="img-fluid footer-logo"
+                  alt="logo">
+                <div class="footer-college1">AJAY KUMAR GARG</div>
+                <div class="footer-college2">ENGINEERING COLLEGE</div>
+                
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-3 footer-vertical-line">
+    
+            <!-- Links -->
+    
+            <ul class="list-unstyled footer-list1">
+              <li>
+                27th Km Stone
+              </li>
+              <li>
+                Delhi - Hapur Bypass Road,
+              </li>
+              <li>
+                Adhyatmik Nagar
+              </li>
+              <li>
+                Ghaziabad - 201009
+              </li>
+            </ul>
+    
+          </div>
+          <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3 footer-vertical-line">
-  
-          <!-- Links -->
-  
-          <ul class="list-unstyled footer-list2">
-            <li class="footer-email">
-              Email: info@akgec.ac.in
-            </li>
-            <li class="footer-number">
-              8744052891-94
-            </li>
-            <li class="footer-number">
-              7290034978, 7290034976
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3 footer-vertical-line">
+    
+            <!-- Links -->
+    
+            <ul class="list-unstyled footer-list2">
+              <li class="footer-email">
+                Email: info@akgec.ac.in
+              </li>
+              <li class="footer-number">
+                8744052891-94
+              </li>
+              <li class="footer-number">
+                7290034978, 7290034976
+              </li>
+            </ul>
+    
+          </div>
+          <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-  
-          <!-- Links -->
-              <ul class="list-unstyled footer-list2">
-                <li class="footer-email">
-                  Quick Links
-                </li>
-              <div class="row">
-                <div class="col-5">
-                <li class="footer-number">
-                  AKGEC KUKA
-                </li>
-                <li class="footer-number">
-                  BOSCH REXROTH
-                </li>
-                <li class="footer-number">
-                  AKGEC NI
-                </li>
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+    
+            <!-- Links -->
+                <ul class="list-unstyled footer-list2">
+                  <li class="footer-email">
+                    Quick Links
+                  </li>
+                <div class="row">
+                  <div class="col-5">
+                  <li class="footer-number">
+                    AKGEC KUKA
+                  </li>
+                  <li class="footer-number">
+                    BOSCH REXROTH
+                  </li>
+                  <li class="footer-number">
+                    AKGEC NI
+                  </li>
+                </div>
+                <div class="col-7">
+                  <li class="footer-number">
+                    AKGEC AIA
+                  </li>
+                  <li class="footer-number">
+                    SOFTWARE INCUBATOR
+                  </li>
+                  <li class="footer-number">
+                    AKGEC Alumini
+                  </li>
+                </div>
               </div>
-              <div class="col-7">
-                <li class="footer-number">
-                  AKGEC AIA
-                </li>
-                <li class="footer-number">
-                  SOFTWARE INCUBATOR
-                </li>
-                <li class="footer-number">
-                  AKGEC Alumini
-                </li>
-              </div>
-            </div>
-              </ul>
-  
+                </ul>
+    
+          </div>
+          <!-- Grid column -->
+    
         </div>
-        <!-- Grid column -->
-  
+        <!-- Grid row -->
+
+    
       </div>
-      <!-- Grid row -->
-
-  
-    </div>
-    <!-- Footer Links -->
-  
+      <!-- Footer Links -->
+    
 
 
-    <!-- Copyright -->
-    <div class="text-center py-4 footer-copy">
-      <p>© 2019 <a class="copyright-link" href="https://akgec.ac.in/">AKGEC</a></p>
-      <p>Design & Developed by <a class="copyright-link" href="http://silive.in/">Software Incubator</a></p>
-    </div>
-    <!-- Copyright -->
-  
-  </footer> 
-  <!-- Footer -->
-</section>
-<!-- footer -->
+      <!-- Copyright -->
+      <div class="text-center py-4 footer-copy">
+        <p>© 2019 <a class="copyright-link" href="https://akgec.ac.in/">AKGEC</a></p>
+        <p>Design & Developed by <a class="copyright-link" href="http://silive.in/">Software Incubator</a></p>
+      </div>
+      <!-- Copyright -->
+    
+    </footer> 
+    <!-- Footer -->
+    </section>
+    <!-- footer -->
 
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -438,5 +465,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+    <!-- popup -->
+    <script type="text/javascript" src="../../js/popup.js"></script>
+
 </body>
 </html>
