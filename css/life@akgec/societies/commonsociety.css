@@ -121,26 +121,189 @@
 
 /* navbar */
 
+/* introduction */
+.si_sec_pad {
+    padding:8rem 0rem 0 0;
+}
+.r_desc {
+    color:#5A5A5A;
+}
+.r_desc p {
+    text-align: justify;
+}
+/* introduction */
+
+/* featured courses */
+.medium_course {
+    display:none;
+}
+/* featured courses */
+
+/* faculty head */
+.head_sec {
+    background:#F2F2F2;
+}
+.faculty_box {
+    background-color:#fff;
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
+    padding:.8rem 1.5rem;
+    border-radius:5px;
+}
+.head_desc {
+    padding:0 !important;
+}
+.head_str {
+    font-weight:800;
+    color:#FDD329;
+}
+.faculty_head_name {
+    font-weight: 800;
+}
+.head_image {
+    text-align: right;
+}
+/* faculty head */
+
+/* contact */
+.con_text {
+    color:#000;
+    font-weight: 800;
+}
+.con_text_2 {
+    color:#000;
+}
+/* contact */
+
+
 
 
 /* media queries */
 @media only screen and (max-width:1024px) {
-
+    /* what we do */
+    .card_2 {
+        padding:0rem;
+    }
+    /* what we do */
 }
 @media only screen and (max-width:768px) {
-    
+    /* what we do */
+    .card_2 {
+        padding:0rem 11rem;
+    }
+    .wwd_part_2 {
+        margin-top:1.5rem;
+    }
+    /* what we do */
+
+    /* faculty head */
+    .fac_head {
+        margin-bottom:2rem;
+    }
+    .faculty_box {
+        margin-right:6rem;
+    }
+    /* faculty head */
+
+    /* featured courses */
+    .large_course {
+        display:none;
+    }
+    .medium_course {
+        display:block;
+    }
+    .course_card {
+        margin-left:12rem;
+        width:23rem;
+    }
+    /* featured courses */
 }
 @media only screen and (max-width:455px) {
-    
+    /* what we do */
+    .card_2 {
+        padding:0rem 3rem;
+    }
+    /* what we do */
+
+    /* faculty head */
+    .faculty_box {
+        margin-right:2rem;
+    }
+    /* faculty head */
+
+    /* contact */
+    .con_det_col {
+        margin-top:2rem;
+    }
+    /* contact */
+
+    /* featured courses */
+    .course_card {
+        width:20rem;
+        margin-left:4rem;
+    }
+    /* featured courses */
 }
 @media only screen and (max-width:430px) {
-    
+    /* what we do */
+    .card_2 {
+        padding:0rem 2rem;
+    }
+    /* what we do */
+
+    /* faculty head */
+    .faculty_box {
+        margin-right:1.6rem;
+    }
+    /* faculty head */
+
+    /* featured courses */
+    .course_card {
+        margin-left:3rem;
+    }
+    /* featured courses */
 }
 @media only screen and (max-width:375px) {
-    
+    /* what we do */
+    .card_2 {
+        padding:0rem 1rem;
+    }
+    /* what we do */
+
+    /* faculty head */
+    .faculty_box {
+        margin-right:1.4rem;
+        padding:.6rem 1.5rem;
+    }
+    /* faculty head */
+
+    /* featured courses */
+    .course_card {
+        margin-left:1rem;
+    }
+    /* featured courses */
 }
 @media only screen and (max-width:320px) {
-    
+    /* what we do */
+    .card_2 {
+        padding:0rem;
+    }
+    /* what we do */
+
+    /* faculty head */
+    .faculty_box {
+        padding:.1rem 1.5rem;
+    }
+    /* faculty head */
+
+    /* featured courses */
+    .medium_course {
+        height:520px !important;
+    }
+    .course_card {
+        width:18rem;
+        margin-left:0rem;
+    }
+    /* featured courses */
 }
 /* media queries */
 
