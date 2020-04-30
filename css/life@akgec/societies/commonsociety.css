@@ -133,11 +133,41 @@
 }
 /* introduction */
 
-/* featured courses */
-.medium_course {
+/* activities */
+.medium_activity {
     display:none;
 }
-/* featured courses */
+.activity-month {
+    margin-top:2px;
+    font-size:10px;
+    float: right !important;
+}
+.activity-date {
+    float: left !important;
+}
+.activity-date-container {
+    padding-left:5rem !important;
+}
+.activity-cal {
+    width:200%;
+    margin-top:12px;
+}
+.activity-info {
+    text-align: justify;
+}
+@media (min-width: 320px) {
+    .activity-month {
+        max-width: 1.8rem !important;
+        flex:none !important;
+    }
+}
+@media (min-width: 320px) {
+    .activity-date {
+        max-width: 2.3rem !important;
+        flex:none !important;
+    }
+}
+/* activities */
 
 /* faculty head */
 .head_sec {
@@ -179,22 +209,16 @@
 
 /* media queries */
 @media only screen and (max-width:1024px) {
-    /* what we do */
-    .card_2 {
-        padding:0rem;
+    /* activity */
+    .large_activity {
+        height:500px !important;
     }
-    /* what we do */
+    .activity-date-container {
+        padding-left:3rem  !important;
+    }
+    /* activity */
 }
 @media only screen and (max-width:768px) {
-    /* what we do */
-    .card_2 {
-        padding:0rem 11rem;
-    }
-    .wwd_part_2 {
-        margin-top:1.5rem;
-    }
-    /* what we do */
-
     /* faculty head */
     .fac_head {
         margin-bottom:2rem;
@@ -204,26 +228,26 @@
     }
     /* faculty head */
 
-    /* featured courses */
-    .large_course {
+    /* activity */
+    .large_activity {
         display:none;
     }
-    .medium_course {
+    .medium_activity {
         display:block;
     }
-    .course_card {
+    .activity_card {
         margin-left:12rem;
         width:23rem;
     }
-    /* featured courses */
+    .activity-date-container {
+        padding-left:5rem !important;
+    }
+    .activity-cal {
+        margin-top:6px;
+    }
+    /* activity */
 }
 @media only screen and (max-width:455px) {
-    /* what we do */
-    .card_2 {
-        padding:0rem 3rem;
-    }
-    /* what we do */
-
     /* faculty head */
     .faculty_box {
         margin-right:2rem;
@@ -236,12 +260,19 @@
     }
     /* contact */
 
-    /* featured courses */
-    .course_card {
+    /* activity */
+    .activity_card {
         width:20rem;
         margin-left:4rem;
     }
-    /* featured courses */
+    .activity-date-container {
+        padding-left:3.4rem !important;
+    }
+    .activity-cal {
+        margin-top:10px;
+        width:45%;
+    }
+    /* activity */
 }
 @media only screen and (max-width:430px) {
     /* what we do */
@@ -256,11 +287,11 @@
     }
     /* faculty head */
 
-    /* featured courses */
-    .course_card {
+    /* activity */
+    .activity_card {
         margin-left:3rem;
     }
-    /* featured courses */
+    /* activity */
 }
 @media only screen and (max-width:375px) {
     /* what we do */
@@ -276,11 +307,11 @@
     }
     /* faculty head */
 
-    /* featured courses */
-    .course_card {
+    /* activity */
+    .activity_card {
         margin-left:1rem;
     }
-    /* featured courses */
+    /* activity */
 }
 @media only screen and (max-width:320px) {
     /* what we do */
@@ -295,15 +326,18 @@
     }
     /* faculty head */
 
-    /* featured courses */
-    .medium_course {
+    /* activity */
+    .medium_activity {
         height:520px !important;
     }
-    .course_card {
+    .activity_card {
         width:18rem;
         margin-left:0rem;
     }
-    /* featured courses */
+    .activity-date-container {
+        padding-left:2rem !important;
+    }
+    /* activity */
 }
 /* media queries */
 
