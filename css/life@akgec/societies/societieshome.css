@@ -122,6 +122,23 @@
 /* navbar */
 
 
+.first_sec_pad {
+    padding:8rem 0 0 0;
+}
+.stu_chap_pad {
+    padding:0 0 4rem 0;
+}
+
+/* carousels */
+.labs_medium {
+    display:none;
+}
+.labs_name {
+    font-family: 'Open Sans', sans-serif;
+    color:#FDC95D;
+    font-weight:800 !important;
+}
+/* carousels */
 
 
 
@@ -130,19 +147,46 @@
 
 }
 @media only screen and (max-width:768px) {
-    
+    /* carousel */
+    .labs_large {
+        display:none;
+    }
+    .labs_medium {
+        display:block;
+    }
+    .labs_card {
+        width:23rem !important;
+        margin-left:10rem;
+    }
+    /* carousel */
 }
 @media only screen and (max-width:455px) {
-    
+    /* carousel */
+    .labs_card {
+        margin-left:2rem;
+    }
+    /* carousel */
 }
 @media only screen and (max-width:430px) {
-    
+    /* carousel */
+    .labs_card {
+        margin-left:-.7rem;
+    }
+    /* carousel */
 }
 @media only screen and (max-width:375px) {
     
 }
 @media only screen and (max-width:320px) {
-    
+    /* caousel */
+    .labs_card {
+        width:18rem !important;
+        margin-left:0rem;
+    }
+    .labs_medium_carousel {
+        height:350px !important;
+    }
+    /* carousel */
 }
 /* media queries */
 
