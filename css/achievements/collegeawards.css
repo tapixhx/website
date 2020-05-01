@@ -121,7 +121,58 @@
 
 /* navbar */
 
+/* section */
+.first_sec_pad_pm {
+    padding:8rem 0 4rem 0;
+}
+.card_box {
+    border-radius:10px;
+    height:30rem;
+    width:100%;
+}
+.carousel-height {
+    height:15rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* .visit-date {
+    padding:4px;
+    border-radius:5px;
+    background-color: #1D194F;
+    color:#fff;
+    margin-right:5px;
+    font-weight: 800;
+} */
+.text-scroll {
+    height:12rem;
+    overflow-y:auto;
+    text-align: justify;
+}
 
+/* Scrollbar */
+/* width */
+.text-scroll::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+.text-scroll::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #D4D2D2;
+}
+
+/* Handle */
+.text-scroll::-webkit-scrollbar-thumb {
+    background: #696969; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.text-scroll::-webkit-scrollbar-thumb:hover {
+    background: #696969; 
+}
+/* Scrollbar */
+/* section */
 
 
 /* media queries */
