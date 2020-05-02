@@ -122,6 +122,9 @@
 /* navbar */
 
 /* section */
+.medium_visit {
+    display:none;
+}
 .first_sec_pad_pm {
     padding:8rem 0 4rem 0;
 }
@@ -180,19 +183,45 @@
 
 }
 @media only screen and (max-width:768px) {
-    
+    .large_visit {
+        display:none;
+    }
+    .medium_visit {
+        display:block;
+    }
+    .card_box {
+        height:43rem;
+    }
+    .carousel-height {
+        height:20rem;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+    .text-scroll {
+        height:18rem;
+    }
 }
 @media only screen and (max-width:455px) {
-    
+    .visit_date {
+        margin-left:-4rem;
+    }
 }
 @media only screen and (max-width:430px) {
     
 }
 @media only screen and (max-width:375px) {
-    
+    .carousel-height {
+        height:15rem;
+    }
+    .card_box {
+        height:38.5rem;
+    }
 }
 @media only screen and (max-width:320px) {
-    
+    .visit_date {
+        margin-left:-5rem;
+    }
 }
 /* media queries */
 
