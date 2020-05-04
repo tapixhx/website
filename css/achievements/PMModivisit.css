@@ -149,7 +149,8 @@
 .text-scroll {
     height:20rem;
     overflow-y:auto;
-    text-align: justify;
+    text-align: left;
+    color:#1D194F;
 }
 
 /* Scrollbar */
@@ -186,7 +187,9 @@
 
 /* media queries */
 @media only screen and (max-width:1024px) {
-
+    .date_visit {
+        margin-left:-2rem;
+    }
 }
 @media only screen and (max-width:768px) {
     .large_visit {
@@ -206,6 +209,9 @@
     }
     .text-scroll {
         height:18rem;
+    }
+    .date_visit {
+        margin-left:0rem;
     }
 }
 @media only screen and (max-width:455px) {
