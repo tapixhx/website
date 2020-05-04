@@ -213,6 +213,9 @@
 .head_desc {
     padding:0 !important;
 }
+.head_desc_single {
+    padding:0 20rem 0 0 !important;
+}
 .head_str {
     font-weight:800;
     color:#FDD329;
@@ -248,6 +251,12 @@
         padding-left:3rem  !important;
     }
     /* activity */
+
+    /* faculty head */
+    .head_desc_single {
+        padding:0 15rem 0 0 !important;
+    }
+    /* faculty head */
 }
 @media only screen and (max-width:768px) {
     /* faculty head */
@@ -256,6 +265,9 @@
     }
     .faculty_box {
         margin-right:6rem;
+    }
+    .head_desc_single {
+        padding:0 0rem 0 0 !important;
     }
     /* faculty head */
 
