@@ -121,18 +121,197 @@
 
 /* navbar */
 
+.one-card {
+    height:29.5rem;
+}
+.card-text {
+    height:9.7rem;
+    overflow-y:auto;
+}
+
+/* Scrollbar */
+/* width */
+.card-text::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+.card-text::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #D4D2D2;
+}
+
+/* Handle */
+.card-text::-webkit-scrollbar-thumb {
+    background: #696969; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.card-text::-webkit-scrollbar-thumb:hover {
+    background: #696969; 
+}
+/* Scrollbar */
+.first_sec_pad_pm {
+    padding:8rem 0 0;
+}
+
+/* carousel */
+.carousel-inner.vv-3 .carousel-item.active,
+.carousel-inner.vv-3 .carousel-item-next,
+.carousel-inner.vv-3 .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner.vv-3 .carousel-item-right.active,
+.carousel-inner.vv-3 .carousel-item-next {
+  transform: translateX(58%);
+}
+
+.carousel-inner.vv-3 .carousel-item-left.active,
+.carousel-inner.vv-3 .carousel-item-prev {
+  transform: translateX(-58%);
+}
+
+.carousel-inner.vv-3 .carousel-item-right,
+.carousel-inner.vv-3 .carousel-item-left {
+  transform: translateX(0);
+}
+.c-padding {
+    padding:1rem 0;
+}
+.my-carousel{
+    height: 555px;
+}
+/* carousel */
+
+/* events section  */
+.medium_activity {
+    display:none;
+}
+.activity-month {
+    margin-top:2px;
+    font-size:10px;
+    float: right !important;
+}
+.activity-date {
+    float: left !important;
+}
+.activity-date-container {
+    padding-left:7.5rem !important;
+    margin-top: -.7rem;
+}
+.activity-cal {
+    width:200%;
+    margin-top:12px;
+}
+.activity-info {
+    text-align: justify;
+    padding-right: 1rem;
+}
+@media (min-width: 320px) {
+    .activity-month {
+        max-width: 1.8rem !important;
+        flex:none !important;
+    }
+}
+@media (min-width: 320px) {
+    .activity-date {
+        max-width: 2.3rem !important;
+        flex:none !important;
+    }
+}
+.eventcards{
+    padding:0 5.8rem 0 2rem!important;
+    margin-right: 7rem;
+    margin-left: -1rem;
+}
+.card-img-top{
+    width: 100%;
+}
+.eventcards_container{
+    padding: 0!important;
+}
+.sec_pad_events{
+    padding: 1rem 0 0!important;
+}
+/* events section  */
+
 
 
 
 /* media queries */
 @media only screen and (max-width:1024px) {
+    .eventcards{
+        padding:0 2rem 0 1.5rem!important;
+        margin-right: 1rem!important;
+        margin-left: 0rem;
+    }
+    .one-card {
+        height:25rem;
+    }
+    .carousel-inner.vv-3 .carousel-item-right.active,
+    .carousel-inner.vv-3 .carousel-item-next {
+    transform: translateX(51%);
+    }
 
+    .carousel-inner.vv-3 .carousel-item-left.active,
+    .carousel-inner.vv-3 .carousel-item-prev {
+    transform: translateX(-51%);
+    }
+    .carousel-inner.vv-3 .carousel-item-right,
+    .carousel-inner.vv-3 .carousel-item-left {
+    transform: translateX(0);
+}
+    .my-carousel{
+        height: 485px;
+    }
+        
 }
 @media only screen and (max-width:768px) {
+   /* eventsection */
+   .large_activity {
+    display:none;
+    }
+    .medium_activity {
+        display:block;
+        height: 460px;
+    }
+    .activity_card {
+        margin: auto;
+        width:27.8rem;
+    }
+    .activity-date-container {
+        padding-left:7rem !important;
+    }
+    .activity-cal {
+        width:50%;
+        margin-top:7px;
+    }
     
+    
+    /* eventsection */
 }
 @media only screen and (max-width:455px) {
-    
+    /* eventsection */
+    .medium_activity{
+        height: 420px;
+    }
+    .activity_card {
+        margin: auto;
+        width:20rem;
+    }
+    .activity-date-container {
+        padding-left:3.4rem !important;
+    }
+    .activity-cal {
+        margin-top:10px;
+        width:45%;
+    }
+    .one-card {
+        height:23rem;
+    }
+    /* eventsection */
 }
 @media only screen and (max-width:430px) {
     
@@ -141,7 +320,26 @@
     
 }
 @media only screen and (max-width:320px) {
-    
+    .activity_card {
+        margin: auto;
+        width:17rem;
+    }
+    .one-card {
+        height:19rem;
+    }
+    .medium_activity{
+        height: 360px;
+    }
+    .activity-date-container {
+        padding-left:2.5rem !important;
+        margin-top: -.5rem;
+    }
+    .card-body{
+        padding: .7rem!important;
+    }
+    .sec_heading {
+        font-size:1.9rem;
+    }
 }
 /* media queries */
 
