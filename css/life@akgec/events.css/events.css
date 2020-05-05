@@ -248,7 +248,7 @@
         margin-left: 0rem;
     }
     .one-card {
-        height:25rem;
+        height:28.5rem;
     }
     .carousel-inner.vv-3 .carousel-item-right.active,
     .carousel-inner.vv-3 .carousel-item-next {
@@ -264,7 +264,7 @@
     transform: translateX(0);
 }
     .my-carousel{
-        height: 485px;
+        height: 540px;
     }
         
 }
@@ -275,7 +275,7 @@
     }
     .medium_activity {
         display:block;
-        height: 460px;
+        height:530px;
     }
     .activity_card {
         margin: auto;
@@ -288,7 +288,9 @@
         width:50%;
         margin-top:7px;
     }
-    
+    .one-card {
+        height:29.5rem;
+    }
     
     /* eventsection */
 }
