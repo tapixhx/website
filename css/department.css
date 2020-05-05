@@ -129,16 +129,7 @@
     font-size: 1rem;
     padding:1rem 5.5rem 0 0;
     text-align: justify;
-    font-family: 'Open Sans', sans-serif;  
-    
-}
-.landing_placement{
-    font-size: 2.3rem;
-    font-weight: 800;
-}
-.landing_std_placed{
-    font-size:1.2rem ;
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 /* landing */
 
