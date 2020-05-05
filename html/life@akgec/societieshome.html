@@ -83,54 +83,19 @@
                   </div>
                 </div>
               </li>
-
               <li class="nav-item">
                 <!--Dropdown primary-->
                 <div class="dropdown">
-        
+      
                   <!--Trigger-->
                   <button class="nav-link nav-content dropdown-toggle d-button" type="button" id="dropdownMenu2" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">LIFE@AKGEC</button>
-        
+      
                   <!--Menu-->
                   <div class="dropdown-menu dropdown-primary">
-                  <ul class="life-akg">
-                    <li class="nav-li"><a  href="../life@akgec/societieshome.html">Societies &#x25B8</a>
-                      <ul class="nav-menu">
-                        <li class="nav-li"><a href="#">
-                          DEPARTMENTAL SOCIETIES &#x25B8</a>
-                          <ul class="nav-menu">
-                            <li class="nav-li"><a href="../life@akgec/departmentalsoc/conatus.html">CONATUS</a></li>
-                            <li class="nav-li"><a href="../life@akgec/departmentalsoc/nirmaan.html">NIRMAAN</a></li>
-                            <li class="nav-li"><a href="../life@akgec/departmentalsoc/oorja.html">OORJA</a></li>
-                            <li class="nav-li"><a href="../life@akgec/departmentalsoc/phoenix.html">PHOENIX</a></li>
-                            <li class="nav-li"><a href="../life@akgec/departmentalsoc/samveg.html">SAMVEG</a></li>
-                          </ul>
-                        </li>
-                        <li class="nav-li"><a href="#">
-                          EXTRA-CURRICULAR SOCITIES &#x25B8</a>
-                          <ul class="nav-menu">
-                            <li class="nav-li"><a href="../life@akgec/extracurricularsoc/euphony.html">EUPHONY</a></li>
-                            <li class="nav-li"><a href="../life@akgec/extracurricularsoc/footprints.html">FOOTPRINTS</a></li>
-                            <li class="nav-li"><a href="../life@akgec/extracurricularsoc/horizon.html">HORIZON</a></li>
-                            <li class="nav-li"><a href="../life@akgec/extracurricularsoc/goonj.html">GOONJ</a></li>
-                            <li class="nav-li"><a href="../life@akgec/extracurricularsoc/renaissance.html">RENAISSANCE</a></li>
-                            <li class="nav-li"><a href="../life@akgec/extracurricularsoc/taal.html">TAAL</a></li>
-                            <li class="nav-li"><a href="../life@akgec/extracurricularsoc/verve.html">VERVE</a></li>
-                          </ul>
-                        </li>
-                        <li class="nav-li"><a href="{% url 'Env_Eco' %}">
-                          STUDENT CHAPTERS &#x25B8</a>
-                          <ul class="nav-menu">
-                            <li class="nav-li"><a href="../life@akgec/studentchapters/csi.html">CSI</a></li>
-                            <li class="nav-li"><a href="../life@akgec/studentchapters/iste.html">ISTE</a></li>
-                            <li class="nav-li"><a href="../life@akgec/studentchapters/sae.html">SAE India</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-li"><a  href="../html/life@akgec/events.html">Events</a></li>
-                </ul>
+                    <a class="dropdown-item life-akg" href="../life@akgec/societieshome.html">Societies</a>
+                    <a class="dropdown-item life-akg" href="../life@akgec/events.html">Events</a>
+                   
                 </div>
                 </div>
               </li>
@@ -186,7 +151,7 @@
       <ol class="carousel-indicators">
         <li data-target="#lab" data-slide-to="0" class="active"></li>
         <li data-target="#lab" data-slide-to="1"></li>
-        <li data-target="#lab" data-slide-to="2"></li>
+        <!-- <li data-target="#lab" data-slide-to="2"></li> -->
       </ol>
       <!--/.Indicators-->
 
@@ -198,34 +163,43 @@
           <div class="row">
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
                 src="../../images/department/labs.png"
                 alt="Card image cap">
-              <div class="card-body labs_name">
-                <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
-              </div>
+                <div class="card-body labs_name">
+                  <h5 class="card-title text-center" style="font-weight: bold;">CONATUS</h5>
+                </div>
+              </a>
+              
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
                 src="../../images/department/labs.png"
                 alt="Card image cap">
                 <div class="card-body labs_name">
-                  <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
+                  <h5 class="card-title text-center" style="font-weight: bold;">NIRMAAN</h5>
                 </div>
+              </a>
+              
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
                 src="../../images/department/labs.png"
                 alt="Card image cap">
                 <div class="card-body labs_name">
-                  <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
+                  <h5 class="card-title text-center" style="font-weight: bold;">OORJA</h5>
                 </div>
+              </a>
+              
             </div>
           </div>
         </div>
@@ -237,71 +211,95 @@
           <div class="row">
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
-                src="../../images/department/labs.png" alt="Card image cap">
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
+                src="../../images/department/labs.png"
+                alt="Card image cap">
                 <div class="card-body labs_name">
-                  <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
+                  <h5 class="card-title text-center" style="font-weight: bold;">PHEONIX</h5>
                 </div>
+              </a>
+              
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
-                src="../../images/department/labs.png" alt="Card image cap">
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
+                src="../../images/department/labs.png"
+                alt="Card image cap">
                 <div class="card-body labs_name">
-                  <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
+                  <h5 class="card-title text-center" style="font-weight: bold;">SAMVEG</h5>
                 </div>
+              </a>
+              
             </div>
           </div>
 
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
-                src="../../images/department/labs.png" alt="Card image cap">
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
+                src="../../images/department/labs.png"
+                alt="Card image cap">
                 <div class="card-body labs_name">
-                  <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
+                  <h5 class="card-title text-center" style="font-weight: bold;">CONATUS</h5>
                 </div>
+              </a>
+              
             </div>
-          </div>
+          </div> -->
         </div>
         </div>
         <!--/.Second slide-->
 
         <!--Third slide-->
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <div class="row">
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
-                src="../../images/department/labs.png" alt="Card image cap">
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
+                src="../../images/department/labs.png"
+                alt="Card image cap">
                 <div class="card-body labs_name">
-                  <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
+                  <h5 class="card-title text-center" style="font-weight: bold;">CONATUS</h5>
                 </div>
+              </a>
+              
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
-                src="../../images/department/labs.png" alt="Card image cap">
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
+                src="../../images/department/labs.png"
+                alt="Card image cap">
                 <div class="card-body labs_name">
-                  <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
+                  <h5 class="card-title text-center" style="font-weight: bold;">CONATUS</h5>
                 </div>
+              </a>
+              
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top"
-                src="../../images/department/labs.png" alt="Card image cap">
+              <a href="./departmentalsoc/conatus.html">
+                <img class="card-img-top"
+                src="../../images/department/labs.png"
+                alt="Card image cap">
                 <div class="card-body labs_name">
-                  <h6 class="card-title text-center">DATA STRUCTURE LAB</h6>
+                  <h5 class="card-title text-center" style="font-weight: bold;">CONATUS</h5>
                 </div>
+              </a>
+              
             </div>
           </div>
         </div>
-        </div>
+        </div> -->
         <!--/.Third slide-->
 
       </div>
@@ -501,34 +499,43 @@
             <div class="row">
             <div class="col-md-4">
               <div class="card mb-2">
-                <img class="card-img-top"
+                <a href="./extracurricularsoc/euphony.html">
+                  <img class="card-img-top"
                   src="../../images/department/labs.png"
                   alt="Card image cap">
-                <div class="card-body labs_name">
-                  <h6 class="card-title text-center">HORIZON</h6>
-                </div>
+                  <div class="card-body labs_name">
+                    <h5 class="card-title text-center" style="font-weight: bold;">EUPHONY</h5>
+                  </div>
+                </a>
+                
               </div>
             </div>
 
             <div class="col-md-4">
               <div class="card mb-2">
-                <img class="card-img-top"
+                <a href="./extracurricularsoc/footprints.html">
+                  <img class="card-img-top"
                   src="../../images/department/labs.png"
                   alt="Card image cap">
                   <div class="card-body labs_name">
-                    <h6 class="card-title text-center">FOOTPRINTS</h6>
+                    <h5 class="card-title text-center" style="font-weight: bold;">FOOTPRINTS</h5>
                   </div>
+                </a>
+                
               </div>
             </div>
 
             <div class="col-md-4">
               <div class="card mb-2">
-                <img class="card-img-top"
+                <a href="./extracurricularsoc/goonj.html">
+                  <img class="card-img-top"
                   src="../../images/department/labs.png"
                   alt="Card image cap">
                   <div class="card-body labs_name">
-                    <h6 class="card-title text-center">TAAL</h6>
+                    <h5 class="card-title text-center" style="font-weight: bold;">GOONJ</h5>
                   </div>
+                </a>
+                
               </div>
             </div>
           </div>
@@ -540,31 +547,43 @@
             <div class="row">
             <div class="col-md-4">
               <div class="card mb-2">
-                <img class="card-img-top"
-                  src="../../images/department/labs.png" alt="Card image cap">
+                <a href="./extracurricularsoc/horizon.html">
+                  <img class="card-img-top"
+                  src="../../images/department/labs.png"
+                  alt="Card image cap">
                   <div class="card-body labs_name">
-                    <h6 class="card-title text-center">EUPHONY</h6>
+                    <h5 class="card-title text-center" style="font-weight: bold;">HORIZON</h5>
                   </div>
+                </a>
+                
               </div>
             </div>
 
             <div class="col-md-4">
               <div class="card mb-2">
-                <img class="card-img-top"
-                  src="../../images/department/labs.png" alt="Card image cap">
+                <a href="./extracurricularsoc/taal.html">
+                  <img class="card-img-top"
+                  src="../../images/department/labs.png"
+                  alt="Card image cap">
                   <div class="card-body labs_name">
-                    <h6 class="card-title text-center">GOONJ</h6>
+                    <h5 class="card-title text-center" style="font-weight: bold;">TAAL</h5>
                   </div>
+                </a>
+                
               </div>
             </div>
 
             <div class="col-md-4">
               <div class="card mb-2">
-                <img class="card-img-top"
-                  src="../../images/department/labs.png" alt="Card image cap">
+                <a href="./extracurricularsoc/verve.html">
+                  <img class="card-img-top"
+                  src="../../images/department/labs.png"
+                  alt="Card image cap">
                   <div class="card-body labs_name">
-                    <h6 class="card-title text-center">RENAISSANCE</h6>
+                    <h5 class="card-title text-center" style="font-weight: bold;">VERVE</h5>
                   </div>
+                </a>
+                
               </div>
             </div>
           </div>
@@ -576,15 +595,19 @@
             <div class="row">
             <div class="col-md-4">
               <div class="card mb-2">
-                <img class="card-img-top"
-                  src="../../images/department/labs.png" alt="Card image cap">
+                <a href="./extracurricularsoc/renaissance.html">
+                  <img class="card-img-top"
+                  src="../../images/department/labs.png"
+                  alt="Card image cap">
                   <div class="card-body labs_name">
-                    <h6 class="card-title text-center">VERVE</h6>
+                    <h5 class="card-title text-center" style="font-weight: bold;">RENAISSANCE</h5>
                   </div>
+                </a>
+                
               </div>
             </div>
 
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
               <div class="card mb-2">
                 <img class="card-img-top"
                   src="../../images/department/labs.png" alt="Card image cap">
@@ -604,7 +627,7 @@
               </div>
             </div>
           </div>
-          </div>
+          </div> -->
           <!--/.Third slide-->
 
         </div>
@@ -627,7 +650,7 @@
           <!--/.Controls-->
     
           <!--Indicators-->
-          <ol class="carousel-indicators">
+          <!-- <ol class="carousel-indicators">
             <li data-target="#labs_medium2" data-slide-to="0" class="active"></li>
             <li data-target="#labs_medium2" data-slide-to="1"></li>
             <li data-target="#labs_medium2" data-slide-to="2"></li>
@@ -640,7 +663,7 @@
             <li data-target="#labs_medium2" data-slide-to="9"></li>
             <li data-target="#labs_medium2" data-slide-to="10"></li>
             <li data-target="#labs_medium2" data-slide-to="11"></li>
-          </ol>
+          </ol> -->
           <!--/.Indicators-->
     
           <!--Slides-->
@@ -650,12 +673,15 @@
             <div class="carousel-item labs_card active">
               <div class="col-md-12">
                 <div class="card mb-2">
-                  <img class="card-img-top"
+                  <a href="./studentchapters/iste.html">
+                    <img class="card-img-top"
                     src="../../images/department/labs.png"
                     alt="Card image cap">
-                  <div class="card-body labs_name">
-                    <h6 class="card-title text-center">EUPHONY</h6>
-                  </div>
+                    <div class="card-body labs_name">
+                      <h5 class="card-title text-center" style="font-weight: bold;">ISTE</h5>
+                    </div>
+                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -663,12 +689,15 @@
             <div class="carousel-item labs_card">
               <div class="col-md-12">
                 <div class="card mb-2">
-                  <img class="card-img-top"
+                  <a href="./studentchapters/sae.html">
+                    <img class="card-img-top"
                     src="../../images/department/labs.png"
                     alt="Card image cap">
                     <div class="card-body labs_name">
-                      <h6 class="card-title text-center">FOOTPRINTS</h6>
+                      <h5 class="card-title text-center" style="font-weight: bold;">SAE</h5>
                     </div>
+                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -676,19 +705,22 @@
             <div class="carousel-item labs_card">
               <div class="col-md-12">
                 <div class="card mb-2">
-                  <img class="card-img-top"
+                  <a href="./studentchapters/csi.html">
+                    <img class="card-img-top"
                     src="../../images/department/labs.png"
                     alt="Card image cap">
                     <div class="card-body labs_name">
-                      <h6 class="card-title text-center">GOONJ</h6>
+                      <h5 class="card-title text-center" style="font-weight: bold;">CSI</h5>
                     </div>
-                  </div>
+                  </a>
+                  
+                </div>
                 </div>
               </div>
             <!--/.First slide-->
     
             <!--Second slide-->
-            <div class="carousel-item labs_card">
+            <!-- <div class="carousel-item labs_card">
               <div class="col-md-12">
                 <div class="card mb-2">
                   <img class="card-img-top"
@@ -722,11 +754,11 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             <!--/.Second slide-->
     
             <!--Third slide-->
-            <div class="carousel-item labs_card">
+            <!-- <div class="carousel-item labs_card">
               <div class="col-md-12">
                 <div class="card mb-2">
                   <img class="card-img-top"
@@ -760,7 +792,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             <!--/.Third slide-->
     
           </div>
