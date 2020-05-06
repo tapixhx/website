@@ -121,6 +121,35 @@
 
 /* navbar */
 
+/* carousel */
+.carousel-inner.vv-3 .carousel-item.active,
+.carousel-inner.vv-3 .carousel-item-next,
+.carousel-inner.vv-3 .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner.vv-3 .carousel-item-right.active,
+.carousel-inner.vv-3 .carousel-item-next {
+  transform: translateX(50%);
+}
+
+.carousel-inner.vv-3 .carousel-item-left.active,
+.carousel-inner.vv-3 .carousel-item-prev {
+  transform: translateX(-50%);
+}
+
+.carousel-inner.vv-3 .carousel-item-right,
+.carousel-inner.vv-3 .carousel-item-left {
+  transform: translateX(0);
+}
+.c-padding {
+    padding:1rem 0;
+}
+.my-carousel{
+    height: 555px;
+}
+/* carousel */
+
 
 .first_sec_pad {
     padding:8rem 0 0 0;
@@ -129,22 +158,32 @@
     padding:0 0 4rem 0;
 }
 
+.carousel-1 {
+    height:480px !important;
+}
+
 /* carousels */
 .labs_medium {
     display:none;
 }
 .labs_name {
     font-family: 'Open Sans', sans-serif;
-    color:#FDC95D;
+    color:#1D194F;
     font-weight:bold !important;
 }
 /* carousels */
 
-
+/* student chapter */
+.card-height {
+    height:18rem;
+}
+/* student chapter */
 
 /* media queries */
 @media only screen and (max-width:1024px) {
-
+    .carousel-1 {
+        height:420px !important;
+    }
 }
 @media only screen and (max-width:768px) {
     /* carousel */
@@ -159,34 +198,101 @@
         margin-left:10rem;
     }
     /* carousel */
+
+    /* deptt */
+    .deptt_medium_carousel {
+        height:350px !important;
+    }
+    /* deptt */
+
+    /* student chapter */
+    .student-card {
+        padding:2rem 10rem!important;
+    }
+    /* student chapter */
 }
 @media only screen and (max-width:455px) {
+    /* heading */
+    .sec_heading {
+        font-size:1.8rem;
+    }
+    /* heading */
+
     /* carousel */
     .labs_card {
         margin-left:2rem;
     }
     /* carousel */
+
+    /* deptt */
+    .card-height-carousel {
+        height:17rem;
+    }
+    /* deptt */
+
+    /* student chapter */
+    .student-card {
+        padding:2rem 3rem!important;
+    }
+    .card-height {
+        height:16rem;
+    }
+    /* student chapter */
 }
 @media only screen and (max-width:430px) {
+    /* carousel */
+    .labs_card {
+        margin-left:1rem;
+    }
+    /* carousel */
+}
+@media only screen and (max-width:375px) {
     /* carousel */
     .labs_card {
         margin-left:-.7rem;
     }
     /* carousel */
-}
-@media only screen and (max-width:375px) {
-    
+
+    /* deptt */
+    .card-height-carousel {
+        height:17rem;
+    }
+    /* deptt */
+
+    /* student chapters */
+    .card-height {
+        height:14rem;
+    }
+    /* student chapters */
 }
 @media only screen and (max-width:320px) {
+    /* heading */
+    .sec_heading {
+        font-size:1.6rem;
+    }
+    /* heading */
+
     /* caousel */
     .labs_card {
         width:18rem !important;
-        margin-left:0rem;
+        margin-left:.2rem;
     }
     .labs_medium_carousel {
         height:350px !important;
     }
     /* carousel */
+
+    /* deptt */
+    .card-height-carousel {
+        height:14rem;
+    }
+    /* deptt */
+
+    /* student chapter */
+    .student-card {
+        padding:1rem!important;
+    }
+    /* student chapter */
 }
 /* media queries */
 
