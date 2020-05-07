@@ -125,6 +125,9 @@
 .first_sec_pad_pm {
     padding:8rem 0 4rem 0;
 }
+.awards-pad {
+    padding:0 5rem !important;
+}
 .card_box {
     border-radius:10px;
     height:30rem;
@@ -177,22 +180,32 @@
 
 /* media queries */
 @media only screen and (max-width:1024px) {
-
+    .awards-pad {
+        padding:0 3rem !important;
+    }
 }
 @media only screen and (max-width:768px) {
-    
+    .awards-pad {
+        padding:2rem 10rem !important;
+    }
 }
 @media only screen and (max-width:455px) {
-    
+    .awards-pad {
+        padding:2rem 3rem !important;
+    }
 }
 @media only screen and (max-width:430px) {
     
 }
 @media only screen and (max-width:375px) {
-    
+    .awards-pad {
+        padding:2rem 2rem !important;
+    }
 }
 @media only screen and (max-width:320px) {
-    
+    .awards-pad {
+        padding:2rem 1rem !important;
+    }
 }
 /* media queries */
 
