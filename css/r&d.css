@@ -313,6 +313,12 @@
 .head_image {
     text-align: right;
 }
+
+/* single head */
+.head_desc_single {
+    padding:0 20rem 0 0 !important;
+}
+/* single head */
 /* faculty head */
 
 /* contact */
@@ -335,6 +341,10 @@
         padding:0rem;
     }
     /* what we do */
+
+    .head_desc_single {
+        padding:0 15rem 0 0 !important;
+    }
 }
 @media only screen and (max-width:768px) {
     /* what we do */
@@ -354,6 +364,10 @@
         margin-right:6rem;
     }
     /* faculty head */
+
+    .head_desc_single {
+        padding:0 0rem 0 0 !important;
+    }
 }
 @media only screen and (max-width:455px) {
     /* what we do */
