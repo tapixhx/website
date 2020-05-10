@@ -1,0 +1,381 @@
+/* common */
+.sec_pad {
+    padding: 4rem 0rem;
+}
+.sec_heading {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    font-size:2.2rem;
+    letter-spacing:1.5px;
+}
+.underline {
+    border:2px solid #FCCB67;
+    width:4rem;
+    margin-bottom:2rem;
+}
+.sec_text {
+    font-family: 'Open Sans', sans-serif;  
+}
+.sec_color_bg {
+    background-color:#FBFBFB;
+}
+.carousel .carousel-indicators li {
+    margin-top: 20px;
+    background-color: #fff;
+    background-color: rgba(70, 70, 70, 0.25);
+}
+.carousel .carousel-indicators .active {
+    background-color: #444;
+}
+.shadow {
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1) !important;
+}
+/* common */
+/* navbar */
+.nav-content {
+    color:#1D194F;
+}
+.navbar {
+    box-shadow:0px 0px 0px 0px !important;
+}
+.mynav {
+    background-color: #ffffff;
+}
+.d-button {
+    border:0;
+    background-color:transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+}
+.navbar-element {
+    font-family: 'Open Sans', sans-serif;
+}
+.d-button:focus {
+    outline:none;
+}
+
+/* life-akgec-nav-menu */
+.life-akg {
+    list-style: none;
+    padding: 0;
+    z-index: 200;
+}
+.life-akg li {
+    display: block;
+    position: relative;
+    float: left;
+}
+.life-akg li ul { display: none; }
+.life-akg li a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    padding: 10px;
+}
+.life-akg li a:hover {
+    background: #2c3e50;
+    text-decoration: none;
+    color: #1D194F;
+}
+.life-akg li:hover > ul {
+    display: block;
+    position: absolute;
+}
+.life-akg li:hover li { float: none; }
+.life-akg li:hover a { background-color: #FBFBFB;}
+.life-akg li:hover li a:hover { background: #FFF; }
+
+.life-akg li ul {
+    right: 100%;
+    top: 0;
+}
+.life-akg:before, .life-akg:after {
+    content: " ";
+    display: table;
+}
+.life-akg:after { clear: both; }
+/* life-akgec-nav-menu */
+
+/* hamburger */
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+/* hamburger */
+
+/* navbar */
+
+/* introduction */
+.si_sec_pad {
+    padding:8rem 0rem 0 0;
+}
+.r_desc {
+    color:#5A5A5A;
+}
+.r_desc p {
+    text-align: justify;
+}
+/* introduction */
+
+/* hostel cards */
+.stu_chap_pad{
+    padding: 2rem 0 4rem;
+}
+.sec_text{
+    padding: 0rem 0 4rem;
+}
+.card-title{
+    color: #FCCB67;
+}
+.card-height {
+    height:18rem;
+}
+
+/* hostel cards */
+
+/* other facilities */
+.facilities_section{
+    margin-bottom: 10rem;
+}
+.facilities_heading {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.facilities_list{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    padding: 0 10rem;
+
+}
+.facilities{
+    padding: 1rem 0;
+}
+.bullet{
+    padding-right: 1rem;
+}
+/* other facilities */
+
+/* media queries */
+@media only screen and (max-width:1024px) {
+    /* other facilities */
+    .facilities_list{
+        padding: 0 7.5rem;
+    
+    }
+    /* other facilities */
+}
+@media only screen and (max-width:768px) {
+
+    /* hostel cards  */
+    .student-card {
+        padding:2rem 10rem!important;
+    }
+    .sec_text{
+        padding: 0rem;
+    }
+    /* hostel cards  */
+
+    /* other facilities */
+    .facilities_list{
+        padding: 0 4.5rem;
+    
+    }
+    /* other facilities */
+    
+}
+@media only screen and (max-width:455px) {
+    /* heading */
+    .sec_heading {
+        font-size:1.8rem;
+    }
+    /* heading */
+
+    /* hostel cards  */
+    .student-card {
+        padding:2rem 3rem!important;
+    }
+    .card-height {
+        height:16rem;
+    }
+    /* hostel cards  */
+
+     /* other facilities */
+     .facilities_list{
+        padding: 0 1rem;
+    
+    }
+    .bullet{
+        padding-right: .7rem;
+    }
+    /* other facilities */
+}
+@media only screen and (max-width:430px) {
+
+}
+@media only screen and (max-width:375px) {
+
+    /* hostel cards s */
+    .card-height {
+        height:14rem;
+    }
+    /* hostel cards s */
+
+    /* other facilities */
+    .facilities_list{
+        padding: 0 .7rem;
+    
+    }
+    .bullet{
+        padding-right: .3rem;
+    }
+    /* other facilities */
+}
+@media only screen and (max-width:320px) {
+    /* heading */
+    .sec_heading {
+        font-size:1.6rem;
+    }
+    /* heading */
+
+    /* hostel cards  */
+    .student-card {
+        padding:1rem!important;
+    }
+    /* hostel cards  */
+
+    /* other facilities */
+    .facilities_list{
+        padding: 0 .3rem;
+    
+    }
+    .bullet{
+        padding-right: .1rem;
+    }
+    /* other facilities */
+}
+/* media queries */
+
+/* footer */
+.list-unstyled{
+    color: black;
+ }
+ 
+ .footer-akg {
+     padding-left: 4rem !important;
+     border-right: 2px solid #000;
+ }
+ 
+ .footer-main {
+     background-color: #dedede
+ }
+ 
+ .footer-copy{
+     border-top: 5px solid #fdc95d;
+     color: #2e2e2e;
+     background-color: #fff;
+     font-size: 1.3rem
+ }
+ 
+ .copyright-link {
+     color: #2e2e2e !important;
+     text-decoration: underline !important
+ }
+ 
+ .footer-vertical-line {
+     border-right: 2px solid #000
+ }
+ 
+ .footer-list1 {
+     margin-left: 1.5rem;
+     font-size: 1.1rem;
+     font-weight: 500
+ }
+ 
+ .footer-list2{
+     margin-left: 1.5rem;
+ }
+ 
+ .footer-email {
+     font-size: 1.2rem;
+     font-weight: 500;
+     margin-bottom: 1rem
+ }
+ 
+ .footer-number {
+     font-size: 0.8rem;
+     font-weight: 450
+ }
+ 
+ .footer-college1 {
+     margin-top: 0.5rem;
+     font-size: 1.2rem;
+     font-weight: 500
+ }
+ 
+ .footer-college2 {
+     font-weight: 500
+ }
+ 
+ .footer-logo {
+     margin-left: 4rem;
+ }
+ 
+ @media only screen and (max-width: 991px)
+ {
+     .footer-logo {
+         margin-left: 4rem
+     }
+     .footer-akg {
+         padding-left: 1rem !important;
+     }
+     .event-date{
+         font-size: 1rem;
+     }
+     
+     .event-month{
+         font-size: 1rem;
+     }
+     
+ }
+ 
+ @media only screen and (max-width: 767px)
+ {
+     .footer-list1 {
+         margin-left: 0rem;
+     }
+     
+     .footer-list2{
+         margin-left: 0rem;
+     }
+     .footer-logo {
+         margin-left: 0rem
+     }
+     .footer-akg {
+         padding-left: 1rem !important;
+         border-right: 0;
+     }
+     .footer-vertical-line {
+         border-right: 0
+     }
+ }
+ /* footer */
