@@ -147,7 +147,7 @@
     background-color: #fff;
     position:fixed;
     top:12rem;
-    left:30rem;
+    left:32.5rem;
     width:30rem;
     height:20rem;
     padding:1.5rem 1rem 1rem 1rem;
@@ -205,7 +205,7 @@
 @media only screen and (max-width:455px) {
     .card-popup {
         top:13rem;
-        left:4.5rem;
+        left:4.3rem;
         width:20rem;
         height:22rem;
     }
@@ -453,9 +453,15 @@
  }
  
  .copyright-link {
-     color: #2e2e2e !important;
-     text-decoration: underline !important
- }
+    color:#1D194F;
+}
+.copyright-link:hover {
+    text-decoration: underline !important;
+}
+.copy-text {
+   font-family: 'Raleway', sans-serif;
+   color:#1D194F;
+}
  
  .footer-vertical-line {
      border-right: 2px solid #000

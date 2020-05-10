@@ -511,8 +511,14 @@
  }
  
  .copyright-link {
-     color: #2e2e2e !important;
-     text-decoration: underline !important
+     color:#1D194F;
+ }
+ .copyright-link:hover {
+     text-decoration: underline !important;
+ }
+ .copy-text {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
  }
  
  .footer-vertical-line {
