@@ -138,14 +138,6 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-/* .visit-date {
-    padding:4px;
-    border-radius:5px;
-    background-color: #1D194F;
-    color:#fff;
-    margin-right:5px;
-    font-weight: 800;
-} */
 .text-scroll {
     height:12rem;
     overflow-y:auto;
