@@ -180,6 +180,31 @@
 }
 /* Common */
 
+
+
+
+
+/* media queries */
+@media only screen and (max-width:1024px) {
+
+}
+@media only screen and (max-width:768px) {
+    
+}
+@media only screen and (max-width:455px) {
+    
+}
+@media only screen and (max-width:430px) {
+    
+}
+@media only screen and (max-width:375px) {
+    
+}
+@media only screen and (max-width:320px) {
+    
+}
+/* media queries */
+
 /* footer */
 .list-unstyled{
     color: black;
