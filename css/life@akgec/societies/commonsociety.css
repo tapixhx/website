@@ -135,12 +135,12 @@
 
 .carousel-inner.vv-3 .carousel-item-right.active,
 .carousel-inner.vv-3 .carousel-item-next {
-  transform: translateX(100%);
+  transform: translateX(33%);
 }
 
 .carousel-inner.vv-3 .carousel-item-left.active,
 .carousel-inner.vv-3 .carousel-item-prev {
-  transform: translateX(-100%);
+  transform: translateX(-33%);
 }
 
 .carousel-inner.vv-3 .carousel-item-right,
@@ -197,6 +197,12 @@
         max-width: 2.3rem !important;
         flex:none !important;
     }
+}
+.card-img-top{
+    height: 11rem!important;
+}
+.activity_card{
+    height: 25rem!important;
 }
 /* activities */
 
@@ -279,7 +285,7 @@
         display:block;
     }
     .activity_card {
-        margin-left:12rem;
+        margin-left:10.5rem;
         width:23rem;
     }
     .activity-date-container {
@@ -310,7 +316,7 @@
     }
     .activity_card {
         width:20rem;
-        margin-left:3rem;
+        margin-left:2.3rem;
     }
     .activity-date-container {
         padding-left:3.4rem !important;
@@ -379,7 +385,7 @@
     }
     .activity_card {
         width:17rem;
-        margin-left:-.1rem;
+        margin-left:-.3rem;
     }
     .activity-date-container {
         padding-left:2rem !important;

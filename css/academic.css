@@ -147,7 +147,7 @@
     padding:2.5rem 2.5rem;
 }
 .issuance_box_2 {
-    padding:2.5rem 3rem 4rem 3rem;
+    padding:2.5rem 3rem;
 }
 .landing_box_heading{
     padding: 1rem;
@@ -191,6 +191,9 @@
     font-size: 1.1rem;
 
 }
+.box-height{
+    height: 30.6rem!important;
+}
 /* landing */
 
 
@@ -211,9 +214,33 @@
     .issuance_box_1 {
         padding:2rem 2.5rem;
     }
+    .box-height{
+        height: 33rem!important;
+    }
 }
 @media only screen and (max-width:768px) {
-    
+    .landing_box_highlight {
+        padding: 1rem 1.5rem;
+        margin: 3rem 0rem 4rem!important;
+    }
+    .academic_cardsrow{
+        padding: 0 15px!important;
+    }
+    .issuance_box_2 {
+        padding: 1rem 1.5rem 2.5rem;
+    }
+    .landing_box_highlight_bottom {
+        margin: 3rem 0rem 4rem!important;
+    }
+    .issuance_box_1 {
+        padding: 1rem 1.5rem;
+    }
+    .landing_imp {
+        margin: 3rem 2.5rem 0;
+    }
+    .box-height{
+        height: 32.3rem!important;
+    }
 }
 @media only screen and (max-width:455px) {
     .landing_box_highlight{
@@ -236,6 +263,9 @@
     }
     .issuance_box_2 {
         padding:2.5rem 3rem;
+    }
+    .box-height{
+        height: auto!important;
     }
 }
 @media only screen and (max-width:428px) {
