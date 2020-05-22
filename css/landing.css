@@ -274,7 +274,7 @@
 .campusimage {
     height:60vh;
     width:100%;
-    background:url(../images/home/tour.jpg);
+    background:url(../images/home/tour.png);
     background-size:100% 100%;
     background-attachment:fixed;
 }
@@ -407,7 +407,7 @@
 
 /* Why AKGEC */
 .akg-img-first {
-    background:url(../images/home/college.jpg);
+    background:url(../images/home/college.png);
     height:100vh;
     width:100%;
     background-size:100% 100%;
@@ -445,7 +445,7 @@
     margin-top:4rem;
 }
 .akg-img-second {
-    background:url(../images/home/whyakg.jpg);
+    background:url(../images/home/whyakg.png);
     height:100vh;
     width:100%;
     background-size:100% 100%;
@@ -459,7 +459,7 @@
     padding:8rem 6rem;
 }
 .akg-img-third {
-    background:url(../images/home/whyakg2.jpg);
+    background:url(../images/home/whyakg2.png);
     height:100vh;
     width:100%;
     background-size:100% 100%;
@@ -473,7 +473,7 @@
     padding:8rem 6rem;
 }
 .akg-img-fourth {
-    background:url(../images/home/whyakg3.jpg);
+    background:url(../images/home/whyakg3.png);
     height:100vh;
     width:100%;
     background-size:100% 100%;
@@ -669,6 +669,14 @@
  .partner-img {
      padding:2rem !important;
      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ }
+ .industry_card{
+     height: 72px!important;
+    
+ }
+ .industry_card img{
+     height: 100%;
+     
  }
  /* Industry_partners */
 
