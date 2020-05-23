@@ -672,6 +672,7 @@
  }
  .industry_card{
      height: 72px!important;
+     padding:1rem;
     
  }
  .industry_card img{
