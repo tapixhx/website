@@ -291,15 +291,72 @@
  }
  /* footer */
 
- /* media queries */
-@media only screen and (max-width:1024px) {
+ .sec_pad_landing{
+    padding:10rem 0rem 2rem;
+}
+.landing_box_heading{
+    padding: 1rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:.8px;
+    color: #355C7D;
+    font-weight: 900!important;
+    font-size: 1.15rem;
+}
+.landing_box_text{
+    font-family: 'Open Sans', sans-serif; 
+    color: #355C7D;    
+}
+/* same as in academic : text-color:change */
+
+.landing_box_highlight_download{
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
+    padding: 2.5rem 3rem;
+    margin: 3rem 6rem 6rem!important;
+    border-radius: 10px;
+}
+.box-height {
+    height:44rem;
+}
+.management_list{
+    padding: .5rem 0 0 1em!important;
+}
+.landing_box_text ul{
+    list-style-image: url(../../images/about/Group\ 354.png);
     
+}
+
+
+
+/* application form */
+ 
+ /* media queries */
+ @media only screen and (max-width:1440px) {
+    .box-height {
+        height:44rem;
+    }
+    .landing_box_highlight_download {
+        padding: 2.5rem 1.5rem ; 
+    }
+}
+@media only screen and (max-width:1024px) {
+    /* application form */
+    .landing_box_highlight_download {
+        padding: 2.5rem 2rem;
+        margin: 3rem .9rem 4rem!important;
+    }
 }
 @media only screen and (max-width:768px) {
-    
+    .landing_box_highlight_download {
+        padding: 2rem 1.5rem 2.5rem .3rem;
+    }
 }
 @media only screen and (max-width:455px) {
-   
+    .box-height {
+        height:auto;
+    }
+    .academic_img {
+        width:4rem;
+    }
 }
 @media only screen and (max-width:430px) {
     
@@ -308,6 +365,16 @@
   
 }
 @media only screen and (max-width:320px) {
+    .landing_box_highlight_download{
+        padding: .5rem .9rem .3rem 0rem;
+        margin: 3rem .5rem 4rem!important;
+    }
+    .management_list{
+        padding: .5rem 0 0 .5em!important;
+    }
+    .academic_img {
+        width:3rem;
+    }
     
 }
 /* media queries */
