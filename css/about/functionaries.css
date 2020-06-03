@@ -180,6 +180,29 @@
 }
 /* Common */
 
+
+
+ /* media queries */
+ @media only screen and (max-width:1024px) {
+    
+}
+@media only screen and (max-width:768px) {
+    
+}
+@media only screen and (max-width:455px) {
+   
+}
+@media only screen and (max-width:430px) {
+    
+}
+@media only screen and (max-width:375px) {
+  
+}
+@media only screen and (max-width:320px) {
+    
+}
+/* media queries */
+
 /* footer */
 .list-unstyled{
     color: black;
@@ -290,68 +313,3 @@
      }
  }
  /* footer */
-
- /* imp func */
- .sec_pad_tp {
-    padding:8rem 0 4rem 0;
-}
-.func_cards_container{
-    padding: 0rem 4rem 1rem 2rem!important;
-}
-.faculty_box {
-    background-color:#fff;
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
-    padding:1rem 1.5rem;
-    border-radius:5px;
-}
-.head_desc {
-    padding:0 !important;
-}
-/* .head_desc_single {
-    padding:0 25rem 0 0 !important;
-} */
-.head_str {
-    font-weight:800;
-    color:#FDD329;
-}
-.faculty_head_name {
-    font-weight: 800;
-}
-.head_image_container {
-    text-align: right;
-    padding: 0 8px!important;
-}
-.head_img{
-    border-radius: 5px;
-}
- /* imp func */
-
- /* media queries */
-@media only screen and (max-width:1024px) {
-    
-}
-@media only screen and (max-width:768px) {
-    
-    .head_desc_single {
-        padding:0 !important;
-    }
-    .faculty_box {
-        padding:0rem 1.5rem;
-    }
-    .func_cards_container{
-        padding: 0rem 2.5rem 1rem 2rem!important;
-    }
-}
-@media only screen and (max-width:455px) {
-   
-}
-@media only screen and (max-width:430px) {
-    
-}
-@media only screen and (max-width:375px) {
-  
-}
-@media only screen and (max-width:320px) {
-    
-}
-/* media queries */
