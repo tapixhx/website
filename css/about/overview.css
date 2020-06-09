@@ -121,6 +121,12 @@
 
 /* navbar */
 
+/* overview */
+.pd {
+    padding:0 2rem;
+}
+/* overview */
+
 /* director */
 .director-img{
     width: 400px;
@@ -188,9 +194,6 @@
     .abt-col-pad {
         padding:0 6rem !important;
         margin-bottom:2rem;
-    }
-    .undisplay {
-        display:none;
     }
     /* education,career,exp */
 
