@@ -146,6 +146,53 @@
 }
 /* landing */
 
+/* departments */
+.second-row {
+    margin-top:4rem;
+}
+.sec_pad_deptt {
+    padding:4rem 0;
+}
+.container-deptt {
+    padding:0 2.6rem;
+}
+.deptt-box {
+    border-radius:40px;
+    padding:1.2rem;
+    margin:0 3.4rem;
+    height:365px;
+    overflow:hidden;
+}
+.deptt-name {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-size:16px;
+    font-weight:800;
+}
+.deptt-desc {
+    font-family: 'Open Sans', sans-serif;
+    color:#1D194F;
+    font-size:14px;
+}
+.more-btn {
+    border-radius:20px;
+    font-family: 'Open Sans', sans-serif;
+    border:2px solid #707070;
+    font-size:13px;
+    padding:.3rem .6rem;
+    background-color:transparent;
+    font-weight:800;
+}
+.more-btn:hover {
+    background-color:#707070;
+    color:#fff;
+    transition:.2s all;
+}
+.more-btn:focus {
+    outline:none;
+}
+/* departments */
+
 /* media queries */
 @media only screen and (max-width:1024px) {
     /* landing */
@@ -153,6 +200,13 @@
         padding:1rem 4.2rem !important;
     }
     /* landing */
+
+    /* departments */
+    .deptt-box {
+        margin:0 .5rem;
+        height:380px;
+    }
+    /* departments */
 }
 @media only screen and (max-width:768px) {
     /* landing */
@@ -163,6 +217,19 @@
         margin-top:.8rem;
     }
     /* landing */
+
+    /* departments */
+    .second-row {
+        margin-top:0rem;
+    }
+    .sec_pad_deptt {
+        padding:0rem 0 4rem 0;
+    }
+    .deptt-box {
+        margin:0 4rem 4rem;
+        height:auto;
+    }
+    /* departments */
 }
 @media only screen and (max-width:455px) {
     /* landing */
@@ -170,15 +237,39 @@
         font-size:2.2rem;
     }
     /* landing */
+
+    /* departments */
+    .deptt-box {
+        margin:0 1rem 4rem;
+    }
+    /* departments */
 }
 @media only screen and (max-width:430px) {
-    
+    /* departments */
+    .deptt-box {
+        margin:0 .5rem 4rem;
+    }
+    /* departments */
 }
 @media only screen and (max-width:375px) {
-    
+    /* departments */
+    .container-deptt {
+        padding:0 1.4rem;
+    }
+    .deptt-box {
+        margin:0 .2rem 4rem;
+    }
+    /* departments */
 }
 @media only screen and (max-width:320px) {
-    
+    /* departments */
+    .container-deptt {
+        padding:0 1rem;
+    }
+    .deptt-box {
+        margin:0 0rem 4rem;
+    }
+    /* departments */
 }
 /* media queries */
 
