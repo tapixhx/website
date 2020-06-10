@@ -1,6 +1,6 @@
 /* common */
 .sec_pad {
-    padding: 4rem 0rem;
+    padding: 2rem 0rem;
 }
 .sec_heading {
     font-family: 'Raleway', sans-serif;
@@ -183,11 +183,81 @@
 .acr-margin {
     margin-top:3rem;
 }
+.acr_contain{
+    padding: 0 7rem!important;
+}
+.acr-box-pad{
+    padding: 1.5rem 4rem!important;
+}
 /* acceredation */
 
-/* media queries */
-@media only screen and (max-width:1024px) {
+/* management */
+.manage-head{
+    margin:0 0 0 10rem!important;
+}
+.manage-illus-contain{
+    padding: 0 10rem!important;
+}
+.manage-gov-contain{
+    padding: 0 5rem!important;
+}
+.manage-gov-box{
+    border: 1px solid #FCCB67;
+    border-radius: 5px;
+    margin:3rem 1rem 0!important;
+    padding: 1rem 0;
+    
+}
+.manage-names-contain{
+    margin-bottom: 3rem;
+}
+.medium-screen{
+    display: none;
+}
 
+/* management */
+
+/* media queries */
+@media only screen and (max-width:1440px) {
+    .acr_contain{
+        padding: 0 5rem!important;
+    }
+/* management */
+.manage-head{
+    margin:0 0 0 8rem!important;
+}
+
+/* management */
+}
+@media only screen and (max-width:1024px) {
+    .acr_contain{
+        padding: 0 2rem!important;
+    }
+    .acr-box-pad{
+        padding: 1rem 1rem!important;
+    }
+    .acr-box {
+        border-radius: 30px;
+        padding:1.9rem;
+        
+    }
+/* management */
+.manage-head{
+    margin:0 0 0 2rem!important;
+}
+.manage-gov-contain{
+    padding: 0 2rem!important;
+}
+.manage-gov-box{
+    margin:3rem 0rem 0!important;  
+}
+.manage-illus-contain{
+    padding: 0 2rem!important;
+}
+.manage-margin{
+    margin-left: -3rem;
+}
+/* management */
 }
 @media only screen and (max-width:768px) {
     /* education,career,exp */
@@ -208,6 +278,23 @@
         margin-top: 0;
     }
     /* accredation */
+    /* management */
+.manage-gov-contain{
+    padding: 0 2rem!important;
+}
+.manage-gov-box{
+    margin:3rem 0rem 0!important;  
+}
+.manage-illus-contain{
+    padding: 0 2rem!important;
+}
+.medium-screen{
+    display: block;
+}
+.large-screen{
+    display: none;
+}
+/* management */
 }
 @media only screen and (max-width:455px) {
     /* education,career,exp */
