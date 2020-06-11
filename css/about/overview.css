@@ -186,7 +186,7 @@
     width: 400px;
 }
 .dir-img{
-    padding:0 4rem 0 5rem!important;
+    padding:0 4rem!important;
 }
 
 .dir-head {
@@ -197,7 +197,7 @@
 }
 
 .director-text {
-    padding: 2rem .9rem 2rem 0rem;
+    padding: 3rem .9rem 2rem 0rem;
     color: white;
 }
 .hod_desc{
@@ -238,15 +238,18 @@
 
 /* acceredation */
 .acr-box {
-    border-radius: 50px;
+    border-radius: 35px;
     padding: 2.2rem;
-    margin: 0 .5rem;
+   
 }
 
 .height-box {
-    height: 372px;
+    height: 367px;
 }
-
+.height-box-1{
+    height: 340px;
+    padding-top: 4rem;
+}
 .acr-head {
     font-family: 'Raleway', sans-serif;
     color: #1D194F;
@@ -259,26 +262,26 @@
 }
 
 .acr_contain {
-    padding: 0 7rem !important;
+    padding: 2rem !important;
 }
 
 .acr-box-pad {
-    padding: 1.5rem 4rem !important;
+    padding: 1.5rem 6rem !important;
 }
 
 /* acceredation */
 
 /* management */
 .manage-head {
-    margin: 0 0 0 10rem !important;
+    padding: 0 0 0 2.5rem !important;
 }
 
 .manage-illus-contain {
-    padding: 0 10rem !important;
+    padding: 0 5rem !important;
 }
 
 .manage-gov-contain {
-    padding: 0 5rem !important;
+    padding: 0 2rem !important;
 }
 
 .manage-gov-box {
@@ -286,6 +289,7 @@
     border-radius: 5px;
     margin: 3rem 1rem 0 !important;
     padding: 1rem 0;
+   
 
 }
 
@@ -299,22 +303,58 @@
 .manage-text-pad{
     padding: 3rem 1rem 3rem 2rem!important;
 }
+.manage_heading{
+    font-family: 'Raleway', sans-serif;
+    color: #1D194F;
+    font-weight: 800;
+    font-size: 1.9rem;
+    letter-spacing: 1.5px;
+    margin-right: 5rem;   
+    cursor: pointer;
+}
+
+
 
 /* management */
 
+ /* imp func */
+ .sec_pad_tp {
+    padding:8rem 0 4rem 0;
+}
+.func_cards_container{
+    padding: 0rem 4rem 1rem 2rem!important;
+}
+.faculty_box {
+    background-color:#fff;
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
+    padding:1rem 1.5rem;
+    border-radius:5px;
+}
+.head_desc {
+    padding:0 !important;
+}
+/* .head_desc_single {
+    padding:0 25rem 0 0 !important;
+} */
+.head_str {
+    font-weight:800;
+    color:#FDD329;
+}
+.faculty_head_name {
+    font-weight: 800;
+}
+.head_image_container {
+    text-align: right;
+    padding: 0 8px!important;
+}
+.head_img{
+    border-radius: 5px;
+}
+ /* imp func */
+
 /* media queries */
 @media only screen and (max-width:1440px) {
-    .acr_contain {
-        padding: 0 5rem !important;
-    }
    
-
-    /* management */
-    .manage-head {
-        margin: 0 0 0 8rem !important;
-    }
-
-    /* management */
 }
 
 @media only screen and (max-width:1024px) {
@@ -323,14 +363,18 @@
     }
 
     .acr-box-pad {
-        padding: 1rem 1rem !important;
+        padding: 1rem 1.5rem !important;
     }
 
     .acr-box {
         border-radius: 30px;
-        padding: 1.9rem;
+        padding: 1.3rem 1.9rem;
 
     }
+    .height-box-1{
+        padding-top: 2.7rem;
+    }
+    
 
     /* overview */
     .pd {
@@ -348,12 +392,15 @@
     /* overview */
     /* director */
     .dir-img{
-        padding:0 1rem!important;
+        padding:0!important;
+    }
+    .hod_desc{
+        padding-top: 0rem;
     }
 
     /* management */
     .manage-head {
-        margin: 0 0 0 2rem !important;
+        padding: 0 0 0 3rem !important;
     }
 
     .manage-gov-contain {
@@ -366,10 +413,6 @@
 
     .manage-illus-contain {
         padding: 0 2rem !important;
-    }
-
-    .manage-margin {
-        margin-left: -3rem;
     }
 
     /* management */
@@ -439,6 +482,17 @@
     }
 
     /* management */
+
+    /* functionaries */
+    .head_desc_single {
+        padding:0 !important;
+    }
+    .faculty_box {
+        padding:0rem 1.5rem;
+    }
+    .func_cards_container{
+        padding: 0rem 2.5rem 1rem 2rem!important;
+    }
 }
 
 @media only screen and (max-width:455px) {
