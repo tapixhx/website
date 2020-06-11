@@ -414,6 +414,9 @@
     .manage-illus-contain {
         padding: 0 2rem !important;
     }
+    .manage-head {
+        padding: 0 !important;
+    }
 
     /* management */
 }
@@ -427,6 +430,9 @@
     }
     .career-text{
         padding: 0rem!important;
+    }
+    .career-img{
+        text-align: center!important;
     }
 
     /* education,career,exp */
@@ -458,6 +464,14 @@
     /* director */
     .director-img {
         width: 350px;
+       
+    }
+    /* .dir-img{
+        padding: 0 12rem!important;
+    } */
+    .dir-img{
+       
+        text-align: center!important;
     }
 
     /* management */
@@ -480,6 +494,12 @@
     .large-screen {
         display: none;
     }
+    .manage_heading{
+        font-size: 1.5rem;
+        margin-right: 3rem;   
+        
+    }
+    
 
     /* management */
 
@@ -508,7 +528,7 @@
         padding: 0 4rem !important;
     }
     .career-img{
-        padding: 0rem 7rem 0rem 2rem!important;
+        padding: 0rem 4rem!important;
     }
     .career-text{
         padding: 0 2rem 0 1rem!important;
@@ -541,20 +561,30 @@
     .hod_desc{
         font-size: 14px;
     }
+    
 
     /* management */
     .manage-head {
         margin: 0 !important;
-        padding:0rem 2rem!important;
+        padding-left: 2rem!important;
     }
     .manage-text-pad{
         padding: 3rem 0rem 0rem 1rem!important;
     }
     .gov-council-img{
-        padding: 1rem 5rem 1rem .5rem;
+        padding: 1rem 2rem;
+       
     }
     .gov-img{
-        padding: 0 5rem 0 0rem;
+        padding: 0 2rem;
+    }
+    .manage_heading{
+        font-size: 1.3rem;
+        margin-right: 0rem;   
+        
+    }
+    .manage-ul{
+        padding-left: 0!important;
     }
     /* management  */
 
@@ -582,7 +612,7 @@
         padding: 0 2rem !important;
     }
     .career-img{
-        padding: 0rem 5rem 0rem 1.5rem!important;
+        padding: 0rem 2rem!important;
     }
     .career-text{
         padding: 0 1rem 0 0rem!important;
@@ -618,7 +648,8 @@
     /* management */
     .manage-head {
         margin: 0 !important;
-        padding:0rem 1rem!important;
+        padding-left: 1rem!important;
+       
     }
     .manage-illus-contain{
         padding: 1rem!important;
@@ -627,14 +658,20 @@
         padding: 3rem 1rem 0rem 1rem!important;
     }
     .gov-council-img{
-        padding: 1rem 3rem 1rem .5rem;
+        padding: 1rem 1rem;
     }
     .gov-img{
-        padding: 0 3rem 0 0rem;
+        padding: 0 1rem;
     }
     .head{
         font-size: 1.3rem!important;
     }
+    .manage_heading{
+        font-size: 1.1rem;
+        margin-right: 0rem;   
+        
+    }
+    
     /* management  */
     /* accredation */
     
