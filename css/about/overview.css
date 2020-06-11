@@ -164,15 +164,15 @@
 
 /* overview */
 .pd {
-    padding: 0 10rem !important;
+    padding: 0 5rem !important;
 }
 
 .vission-pd {
-    padding: 0 11rem !important;
+    padding: 0 6rem !important;
 }
 
 .overview-img {
-    padding-top: 4rem !important;
+    padding-right: 2rem !important;
 }
 
 .overview-text {
@@ -185,6 +185,9 @@
 .director-img {
     width: 400px;
 }
+.dir-img{
+    padding:0 4rem 0 5rem!important;
+}
 
 .dir-head {
     font-family: 'Raleway', sans-serif;
@@ -194,8 +197,11 @@
 }
 
 .director-text {
-    padding: 2rem .9rem 1rem 0rem;
+    padding: 2rem .9rem 2rem 0rem;
     color: white;
+}
+.hod_desc{
+    padding-top: 1rem;
 }
 
 /* director */
@@ -301,17 +307,8 @@
     .acr_contain {
         padding: 0 5rem !important;
     }
+   
 
-    /* overview */
-    .pd {
-        padding: 0 8rem !important;
-    }
-
-    .vission-pd {
-        padding: 0 9rem !important;
-    }
-
-    /* overview */
     /* management */
     .manage-head {
         margin: 0 0 0 8rem !important;
@@ -350,8 +347,8 @@
 
     /* overview */
     /* director */
-    .director-img {
-        width: 470px;
+    .dir-img{
+        padding:0 1rem!important;
     }
 
     /* management */
@@ -385,6 +382,9 @@
         padding: 0 6rem !important;
         margin-bottom: 2rem;
     }
+    .career-text{
+        padding: 0rem!important;
+    }
 
     /* education,career,exp */
 
@@ -405,7 +405,7 @@
 
     /* overview */
     .overview-img {
-        padding: 1rem 1rem 2rem !important;
+        padding: 0rem 1rem 2rem !important;
     }
 
     .overview-text {
@@ -414,12 +414,7 @@
 
     /* director */
     .director-img {
-        width: 400px;
-        margin: 1rem 0 0 -3rem !important;
-    }
-
-    .director-text {
-        padding: 2rem .9rem 1rem 2rem;
+        width: 350px;
     }
 
     /* management */
@@ -459,7 +454,7 @@
         padding: 0 4rem !important;
     }
     .career-img{
-        padding: 0rem 5rem 0rem 2rem!important;
+        padding: 0rem 7rem 0rem 2rem!important;
     }
     .career-text{
         padding: 0 2rem 0 1rem!important;
@@ -470,6 +465,12 @@
     /* accredation */
     .acr-box {
         margin-bottom: 0rem;
+    }
+    .acr-img{
+        padding-right: 10rem!important;
+    }
+    .acr-box{
+        padding: 1rem;
     }
 
     /* director */
@@ -518,12 +519,83 @@
 }
 
 @media only screen and (max-width:320px) {
-
-    /* accredation */
-    .acr-box {
-        margin: 0 0 3rem 0;
+    .sec_heading {
+        font-size: 1.3rem;
     }
 
+    /* education,career,exp */
+    .abt-col-pad {
+        padding: 0 2rem !important;
+    }
+    .career-img{
+        padding: 0rem 5rem 0rem 1.5rem!important;
+    }
+    .career-text{
+        padding: 0 1rem 0 0rem!important;
+    }
+
+    /* education,career,exp */
+    /* overview */
+    .pd {
+        padding: 0 1rem !important;
+    }
+
+    .vission-pd {
+        padding: 0 2rem !important;
+    }
+
+    
+
+    /* director */
+    .director-img {
+        width: 200px;
+        margin: 1rem 0 0 -1rem !important;
+    }
+    .dir-head{
+        font-size: 1.3rem;
+    }
+    .dir-desig{
+        font-size: 1rem!important;
+    }
+    .hod_desc{
+        font-size: 14px;
+    }
+
+    /* management */
+    .manage-head {
+        margin: 0 !important;
+        padding:0rem 1rem!important;
+    }
+    .manage-illus-contain{
+        padding: 1rem!important;
+    }
+    .manage-text-pad{
+        padding: 3rem 1rem 0rem 1rem!important;
+    }
+    .gov-council-img{
+        padding: 1rem 3rem 1rem .5rem;
+    }
+    .gov-img{
+        padding: 0 3rem 0 0rem;
+    }
+    .head{
+        font-size: 1.3rem!important;
+    }
+    /* management  */
+    /* accredation */
+    
+    .acr-head{
+        font-size: 21px;
+    }
+    .acr_contain{
+        padding: 0 1rem!important;
+    }
+    /* .acr-box{
+        padding: 1rem;
+    }
+    .acr-img{
+        padding-right: 10rem!important;
+    } */
     /* accredation */
 }
 
