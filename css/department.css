@@ -534,112 +534,57 @@
 /* media queries */
 
 /* footer */
-.list-unstyled{
-    color: black
- }
- 
- .footer-akg {
-     padding-left: 4rem !important;
-     border-right: 2px solid #000;
- }
- 
- .footer-main {
-     background-color: #dedede
- }
- 
- .footer-copy{
-     border-top: 5px solid #fdc95d;
-     color: #2e2e2e;
-     background-color: #fff;
-     font-size: 1.3rem
- }
- 
- .copyright-link {
-    color:#1D194F;
+.footer-row1 {
+    padding: 2rem 5rem 0rem !important;
+    margin: 5rem 0 0 !important;
+
 }
-.copyright-link:hover {
-    text-decoration: underline !important;
+
+.footer-stayintouch {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
 }
-.copy-text {
-   font-family: 'Raleway', sans-serif;
-   color:#1D194F;
+
+/* footer */
+
+/* footer-media queries */
+
+
+@media only screen and (max-width:1024px) {
+
+
+    /* footer */
+    .footer-row1 {
+        padding: 2rem 2rem 0rem !important;
+    }
 }
- 
- .footer-vertical-line {
-     border-right: 2px solid #000
- }
- 
- .footer-list1 {
-     margin-left: 1.5rem;
-     font-size: 1.1rem;
-     font-weight: 500
- }
- 
- .footer-list2{
-     margin-left: 1.5rem;
- }
- 
- .footer-email {
-     font-size: 1.2rem;
-     font-weight: 500;
-     margin-bottom: 1rem
- }
- 
- .footer-number {
-     font-size: 0.8rem;
-     font-weight: 450
- }
- 
- .footer-college1 {
-     margin-top: 0.5rem;
-     font-size: 1.2rem;
-     font-weight: 500
- }
- 
- .footer-college2 {
-     font-weight: 500
- }
- 
- .footer-logo {
-     margin-left: 4rem;
- }
- 
- @media only screen and (max-width: 991px)
- {
-     .footer-logo {
-         margin-left: 4rem
-     }
-     .footer-akg {
-         padding-left: 1rem !important;
-     }
-     .event-date{
-         font-size: 1rem;
-     }
-     
-     .event-month{
-         font-size: 1rem;
-     }
-     
- }
- 
- @media only screen and (max-width: 767px)
- {
-     .footer-list1 {
-         margin-left: 0rem;
-     }
-     
-     .footer-list2{
-         margin-left: 0rem;
-     }
-     .footer-logo {
-         margin-left: 0rem
-     }
-     .footer-akg {
-         padding-left: 1rem !important;
-         border-right: 0;
-     }
-     .footer-vertical-line {
-         border-right: 0
-     }
- }
- /* footer */
+
+@media only screen and (max-width:768px) {
+
+
+    /* footer */
+    .footer-row1 {
+        padding: 2rem 1rem 0rem !important;
+    }
+}
+
+@media only screen and (max-width:455px) {}
+
+@media only screen and (max-width:430px) {}
+
+@media only screen and (max-width:375px) {}
+
+@media only screen and (max-width:320px) {
+
+
+    /* footer */
+    .footer-row1 {
+        padding: 2rem 0rem 0rem !important;
+    }
+
+
+}
+
+/* footer media queries */
