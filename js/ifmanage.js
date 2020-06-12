@@ -1,5 +1,4 @@
 function ifmanage(management){
-    // document.getElementById(management.id).style.display = 'block';
    
     if(document.getElementById('manage').style.display == 'none'){
       document.getElementById('manage').style.display = 'block';
@@ -13,7 +12,6 @@ function ifmanage(management){
         document.getElementById('manage-head').style.opacity = '1';
         document.getElementById('func-head').style.opacity = '0.7';
     }
-
 }
 
 function iffunc(functionary){

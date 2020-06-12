@@ -185,8 +185,9 @@
 .director-img {
     width: 400px;
 }
-.dir-img{
-    padding:0 4rem!important;
+
+.dir-img {
+    padding: 0 4rem !important;
 }
 
 .dir-head {
@@ -200,7 +201,8 @@
     padding: 3rem .9rem 2rem 0rem;
     color: white;
 }
-.hod_desc{
+
+.hod_desc {
     padding-top: 1rem;
 }
 
@@ -214,6 +216,7 @@
 .abt-box {
     border: 2px solid #FCCB67;
     padding: .5rem;
+    border-radius: 8px;
 }
 
 .abt-img {
@@ -240,16 +243,18 @@
 .acr-box {
     border-radius: 35px;
     padding: 2.2rem;
-   
+
 }
 
 .height-box {
     height: 367px;
 }
-.height-box-1{
+
+.height-box-1 {
     height: 340px;
     padding-top: 4rem;
 }
+
 .acr-head {
     font-family: 'Raleway', sans-serif;
     color: #1D194F;
@@ -289,7 +294,7 @@
     border-radius: 5px;
     margin: 3rem 1rem 0 !important;
     padding: 1rem 0;
-   
+
 
 }
 
@@ -300,16 +305,18 @@
 .medium-screen {
     display: none;
 }
-.manage-text-pad{
-    padding: 3rem 1rem 3rem 2rem!important;
+
+.manage-text-pad {
+    padding: 3rem 1rem 3rem 2rem !important;
 }
-.manage_heading{
+
+.manage_heading {
     font-family: 'Raleway', sans-serif;
     color: #1D194F;
     font-weight: 800;
     font-size: 1.9rem;
     letter-spacing: 1.5px;
-    margin-right: 5rem;   
+    margin-right: 5rem;
     cursor: pointer;
 }
 
@@ -317,45 +324,49 @@
 
 /* management */
 
- /* imp func */
- .sec_pad_tp {
-    padding:8rem 0 4rem 0;
+/* imp func */
+.sec_pad_tp {
+    padding: 8rem 0 4rem 0;
 }
-.func_cards_container{
-    padding: 0rem 4rem 1rem 2rem!important;
+
+.func_cards_container {
+    padding: 0rem 3rem 1rem 1rem !important;
 }
+
 .faculty_box {
-    background-color:#fff;
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
-    padding:1rem 1.5rem;
-    border-radius:5px;
+    background-color: #fff;
+    box-shadow: 0px 8px 20px -4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
 }
+
 .head_desc {
-    padding:0 !important;
+    padding: 0 !important;
 }
-/* .head_desc_single {
-    padding:0 25rem 0 0 !important;
-} */
+
+
 .head_str {
-    font-weight:800;
-    color:#FDD329;
+    font-weight: 800;
+    color: #FDD329;
 }
+
 .faculty_head_name {
     font-weight: 800;
 }
+
 .head_image_container {
     text-align: right;
-    padding: 0 8px!important;
+    padding: 0 8px !important;
 }
-.head_img{
+
+.head_img {
     border-radius: 5px;
 }
- /* imp func */
+
+/* imp func */
 
 /* media queries */
-@media only screen and (max-width:1440px) {
-   
-}
+@media only screen and (max-width:1440px) {}
 
 @media only screen and (max-width:1024px) {
     .acr_contain {
@@ -371,10 +382,11 @@
         padding: 1.3rem 1.9rem;
 
     }
-    .height-box-1{
+
+    .height-box-1 {
         padding-top: 2.7rem;
     }
-    
+
 
     /* overview */
     .pd {
@@ -391,10 +403,11 @@
 
     /* overview */
     /* director */
-    .dir-img{
-        padding:0!important;
+    .dir-img {
+        padding: 0 !important;
     }
-    .hod_desc{
+
+    .hod_desc {
         padding-top: 0rem;
     }
 
@@ -414,11 +427,23 @@
     .manage-illus-contain {
         padding: 0 2rem !important;
     }
+
     .manage-head {
         padding: 0 !important;
     }
 
     /* management */
+
+    /* functionaries */
+    .head_desc_single {
+        padding:0 .5rem!important;
+    }
+    .faculty_box{
+        padding: .5rem 1.5rem;
+    }
+    .func_cards_container{
+        padding: 0 2rem 1rem !important;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -428,11 +453,13 @@
         padding: 0 6rem !important;
         margin-bottom: 2rem;
     }
-    .career-text{
-        padding: 0rem!important;
+
+    .career-text {
+        padding: 0rem !important;
     }
-    .career-img{
-        text-align: center!important;
+
+    .career-img {
+        text-align: center !important;
     }
 
     /* education,career,exp */
@@ -464,14 +491,15 @@
     /* director */
     .director-img {
         width: 350px;
-       
+
     }
+
     /* .dir-img{
         padding: 0 12rem!important;
     } */
-    .dir-img{
-       
-        text-align: center!important;
+    .dir-img {
+
+        text-align: center !important;
     }
 
     /* management */
@@ -494,24 +522,36 @@
     .large-screen {
         display: none;
     }
-    .manage_heading{
+
+    .manage_heading {
         font-size: 1.5rem;
-        margin-right: 3rem;   
-        
+        margin-right: 3rem;
+
     }
-    
+
 
     /* management */
 
     /* functionaries */
     .head_desc_single {
-        padding:0 !important;
+        padding: 0 !important;
     }
+
     .faculty_box {
-        padding:0rem 1.5rem;
+        padding: 0.3rem;
     }
-    .func_cards_container{
-        padding: 0rem 2.5rem 1rem 2rem!important;
+
+    .func_cards_container {
+        padding: 0rem 2.5rem 1rem 2rem !important;
+    }
+    .faculty_head_name{
+        font-size: 14px;
+    }
+    .faculty-no{
+        font-size: 14px;
+    }
+    .head_str{
+        font-size: 15px;
     }
 }
 
@@ -519,7 +559,8 @@
     .sec_heading {
         font-size: 1.7rem;
     }
-    .sec_text{
+
+    .sec_text {
         font-size: 14px;
     }
 
@@ -527,11 +568,13 @@
     .abt-col-pad {
         padding: 0 4rem !important;
     }
-    .career-img{
-        padding: 0rem 4rem!important;
+
+    .career-img {
+        padding: 0rem 4rem !important;
     }
-    .career-text{
-        padding: 0 2rem 0 1rem!important;
+
+    .career-text {
+        padding: 0 2rem 0 1rem !important;
     }
 
     /* education,career,exp */
@@ -540,10 +583,12 @@
     .acr-box {
         margin-bottom: 0rem;
     }
-    .acr-img{
-        padding-right: 10rem!important;
+
+    .acr-img {
+        padding-right: 10rem !important;
     }
-    .acr-box{
+
+    .acr-box {
         padding: 1rem;
     }
 
@@ -552,41 +597,70 @@
         width: 250px;
         margin: 1rem 0 0 -1rem !important;
     }
-    .dir-head{
+
+    .dir-head {
         font-size: 1.7rem;
     }
-    .dir-desig{
-        font-size: 1.2rem!important;
+
+    .dir-desig {
+        font-size: 1.2rem !important;
     }
-    .hod_desc{
+
+    .hod_desc {
         font-size: 14px;
     }
-    
+
 
     /* management */
     .manage-head {
         margin: 0 !important;
-        padding-left: 2rem!important;
+        padding-left: 2rem !important;
     }
-    .manage-text-pad{
-        padding: 3rem 0rem 0rem 1rem!important;
+
+    .manage-text-pad {
+        padding: 3rem 0rem 0rem 1rem !important;
     }
-    .gov-council-img{
+
+    .gov-council-img {
         padding: 1rem 2rem;
-       
+
     }
-    .gov-img{
+
+    .gov-img {
         padding: 0 2rem;
     }
-    .manage_heading{
+
+    .manage_heading {
         font-size: 1.3rem;
-        margin-right: 0rem;   
-        
+        margin-right: 0rem;
+
     }
-    .manage-ul{
-        padding-left: 0!important;
+
+    .manage-ul {
+        padding-left: 0 !important;
     }
+
     /* management  */
+
+    /* functionaries */
+    .head_desc_single {
+        padding: 0 .5rem !important;
+    }
+
+    .faculty_box {
+        padding: 1.3rem;
+    }
+    .fac_head{
+        padding:1rem 0;
+    }
+
+    .func_cards_container {
+        padding: 0rem 2rem 1rem!important;
+    }
+   
+    .head_str{
+        font-size: 16px;
+    }
 
 }
 
@@ -600,22 +674,18 @@
     }
 
     /* education,career,exp */
-}
-
-@media only screen and (max-width:320px) {
     .sec_heading {
         font-size: 1.3rem;
     }
 
     /* education,career,exp */
-    .abt-col-pad {
-        padding: 0 2rem !important;
+
+    .career-img {
+        padding: 0rem 2rem !important;
     }
-    .career-img{
-        padding: 0rem 2rem!important;
-    }
-    .career-text{
-        padding: 0 1rem 0 0rem!important;
+
+    .career-text {
+        padding: 0 1rem 0 0rem !important;
     }
 
     /* education,career,exp */
@@ -628,66 +698,84 @@
         padding: 0 2rem !important;
     }
 
-    
+
 
     /* director */
     .director-img {
         width: 200px;
         margin: 1rem 0 0 -1rem !important;
     }
-    .dir-head{
+
+    .dir-head {
         font-size: 1.3rem;
     }
-    .dir-desig{
-        font-size: 1rem!important;
+
+    .dir-desig {
+        font-size: 1rem !important;
     }
-    .hod_desc{
+
+    .hod_desc {
         font-size: 14px;
     }
 
     /* management */
     .manage-head {
         margin: 0 !important;
-        padding-left: 1rem!important;
-       
+        padding-left: 1rem !important;
+
     }
-    .manage-illus-contain{
-        padding: 1rem!important;
+
+    .manage-illus-contain {
+        padding: 1rem !important;
     }
-    .manage-text-pad{
-        padding: 3rem 1rem 0rem 1rem!important;
+
+    .manage-text-pad {
+        padding: 3rem 1rem 0rem 1rem !important;
     }
-    .gov-council-img{
+
+    .gov-council-img {
         padding: 1rem 1rem;
     }
-    .gov-img{
+
+    .gov-img {
         padding: 0 1rem;
     }
-    .head{
-        font-size: 1.3rem!important;
+
+    .head {
+        font-size: 1.3rem !important;
     }
-    .manage_heading{
+
+    .manage_heading {
         font-size: 1.1rem;
-        margin-right: 0rem;   
-        
+        margin-right: 0rem;
+
     }
-    
+
     /* management  */
     /* accredation */
-    
-    .acr-head{
+
+    .acr-head {
         font-size: 21px;
     }
-    .acr_contain{
-        padding: 0 1rem!important;
+
+    .acr_contain {
+        padding: 0 1rem !important;
     }
-    /* .acr-box{
-        padding: 1rem;
+
+    /* functionaries */
+    .faculty_box {
+        padding: .7rem;
     }
-    .acr-img{
-        padding-right: 10rem!important;
-    } */
-    /* accredation */
+}
+
+@media only screen and (max-width:320px) {
+    /* functionaries */
+    .head_image_container{
+        padding: 0!important;
+    }
+    
+
+   
 }
 
 /* media queries */
