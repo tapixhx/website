@@ -18,15 +18,15 @@ function ifmanage(management){
 
 function iffunc(functionary){
     
-     if(document.getElementById('func').style.display == 'none'){
+    if(document.getElementById('func').style.display == 'none') {
         document.getElementById('func').style.display = 'block';
         document.getElementById('manage').style.display = 'none';
-      }
-     if(document.getElementById('func-underline').style.display == 'none'){
+    }
+    if(document.getElementById('func-underline').style.display == 'none') {
         document.getElementById('func-underline').style.display = 'block';
         document.getElementById('manage-underline').style.display = 'none';
     }
-    if(document.getElementById('func-head').style.opacity == '0.7'){
+    if(document.getElementById('func-head').style.opacity == '0.7') {
         document.getElementById('func-head').style.opacity = '1';
         document.getElementById('manage-head').style.opacity = '0.7';
     }
