@@ -657,7 +657,7 @@
     }
 
     .acr-img {
-        padding-right: 10rem !important;
+        padding-right: 14rem !important;
     }
 
     .acr-box {
@@ -834,7 +834,10 @@
     .acr_contain {
         padding: 0 1rem !important;
     }
-
+    
+    .acr-img {
+        padding-right: 13rem !important;
+    }
     /* functionaries */
     .faculty_box {
         padding: .7rem;
@@ -851,6 +854,11 @@
     /* footer */
     .footer-row1 {
         padding: 2rem 0rem 0rem !important;
+    }
+
+    /* accredation */
+    .acr-img {
+        padding-right: 10rem !important;
     }
 
 
