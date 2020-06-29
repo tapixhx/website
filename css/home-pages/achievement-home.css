@@ -175,6 +175,42 @@
 }
 /* stats */
 
+/* awards */
+.acr-box {
+    border-radius: 35px;
+    padding: 2.2rem;
+
+}
+
+.height-box {
+    height: 367px;
+}
+
+.height-box-1 {
+    height: 340px;
+    padding-top: 4rem;
+}
+
+.acr-head {
+    font-family: 'Raleway', sans-serif;
+    color: #1D194F;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.acr-margin {
+    margin-top: 3rem;
+}
+
+.acr_contain {
+    padding: 2rem !important;
+}
+
+.acr-box-pad {
+    padding: 1.5rem 6rem !important;
+}
+/* awards */
+
 
 @media only screen and (max-width:1024px) {
     /* honor */
@@ -188,6 +224,22 @@
         padding:1rem 3rem !important;
     }
     /* stats */
+
+    /* award */
+    .acr_contain {
+        padding: 0 2rem !important;
+    }
+    .acr-box-pad {
+        padding: 1rem 1.5rem !important;
+    }
+    .acr-box {
+        border-radius: 30px;
+        padding: 1.3rem 1.9rem;
+    }
+    .height-box-1 {
+        padding-top: 2.7rem;
+    }
+    /* award */
 }
 @media only screen and (max-width:768px) {
     /* honor */
@@ -195,6 +247,23 @@
         padding:2rem 2rem 0 !important;
     }
     /* honor */
+
+    /* award */
+    .height-box {
+        height: auto;
+    }
+
+    .acr-box {
+        margin-bottom: 3rem;
+    }
+
+    .acr-margin {
+        margin-top: 0;
+    }
+    .height-box-1 {
+        height:auto;
+    }
+    /* award */
 }
 @media only screen and (max-width:455px) {
     /* honor */
@@ -205,12 +274,32 @@
         font-size:1.5rem;
     }
     /* honor */
+
+    /* award */
+    .acr-box {
+        margin-bottom: 0rem;
+        padding: 2rem;
+    }
+    .acr-img {
+        padding-right: 14rem !important;
+    }
+    /* award */
 }
 @media only screen and (max-width:430px) {
     
 }
 @media only screen and (max-width:375px) {
-    
+    /* award */
+    .acr-head {
+        font-size: 21px;
+    }
+    .acr_contain {
+        padding: 0 1rem !important;
+    }
+    .acr-img {
+        padding-right: 13rem !important;
+    }
+    /* award */
 }
 @media only screen and (max-width:320px) {
     /* honor */
@@ -218,6 +307,12 @@
         padding:2rem 1rem 0 !important;
     }
     /* honor */
+
+    /* award */
+    .acr-img {
+        padding-right: 10rem !important;
+    }
+    /* award */
 }
 
 
