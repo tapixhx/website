@@ -211,6 +211,50 @@
 }
 /* awards */
 
+/* glory */
+.g-padding {
+    padding-left:4rem !important;
+}
+.g-bg {
+    background:url('../../images/achievements/bg-illustration.png');
+    background-size:100% 100%;
+}
+.g-pd {
+    padding:.5rem 3rem !important;
+}
+.g-box {
+    background-color:#ffffff;
+    border-radius:40px;
+    padding:2rem;
+}
+.g-type {
+    font-family: 'Raleway', sans-serif;
+    font-weight:800;
+    color:#42495B;
+}
+.g-text {
+    font-family: 'Open Sans', sans-serif;
+    color:#42495B;
+}
+.more-btn {
+    border-radius:20px;
+    font-family: 'Open Sans', sans-serif;
+    border:2px solid #707070;
+    font-size:13px;
+    padding:.3rem .6rem;
+    background-color:transparent;
+    font-weight:800;
+}
+.more-btn:hover {
+    background-color:#707070;
+    color:#fff;
+    transition:.2s all;
+}
+.more-btn:focus {
+    outline:none;
+}
+/* glory */
+
 
 @media only screen and (max-width:1024px) {
     /* honor */
@@ -240,6 +284,15 @@
         padding-top: 2.7rem;
     }
     /* award */
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 15px !important;
+    }
+    .g-box {
+        padding:2rem .5rem;
+    }
+    /* glory */
 }
 @media only screen and (max-width:768px) {
     /* honor */
@@ -284,6 +337,12 @@
         padding-right: 14rem !important;
     }
     /* award */
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 2.5rem !important;
+    }
+    /* glory */
 }
 @media only screen and (max-width:430px) {
     
@@ -300,6 +359,15 @@
         padding-right: 13rem !important;
     }
     /* award */
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 1.5rem !important;
+    }
+    .g-padding {
+        padding-left:1rem !important;
+    }
+    /* glory */
 }
 @media only screen and (max-width:320px) {
     /* honor */
@@ -313,6 +381,12 @@
         padding-right: 10rem !important;
     }
     /* award */
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 1rem !important;
+    }
+    /* glory */
 }
 
 
