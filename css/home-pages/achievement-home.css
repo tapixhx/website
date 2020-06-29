@@ -140,6 +140,41 @@
 }
 /* honor */
 
+/* stats */
+.clr-bg {
+    background-color: rgb(154, 167, 255, .14);
+}
+.clr-bg-2 {
+    background-color: #1D194F;
+    padding:1rem 7rem !important;
+}
+.stats-head {
+    font-family: 'Raleway', sans-serif;
+    color:#FFFFFF;
+    font-weight: 800;
+    font-size:2.2rem;
+    letter-spacing:1.5px;
+}
+.stats-text {
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+.clr-box {
+    padding:1rem 2rem !important;
+}
+.stats-head-2 {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    font-size:2.2rem;
+    letter-spacing:1.5px;
+}
+.stats-text-2 {
+    color:#1D194F;
+    font-family: 'Open Sans', sans-serif;
+}
+/* stats */
+
 
 @media only screen and (max-width:1024px) {
     /* honor */
@@ -147,6 +182,12 @@
         margin-top:0rem;
     }
     /* honor */
+
+    /* stats */
+    .clr-bg-2 {
+        padding:1rem 3rem !important;
+    }
+    /* stats */
 }
 @media only screen and (max-width:768px) {
     /* honor */
