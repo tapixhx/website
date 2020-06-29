@@ -121,17 +121,49 @@
 
 /* navbar */
 
-/* landing */
+/* honor */
+.first_sec_pad {
+    padding: 8rem 0rem 4rem;
+}
+.achieve-desc {
+    color:#1D194F;
+}
+.achieve-head {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    font-size:2.2rem;
+    letter-spacing:1.5px;
+}
+.mtop {
+    margin-top:4.5rem;
+}
+/* honor */
 
 
 @media only screen and (max-width:1024px) {
-
+    /* honor */
+    .mtop {
+        margin-top:0rem;
+    }
+    /* honor */
 }
 @media only screen and (max-width:768px) {
-    
+    /* honor */
+    .p-dimen {
+        padding:2rem 2rem 0 !important;
+    }
+    /* honor */
 }
 @media only screen and (max-width:455px) {
-    
+    /* honor */
+    .achieve-desc {
+        font-size:.8rem;
+    }
+    .achieve-head {
+        font-size:1.5rem;
+    }
+    /* honor */
 }
 @media only screen and (max-width:430px) {
     
@@ -140,7 +172,11 @@
     
 }
 @media only screen and (max-width:320px) {
-    
+    /* honor */
+    .p-dimen {
+        padding:2rem 1rem 0 !important;
+    }
+    /* honor */
 }
 
 
