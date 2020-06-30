@@ -179,6 +179,7 @@ html {
     border-radius: 2rem!important;
     background-image: linear-gradient(#EF427C, #B41C8B);
     color: white!important;
+    -webkit-tap-highlight-color: none!important;
 }
 
 /* hostel-landing  */
@@ -188,6 +189,7 @@ html {
     border-radius: 2rem!important;
     background-image: linear-gradient(#1ECBF4, #194DC3);
     color: white!important;
+    -webkit-tap-highlight-color: none!important;
 }
 .display-medium{
     display: none;
