@@ -162,7 +162,7 @@
 
 /* navbar */
 
-/* life-akg  */
+/* life-landing  */
 .pd {
     padding: 0 5rem !important;
 }
@@ -180,7 +180,15 @@
     color: white!important;
 }
 
-/* life-akg  */
+/* life-landing  */
+
+/* hostel-life */
+.life-mybtn-blue{
+    border-radius: 2rem!important;
+    background-image: linear-gradient(#1ECBF4, #194DC3);
+    color: white!important;
+}
+/* hostel-life */
 
 /* footer */
 .footer-row1 {
@@ -251,13 +259,6 @@
         padding: 0 4rem !important;
     }
 
-    
-
-    
-
-    /* overview */
-   
-
     /* footer */
     .footer-row1 {
         padding: 2rem 2rem 0rem !important;
@@ -269,9 +270,6 @@
    
     /* overview */
     
-
-  
-
     /* footer */
     .footer-row1 {
         padding: 2rem 1rem 0rem !important;
@@ -279,8 +277,11 @@
 }
 
 @media only screen and (max-width:455px) {
-    .sec_heading {
+    .sec_heading,.life_head {
         font-size: 1.7rem;
+    }
+    .life-mybtn-pink, .life-mybtn-blue{
+        padding: .7rem 1.5rem !important;
     }
 
     .sec_text {
