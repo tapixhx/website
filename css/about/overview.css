@@ -164,7 +164,7 @@
 
 /* overview */
 .pd {
-    padding: 0 5rem !important;
+    padding: 0 2rem !important;
 }
 
 .vission-pd {
@@ -176,7 +176,7 @@
 }
 
 .overview-text {
-    padding-left: 3rem;
+    padding-left: 5rem!important;
 }
 
 /* overview */
@@ -451,6 +451,9 @@
 
     .vission-pd {
         padding: 0 3rem !important;
+    }
+    .overview-text {
+        padding-left: 3rem!important;
     }
 
     
