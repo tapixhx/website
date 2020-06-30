@@ -230,18 +230,20 @@ html {
     color:#42495B;
 }
 .more-btn {
-    border-radius:20px;
+    border-radius:2rem!important;
     font-family: 'Open Sans', sans-serif;
-    border:2px solid #707070;
+    border:2px solid #707070!important;
     font-size:13px;
-    padding:.3rem .6rem;
-    background-color:transparent;
-    font-weight:800;
+    padding:10px 33px!important   ;
+    background-color:transparent!important;
+    font-weight:800!important;
+    color: #000000!important;
+    margin: 0!important;
 }
 .more-btn:hover {
-    background-color:#707070;
-    color:#fff;
-    transition:.2s all;
+    background-color:#707070!important;
+    color:#fff!important;
+    transition:.2s all!important;
 }
 .more-btn:focus {
     outline:none;
