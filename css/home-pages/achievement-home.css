@@ -121,26 +121,272 @@
 
 /* navbar */
 
-/* landing */
+/* honor */
+.first_sec_pad {
+    padding: 8rem 0rem 4rem;
+}
+.achieve-desc {
+    color:#1D194F;
+}
+.achieve-head {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    font-size:2.2rem;
+    letter-spacing:1.5px;
+}
+.mtop {
+    margin-top:4.5rem;
+}
+/* honor */
+
+/* stats */
+.clr-bg {
+    background-color: rgb(154, 167, 255, .14);
+}
+.clr-bg-2 {
+    background-color: #1D194F;
+    padding:1rem 7rem !important;
+}
+.stats-head {
+    font-family: 'Raleway', sans-serif;
+    color:#FFFFFF;
+    font-weight: 800;
+    font-size:2.2rem;
+    letter-spacing:1.5px;
+}
+.stats-text {
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+.clr-box {
+    padding:1rem 2rem !important;
+}
+.stats-head-2 {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    font-size:2.2rem;
+    letter-spacing:1.5px;
+}
+.stats-text-2 {
+    color:#1D194F;
+    font-family: 'Open Sans', sans-serif;
+}
+/* stats */
+
+/* awards */
+.acr-box {
+    border-radius: 35px;
+    padding: 2.2rem;
+
+}
+
+.height-box {
+    height: 367px;
+}
+
+.height-box-1 {
+    height: 340px;
+    padding-top: 4rem;
+}
+
+.acr-head {
+    font-family: 'Raleway', sans-serif;
+    color: #1D194F;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.acr-margin {
+    margin-top: 3rem;
+}
+
+.acr_contain {
+    padding: 2rem !important;
+}
+
+.acr-box-pad {
+    padding: 1.5rem 6rem !important;
+}
+/* awards */
+
+/* glory */
+.g-padding {
+    padding-left:4rem !important;
+}
+.g-bg {
+    background:url('../../images/achievements/bg-illustration.png');
+    background-size:100% 100%;
+}
+.g-pd {
+    padding:.5rem 3rem !important;
+}
+.g-box {
+    background-color:#ffffff;
+    border-radius:40px;
+    padding:2rem;
+}
+.g-type {
+    font-family: 'Raleway', sans-serif;
+    font-weight:800;
+    color:#42495B;
+}
+.g-text {
+    font-family: 'Open Sans', sans-serif;
+    color:#42495B;
+}
+.more-btn {
+    border-radius:20px;
+    font-family: 'Open Sans', sans-serif;
+    border:2px solid #707070;
+    font-size:13px;
+    padding:.3rem .6rem;
+    background-color:transparent;
+    font-weight:800;
+}
+.more-btn:hover {
+    background-color:#707070;
+    color:#fff;
+    transition:.2s all;
+}
+.more-btn:focus {
+    outline:none;
+}
+/* glory */
 
 
 @media only screen and (max-width:1024px) {
+    /* honor */
+    .mtop {
+        margin-top:0rem;
+    }
+    /* honor */
 
+    /* stats */
+    .clr-bg-2 {
+        padding:1rem 3rem !important;
+    }
+    /* stats */
+
+    /* award */
+    .acr_contain {
+        padding: 0 2rem !important;
+    }
+    .acr-box-pad {
+        padding: 1rem 1.5rem !important;
+    }
+    .acr-box {
+        border-radius: 30px;
+        padding: 1.3rem 1.9rem;
+    }
+    .height-box-1 {
+        padding-top: 2.7rem;
+    }
+    /* award */
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 15px !important;
+    }
+    .g-box {
+        padding:2rem .5rem;
+    }
+    /* glory */
 }
 @media only screen and (max-width:768px) {
-    
+    /* honor */
+    .p-dimen {
+        padding:2rem 2rem 0 !important;
+    }
+    /* honor */
+
+    /* award */
+    .height-box {
+        height: auto;
+    }
+
+    .acr-box {
+        margin-bottom: 3rem;
+    }
+
+    .acr-margin {
+        margin-top: 0;
+    }
+    .height-box-1 {
+        height:auto;
+    }
+    /* award */
 }
 @media only screen and (max-width:455px) {
-    
+    /* honor */
+    .achieve-desc {
+        font-size:.8rem;
+    }
+    .achieve-head {
+        font-size:1.5rem;
+    }
+    /* honor */
+
+    /* award */
+    .acr-box {
+        margin-bottom: 0rem;
+        padding: 2rem;
+    }
+    .acr-img {
+        padding-right: 14rem !important;
+    }
+    /* award */
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 2.5rem !important;
+    }
+    /* glory */
 }
 @media only screen and (max-width:430px) {
     
 }
 @media only screen and (max-width:375px) {
-    
+    /* award */
+    .acr-head {
+        font-size: 21px;
+    }
+    .acr_contain {
+        padding: 0 1rem !important;
+    }
+    .acr-img {
+        padding-right: 13rem !important;
+    }
+    /* award */
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 1.5rem !important;
+    }
+    .g-padding {
+        padding-left:1rem !important;
+    }
+    /* glory */
 }
 @media only screen and (max-width:320px) {
-    
+    /* honor */
+    .p-dimen {
+        padding:2rem 1rem 0 !important;
+    }
+    /* honor */
+
+    /* award */
+    .acr-img {
+        padding-right: 10rem !important;
+    }
+    /* award */
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 1rem !important;
+    }
+    /* glory */
 }
 
 
