@@ -1,6 +1,12 @@
 /* common */
-.sec_pad {
-    padding: 2rem 0rem;
+html {
+    scroll-behavior: smooth;
+  }
+  .sec_pad {
+    padding: 4rem 0;
+}
+.sec-first-pad{
+    padding: 8rem 0 4rem;
 }
 
 .sec_heading {
@@ -162,20 +168,93 @@
 
 /* navbar */
 
-/* overview */
+/* hostel-landing  */
 .pd {
-    padding: 0 5rem !important;
+    padding: 0 3rem !important;
+}
+.hostel-img-contain{
+    padding: 0 5rem 0 0!important;
+}
+.life-mybtn-pink{
+    border-radius: 2rem!important;
+    background-image: linear-gradient(#EF427C, #B41C8B);
+    color: white!important;
 }
 
-.overview-img {
-    padding-right: 2rem !important;
-}
+/* hostel-landing  */
 
-.overview-text {
-    padding-left: 3rem;
+/* hostel-life */
+.life-mybtn-blue{
+    border-radius: 2rem!important;
+    background-image: linear-gradient(#1ECBF4, #194DC3);
+    color: white!important;
 }
+.display-medium{
+    display: none;
+}
+/* hostel-life */
 
-/* overview */
+/* hostel-facility */
+.h-facility-pd{
+    padding:0 1rem 0 5rem!important ;
+}
+.h-facility-box{
+   border: 1px solid #FCCB67; 
+   border-radius: 45px;
+   padding: 2.5rem ;
+}
+.facility-pd{
+    padding: 0 2rem!important;
+}
+/* hostel-facility */
+
+/* glory */
+.c-pd {
+    padding: 0 3rem 0 5rem !important;
+}
+.g-padding {
+    padding:0 5rem 0 1rem!important;
+}
+.g-bg {
+    background:url('../../images/achievements/bg-illustration.png');
+    background-size:100% 100%;
+}
+.g-pd {
+    padding:.5rem 2rem !important;
+}
+.g-box {
+    background-color:#ffffff;
+    border-radius:40px;
+    padding:2rem;
+    margin: 2rem 0 4rem;
+}
+.g-type {
+    font-family: 'Raleway', sans-serif;
+    font-weight:800;
+    color:#42495B;
+}
+.g-text {
+    font-family: 'Open Sans', sans-serif;
+    color:#42495B;
+}
+.more-btn {
+    border-radius:20px;
+    font-family: 'Open Sans', sans-serif;
+    border:2px solid #707070;
+    font-size:13px;
+    padding:.3rem .6rem;
+    background-color:transparent;
+    font-weight:800;
+}
+.more-btn:hover {
+    background-color:#707070;
+    color:#fff;
+    transition:.2s all;
+}
+.more-btn:focus {
+    outline:none;
+}
+/* glory */
 
 /* footer */
 .footer-row1 {
@@ -238,58 +317,103 @@
 @media only screen and (max-width:1440px) {}
 
 @media only screen and (max-width:1024px) {
-    
-
-
-    /* overview */
     .pd {
         padding: 0 2rem !important;
     }
 
-    
-
-    .overview-img {
-        padding-top: 8rem !important;
+    /* glory */
+    .c-pd {
+        padding: 0 1rem 0 2rem !important;
     }
-
-    /* overview */
-   
+    .g-pd {
+        padding:.5rem 15px !important;
+    }
+    .g-box {
+        padding:2rem .5rem;
+    }
+    .g-padding {
+        padding:0 1rem!important;
+    }
+    /* glory */
 
     /* footer */
     .footer-row1 {
         padding: 2rem 2rem 0rem !important;
     }
+
+       /* hostel-landing */
+       .hostel-img-contain {
+        padding: 0 2rem!important;
+    }
+
+    /* hostel-facility */
+.h-facility-pd{
+    padding:0 2rem!important ;
+}
+.h-facility-box{
+   
+    padding: 2rem ;
+ }
+ .facility-pd{
+     padding: 0 1rem!important;
+ }
 }
 
 @media only screen and (max-width:768px) {
 
    
     /* overview */
-    .overview-img {
-        padding: 0rem 1rem 2rem !important;
-    }
-
-    .overview-text {
-        padding-left: 1rem !important;
-    }
-
-  
-
+    
     /* footer */
     .footer-row1 {
         padding: 2rem 1rem 0rem !important;
     }
+
+    
 }
 
 @media only screen and (max-width:455px) {
-    .sec_heading {
-        font-size: 1.7rem;
+    .sec_pad {
+        padding: 4rem 0 0;
+    }
+    .sec-first-pad{
+        padding: 8rem 0 0rem;
+    }
+    .sec_heading,.life_head {
+        font-size: 1.5rem;
+    }
+    .life-mybtn-pink, .life-mybtn-blue{
+        padding: .7rem 1.5 rem !important;
     }
 
     .sec_text {
         font-size: 14px;
     }
+    /* overview */
+    .pd {
+        padding: 0 2rem !important;
+    }
 
+        /* hostel-facility */
+.h-facility-pd{
+    padding:0 1rem!important ;
+}
+
+.facility-icon{
+    width: 10%!important;
+}
+
+    /* glory */
+    .g-pd {
+        padding:.5rem 2.5rem !important;
+    }
+    .c-pd {
+        padding: 0 2rem !important;
+    }
+    .g-box{
+        margin: 0rem 0 2rem;
+    }
+    /* glory */
    
 
    
@@ -305,7 +429,22 @@
         padding: 0 1rem !important;
     }
 
-    
+    /* glory */
+    .g-pd {
+        padding:.5rem 1.5rem !important;
+    }
+    .g-padding {
+        padding-left:1rem !important;
+    }
+    .c-pd {
+        padding: 0 1rem !important;
+    }
+    /* glory */
+
+    /* hostel-landing */
+    .hostel-img-contain {
+        padding: 0 1rem!important;
+    }
 
 
 
@@ -313,12 +452,23 @@
 }
 
 @media only screen and (max-width:320px) {
-
+    /* glory */
+    .g-pd {
+        padding:.5rem 1rem !important;
+    }
+    /* glory */
 
     /* footer */
     .footer-row1 {
         padding: 2rem 0rem 0rem !important;
     }
+    
+            /* hostel-facility */
+
+
+.facility-icon{
+    width: 15%!important;
+}
 
    
 

@@ -3,10 +3,10 @@ html {
     scroll-behavior: smooth;
   }
 .sec_pad {
-    padding: 5rem 0rem 0rem;
+    padding: 4rem 0;
 }
 .sec-first-pad{
-    padding: 8rem 0 0;
+    padding: 8rem 0 4rem;
 }
 .sec_heading {
     font-family: 'Raleway', sans-serif;
@@ -175,8 +175,10 @@ html {
 
 .life_head{
     font-family: 'Raleway', sans-serif;
+    color: #1D194F;
     font-weight: 800;
     font-size: 2.2rem;
+    letter-spacing: 1.5px;
   
 }
 .life-mybtn-pink{
@@ -340,6 +342,9 @@ html {
 
    
     /* overview */
+    .pd {
+        padding: 0 2rem !important;
+    }
     
     /* footer */
     .footer-row1 {
@@ -361,8 +366,14 @@ html {
 }
 
 @media only screen and (max-width:455px) {
+    .sec_pad {
+        padding: 4rem 0 0;
+    }
+    .sec-first-pad{
+        padding: 8rem 0 0rem;
+    }
     .sec_heading,.life_head {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .life-mybtn-pink, .life-mybtn-blue{
         padding: .7rem 1.5 rem !important;
@@ -371,10 +382,7 @@ html {
     .sec_text {
         font-size: 14px;
     }
-    /* overview */
-    .pd {
-        padding: 0 2rem !important;
-    }
+    
 
     /* glory */
     .g-pd {
