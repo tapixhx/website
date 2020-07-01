@@ -1,4 +1,7 @@
 /* common */
+html {
+    scroll-behavior: smooth;
+  }
 .sec_pad {
     padding: 4rem 0rem;
 }
