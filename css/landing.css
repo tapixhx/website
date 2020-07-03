@@ -634,10 +634,80 @@
 /* stories */
 
 /* featured courses */
+.large_course {
+    height:555px;
+}
+.eventcards_container{
+    padding: 0 5rem!important;
+}
 .medium_course {
     display:none;
 }
+/* carousel */
+.carousel-inner.vv-3 .carousel-item.active,
+.carousel-inner.vv-3 .carousel-item-next,
+.carousel-inner.vv-3 .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner.vv-3 .carousel-item-right.active,
+.carousel-inner.vv-3 .carousel-item-next {
+  transform: translateX(33%);
+}
+
+.carousel-inner.vv-3 .carousel-item-left.active,
+.carousel-inner.vv-3 .carousel-item-prev {
+  transform: translateX(-33%);
+}
+
+.carousel-inner.vv-3 .carousel-item-right,
+.carousel-inner.vv-3 .carousel-item-left {
+  transform: translateX(0);
+}
+.c-padding {
+    padding:1rem 0;
+}
+/* carousel */
+.activity_card{
+    height: 25rem!important;
+}
+.one-card {
+    height:30rem;
+    overflow:hidden;
+}
+/* scrollbar */
+.card-text {
+    height:8rem;
+    overflow-y:auto;
+    text-align: justify;
+    padding-right:5%;
+}
+
+/* Scrollbar */
+/* width */
+.card-text::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.card-text::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236, .5);
+}
+
+/* Handle */
+.card-text::-webkit-scrollbar-thumb {
+    background: rgb(188, 188, 188, .5); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.card-text::-webkit-scrollbar-thumb:hover {
+    background: rgb(176, 176, 176, .5); 
+}
+/* Scrollbar */
 /* featured courses */
+
 /* media queries */
 @media only screen and (max-width:1024px) {
     /* about */
@@ -654,6 +724,15 @@
         width:19rem;
     }
     /* register */
+
+    /* featured courses */
+    .one-card {
+        height:23rem;
+    }
+    .large_course {
+        height:450px;
+    }
+    /* featured courses */
 
     /* news */
     .news-text {
@@ -791,10 +870,14 @@
     }
     .medium_course {
         display:block;
+        height:460px;
     }
     .course_card {
         margin-left:12rem;
         width:23rem;
+    }
+    .eventcards_container {
+        padding:0 12rem !important;
     }
     /* featured courses */
 
@@ -894,6 +977,9 @@
         width:20rem;
         margin-left:4rem;
     }
+    .eventcards_container {
+        padding:0 4rem !important;
+    }
     /* featured courses */
 }
 @media only screen and (max-width:430px) {
@@ -981,6 +1067,9 @@
     .course_card {
         margin-left:1rem;
     }
+    .eventcards_container {
+        padding:0 2rem !important;
+    }
     /* featured courses */
 }
 @media only screen and (max-width:320px) {
@@ -1044,12 +1133,15 @@
     /* campus-tour */
 
     /* featured courses */
-    .medium_course {
+    /* .medium_course {
         height:520px !important;
-    }
+    } */
     .course_card {
         width:18rem;
         margin-left:0rem;
+    }
+    .eventcards_container {
+        padding:0 1rem !important;
     }
     /* featured courses */
 }
