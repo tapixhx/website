@@ -165,21 +165,21 @@
 
 .carousel-inner.vv-3 .carousel-item-right.active,
 .carousel-inner.vv-3 .carousel-item-next {
-  transform: translateX(36%);
+  transform: translateX(100%);
 }
 
 .carousel-inner.vv-3 .carousel-item-left.active,
 .carousel-inner.vv-3 .carousel-item-prev {
-  transform: translateX(-36%);
+  transform: translateX(-100%);
 }
 
 .carousel-inner.vv-3 .carousel-item-right,
 .carousel-inner.vv-3 .carousel-item-left {
   transform: translateX(0);
 }
-.c-padding {
+/* .c-padding {
     padding:1rem 4rem;
-}
+} */
 .my-carousel{
     height: 555px;
 }
@@ -222,9 +222,8 @@
     }
 }
 .eventcards{
-    padding:0 !important;
-    margin-right: 2rem;
-    margin-left: -.1rem;
+    padding:0 2rem!important;
+   
 }
 .card-img-top{
     width: 100%;
@@ -243,21 +242,20 @@
 /* media queries */
 @media only screen and (max-width:1024px) {
     .eventcards_container{
-        padding: 0 2rem!important;
+        padding: 0!important;
     }
     .activity-date-container {
         padding-left:2rem !important;
         margin-top:-.3rem;
     }
     .eventcards{
-        padding:0!important;
-        margin-right: 1.8rem!important;
-        margin-left: 0rem;
+        padding:0 1rem!important;
+        
     }
     .one-card {
         height:27rem;
     }
-    .carousel-inner.vv-3 .carousel-item-right.active,
+    /* .carousel-inner.vv-3 .carousel-item-right.active,
     .carousel-inner.vv-3 .carousel-item-next {
     transform: translateX(37%);
     }
@@ -269,9 +267,9 @@
     .carousel-inner.vv-3 .carousel-item-right,
     .carousel-inner.vv-3 .carousel-item-left {
     transform: translateX(0);
-}
+} */
     .my-carousel{
-        height: 540px;
+        height: 500px;
     }
         
 }
