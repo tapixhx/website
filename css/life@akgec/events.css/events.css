@@ -132,24 +132,24 @@
 /* Scrollbar */
 /* width */
 .card-text::-webkit-scrollbar {
-    width: 15px;
+    width: 5px;
 }
 
 /* Track */
 .card-text::-webkit-scrollbar-track {
     border-radius: 10px;
-    background-color: #D4D2D2;
+    background-color: rgb(236, 236, 236, .5);
 }
 
 /* Handle */
 .card-text::-webkit-scrollbar-thumb {
-    background: #696969; 
+    background: rgb(188, 188, 188, .5); 
     border-radius: 10px;
 }
 
 /* Handle on hover */
 .card-text::-webkit-scrollbar-thumb:hover {
-    background: #696969; 
+    background: rgb(176, 176, 176, .5); 
 }
 /* Scrollbar */
 .first_sec_pad_pm {
@@ -165,12 +165,12 @@
 
 .carousel-inner.vv-3 .carousel-item-right.active,
 .carousel-inner.vv-3 .carousel-item-next {
-  transform: translateX(58%);
+  transform: translateX(36%);
 }
 
 .carousel-inner.vv-3 .carousel-item-left.active,
 .carousel-inner.vv-3 .carousel-item-prev {
-  transform: translateX(-58%);
+  transform: translateX(-36%);
 }
 
 .carousel-inner.vv-3 .carousel-item-right,
@@ -178,7 +178,7 @@
   transform: translateX(0);
 }
 .c-padding {
-    padding:1rem 0;
+    padding:1rem 4rem;
 }
 .my-carousel{
     height: 555px;
@@ -198,7 +198,7 @@
     float: left !important;
 }
 .activity-date-container {
-    padding-left:7.5rem !important;
+    padding-left:6rem !important;
     margin-top: -.7rem;
 }
 .activity-cal {
@@ -222,15 +222,15 @@
     }
 }
 .eventcards{
-    padding:0 5.8rem 0 2rem!important;
-    margin-right: 7rem;
-    margin-left: -1rem;
+    padding:0 !important;
+    margin-right: 2rem;
+    margin-left: -.1rem;
 }
 .card-img-top{
     width: 100%;
 }
 .eventcards_container{
-    padding: 0!important;
+    padding: 0 5rem!important;
 }
 .sec_pad_events{
     padding: 1rem 0 0!important;
@@ -242,22 +242,29 @@
 
 /* media queries */
 @media only screen and (max-width:1024px) {
+    .eventcards_container{
+        padding: 0 2rem!important;
+    }
+    .activity-date-container {
+        padding-left:2rem !important;
+        margin-top:-.3rem;
+    }
     .eventcards{
-        padding:0 2rem 0 1.5rem!important;
-        margin-right: 1rem!important;
+        padding:0!important;
+        margin-right: 1.8rem!important;
         margin-left: 0rem;
     }
     .one-card {
-        height:28.5rem;
+        height:27rem;
     }
     .carousel-inner.vv-3 .carousel-item-right.active,
     .carousel-inner.vv-3 .carousel-item-next {
-    transform: translateX(51%);
+    transform: translateX(37%);
     }
 
     .carousel-inner.vv-3 .carousel-item-left.active,
     .carousel-inner.vv-3 .carousel-item-prev {
-    transform: translateX(-51%);
+    transform: translateX(-37%);
     }
     .carousel-inner.vv-3 .carousel-item-right,
     .carousel-inner.vv-3 .carousel-item-left {
