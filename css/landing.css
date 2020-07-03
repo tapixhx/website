@@ -665,7 +665,7 @@
   transform: translateX(0);
 }
 .c-padding {
-    padding:1rem 0;
+    padding:1rem 1rem;
 }
 /* carousel */
 .activity_card{
@@ -682,7 +682,9 @@
     text-align: justify;
     padding-right:5%;
 }
-
+.eventcards {
+    margin-right:.5rem;
+}
 /* Scrollbar */
 /* width */
 .card-text::-webkit-scrollbar {
