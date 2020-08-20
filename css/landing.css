@@ -274,7 +274,7 @@
 .campusimage {
     height:60vh;
     width:100%;
-    background:url(../images/home/tour.png);
+    background:url(../images/home/college.png);
     background-size:100% 100%;
     background-attachment:fixed;
 }
@@ -536,6 +536,9 @@
  .placement_container {
      padding:2rem;
  }
+ .placement_card{
+     height: 220px;
+ }
  .placement_number {
      color:#fccb67;
  }
@@ -562,8 +565,8 @@
      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
  }
  .industry_card{
-     height: 72px!important;
-     padding:1rem;
+     height: 95px!important;
+     padding:1.5rem;
     
  }
  .industry_card img{
