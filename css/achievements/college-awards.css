@@ -135,6 +135,9 @@
     font-size:2.2rem;
     letter-spacing:1.5px;
 }
+.medium{
+    display: none;
+}
 
 /* landing */
 
@@ -179,6 +182,12 @@
     }
     .awards-img{
         width: 75%;
+    }
+    .medium{
+        display: block;
+    }
+    .large{
+        display: none;
     }
 }
 @media only screen and (max-width:455px) {
