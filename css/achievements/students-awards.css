@@ -121,25 +121,186 @@
 
 /* navbar */
 
+/* student arards */
+.sec_pad_start {
+    padding:8.7rem 0 4rem 0;
+}
+.life_head{
+    font-family: 'Raleway', sans-serif;
+    color: #1D194F;
+    font-weight: 800;
+    font-size: 2.2rem;
+    letter-spacing: 1.5px;
+}
+/* student awards */
 
+/* stats */
+.stats-text {
+    font-family: 'Open Sans', sans-serif;
+    color:#1D194F;
+}
+.stats-no {
+    font-family: 'Raleway', sans-serif;
+    font-weight:800;
+    font-size:1.5rem;
+    margin-top:.6rem;
+}
+/* stats */
+
+/* tech & extra-curricular */
+.manage-head {
+    padding: 0 0 0 2.5rem !important;
+}
+.manage_heading {
+    font-family: 'Raleway', sans-serif;
+    color: #1D194F;
+    font-weight: 800;
+    font-size: 1.9rem;
+    letter-spacing: 1.5px;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+/* tech & extra-curricular */
+
+/* technical */
+.achieve-head {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 1000 !important;
+    font-size:2rem;
+    letter-spacing:1.5px;
+}
+.g-padding {
+    padding-left:4rem !important;
+}
+.g-bg {
+    background:url('../../images/achievements/students-award/bg-right.png');
+    background-size:100% 100%;
+}
+.g-pd {
+    padding:.5rem 3rem !important;
+}
+.img-br {
+    border-radius:3rem;
+    padding:1.5rem 0;
+}
+.med-disp {
+    display:none !important;
+}
+.margin-tech {
+    margin-top:9rem;
+}
+.technical-container {
+    padding:0 3rem !important;
+}
+/* technical */
 
 @media only screen and (max-width:1024px) {
+    /* tech & extra-curricular */
+    .manage-head {
+        padding: 0 !important;
+    }
+    /* tech & extra-curricular */
 
+    /* technical */
+    .technical-container {
+        padding:0 1rem !important;
+    }
+    /* technical */
 }
 @media only screen and (max-width:768px) {
-    
+    /* stats */
+    .stats-m {
+        margin-top:2rem;
+    }
+    /* stats */
+
+    /* tech & extra-curricular */
+    .manage_heading {
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+    .large-tech {
+        display:none !important;
+    }
+    .med-disp {
+        display:block !important;
+    }
+    .med-tech {
+        margin:0 2rem !important;
+    }
+    /* tech & extra-curricular */
+
+    /* technical */
+    .margin-tech {
+        margin-top:6rem !important;
+    }
+    /* technical*/
 }
 @media only screen and (max-width:455px) {
-    
+    /* tech & extra-curricular */
+    .manage-head {
+        margin: 0 !important;
+        padding-left: 2rem !important;
+    }
+
+    .manage_heading {
+        font-size: 1.3rem;
+        margin-right: 0rem;
+    }
+
+    .manage-ul {
+        padding-left: 0 !important;
+    }
+    .g-padding {
+        padding-left:.5rem !important;
+    }
+    .achieve-head {
+        font-size:1.5rem;
+    }
+    /* tech & extra-curricular */
 }
 @media only screen and (max-width:430px) {
-    
+    /* tech & extra-curricular */
+    .med-tech {
+        margin:0 .5rem !important;
+    }
+    /* tech & extra-curricular */
+
+    /* technical */
+    .margin-tech {
+        margin-top:3rem !important;
+    }
+    /* technical*/
 }
 @media only screen and (max-width:375px) {
-    
+    /* tech & extra-curricular */
+    .manage-head {
+        margin: 0 !important;
+        padding-left: 1rem !important;
+    }
+
+    .manage_heading {
+        font-size: 1.1rem;
+        margin-right: 0rem;
+    }
+    .med-tech {
+        margin:0 0rem !important;
+    }
+    /* tech & extra-curricular */
+
+    /* technical */
+    .margin-tech {
+        margin-top:3rem !important;
+    }
+    /* technical*/
 }
 @media only screen and (max-width:320px) {
-    
+    /* tech & extra-curricular */
+    .g-bg,.g-padding {
+        padding:0 !important;
+    }
+    /* tech & extra-curricular */
 }
 
 /* footer */
