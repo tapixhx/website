@@ -1,6 +1,6 @@
 /* common */
 .sec_pad {
-    padding: 4rem 0rem;
+    padding: 4rem 1rem;
 }
 .sec_heading {
     font-family: 'Raleway', sans-serif;
@@ -121,7 +121,7 @@
 
 /* navbar */
 
-/* honor */
+/* landing */
 .first_sec_pad {
     padding: 8rem 1rem 4rem;
 }
@@ -135,31 +135,86 @@
     font-size:2.2rem;
     letter-spacing:1.5px;
 }
-.mtop {
-    margin-top:4.5rem;
+
+/* landing */
+
+/* awards */
+
+.g-bg {
+    background:url('../../images/achievements/bg-vector2.png');
+    background-size:contain;
+    background-repeat: no-repeat;
 }
-/* honor */
+
+.awards-img{
+    margin-top: 4.5rem;
+    width: 65%;
+    border-radius: 10px;
+}
+.award-contain{
+    height: 400px;
+    margin:auto;
+}
+
+/* awards */
+
+
+
 
 @media only screen and (max-width:1024px) {
-
+  /* awards */
+  .award-contain{
+    height: 300px;
+    margin:auto;
+}  
+.awards-img{
+    margin-top: 3.2rem;
+    width: 70%;
+}
 }
 @media only screen and (max-width:768px) {
-    
+    /* awards */
+    .award-contain{
+        height: 470px;
+    }
+    .awards-img{
+        width: 75%;
+    }
 }
 @media only screen and (max-width:455px) {
+/* awards */
+    .awards-img{
+        margin-top: 2.5rem;
+       
+    }
+    .award-contain{
+        height: 250px;
+    }
     
+   
 }
 @media only screen and (max-width:430px) {
     
 }
 @media only screen and (max-width:375px) {
-  /* honor */
+        /* common */
+.sec_pad {
+    padding: 4rem 0rem;
+}
+  /* landing*/
 .first_sec_pad {
     padding: 8rem 0rem 4rem;
 }  
 }
 @media only screen and (max-width:320px) {
-    
+    /* awards */
+    .awards-img{
+        margin-top: 2rem;
+        width: 78%;
+    }
+    .award-contain{
+        height: 200px;
+    }
 }
 
 /* footer */
