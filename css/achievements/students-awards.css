@@ -156,12 +156,12 @@
 
 .carousel-inner.vv-3 .carousel-item-right.active,
 .carousel-inner.vv-3 .carousel-item-next {
-  transform: translateX(34%);
+  transform: translateX(33%);
 }
 
 .carousel-inner.vv-3 .carousel-item-left.active,
 .carousel-inner.vv-3 .carousel-item-prev {
-  transform: translateX(-34%);
+  transform: translateX(-33%);
 }
 
 .carousel-inner.vv-3 .carousel-item-right,
@@ -172,6 +172,33 @@
     padding:1rem 1rem;
 }
 /* carousel */
+
+/* students */
+.student-height {
+    height:250px;
+}
+.people-card {
+    background-color:#F1F3FF !important;
+    color:#494671;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0px 10px 30px -4px rgba(0,0,0,0.08);
+}
+.people-carousel-start {
+    margin-top:2rem;
+}
+.people-card-body {
+    padding:2rem 0 0 4.5rem !important;
+    height:150px;
+}
+.people-name {
+    font-weight:800 !important;
+    font-size:1.2rem;
+}
+.people-img {
+    width:150px;
+    margin-left:-3rem;
+}
+/* students */
 
 /* tech & extra-curricular */
 .manage-head {
@@ -200,9 +227,18 @@
     padding-left:4rem !important;
 }
 .g-bg {
-    background:url('../../images/achievements/students-award/bg-right.png');
+    background:url('../../images/achievements/bg-vector2.png');
     background-size:contain;
     background-repeat: no-repeat;
+}
+.award-contain{
+    height: 400px;
+    margin:auto;
+}
+.awards-img{
+    margin-top: 2rem;
+    width: 65%;
+    border-radius: 10px;
 }
 .g-pd {
     padding:.5rem 3rem !important;
@@ -229,6 +265,14 @@
     /* tech & extra-curricular */
     .manage-head {
         padding: 0 !important;
+    }
+    .award-contain{
+        height: 300px;
+        margin:auto;
+    }  
+    .awards-img{
+        margin-top: 3.2rem;
+        width: 70%;
     }
     /* tech & extra-curricular */
 
@@ -258,6 +302,12 @@
     }
     .med-tech {
         margin:0 2rem !important;
+    }
+    .award-contain{
+        height: 470px;
+    }
+    .awards-img{
+        width: 75%;
     }
     /* tech & extra-curricular */
 
@@ -290,6 +340,13 @@
     }
     .achieve-head {
         font-size:1.5rem;
+    }
+    .awards-img{
+        margin-top: 2.5rem;
+       
+    }
+    .award-contain{
+        height: 250px;
     }
     /* tech & extra-curricular */
 
@@ -344,6 +401,13 @@
     /* tech & extra-curricular */
     .g-bg,.g-padding {
         padding:0 !important;
+    }
+    .awards-img{
+        margin-top: 2rem;
+        width: 78%;
+    }
+    .award-contain{
+        height: 200px;
     }
     /* tech & extra-curricular */
 
