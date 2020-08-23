@@ -147,6 +147,32 @@
 }
 /* stats */
 
+/* carousel */
+.carousel-inner.vv-3 .carousel-item.active,
+.carousel-inner.vv-3 .carousel-item-next,
+.carousel-inner.vv-3 .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner.vv-3 .carousel-item-right.active,
+.carousel-inner.vv-3 .carousel-item-next {
+  transform: translateX(34%);
+}
+
+.carousel-inner.vv-3 .carousel-item-left.active,
+.carousel-inner.vv-3 .carousel-item-prev {
+  transform: translateX(-34%);
+}
+
+.carousel-inner.vv-3 .carousel-item-right,
+.carousel-inner.vv-3 .carousel-item-left {
+  transform: translateX(0);
+}
+.c-padding {
+    padding:1rem 1rem;
+}
+/* carousel */
+
 /* tech & extra-curricular */
 .manage-head {
     padding: 0 0 0 2.5rem !important;
@@ -175,7 +201,8 @@
 }
 .g-bg {
     background:url('../../images/achievements/students-award/bg-right.png');
-    background-size:100% 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 .g-pd {
     padding:.5rem 3rem !important;
@@ -191,7 +218,10 @@
     margin-top:9rem;
 }
 .technical-container {
-    padding:0 3rem !important;
+    padding:0 0 0 0rem !important;
+}
+.award-height {
+    height:84rem;
 }
 /* technical */
 
@@ -235,6 +265,9 @@
     .margin-tech {
         margin-top:6rem !important;
     }
+    .award-height {
+        height:135rem;
+    }
     /* technical*/
 }
 @media only screen and (max-width:455px) {
@@ -259,6 +292,12 @@
         font-size:1.5rem;
     }
     /* tech & extra-curricular */
+
+    /* technical */
+    .award-height {
+        height:145rem;
+    }
+    /* technical */
 }
 @media only screen and (max-width:430px) {
     /* tech & extra-curricular */
@@ -270,6 +309,9 @@
     /* technical */
     .margin-tech {
         margin-top:3rem !important;
+    }
+    .award-height {
+        height:138rem;
     }
     /* technical*/
 }
@@ -293,6 +335,9 @@
     .margin-tech {
         margin-top:3rem !important;
     }
+    .award-height {
+        height:142rem;
+    }
     /* technical*/
 }
 @media only screen and (max-width:320px) {
@@ -301,13 +346,17 @@
         padding:0 !important;
     }
     /* tech & extra-curricular */
+
+    /* technicall */
+    .award-height {
+        height:152rem;
+    }
+    /* technical */
 }
 
 /* footer */
 .footer-row1 {
     padding: 2rem 5rem 0rem !important;
-    margin: 5rem 0 0 !important;
-
 }
 
 .footer-stayintouch {
