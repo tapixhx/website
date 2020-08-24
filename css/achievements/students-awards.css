@@ -281,6 +281,18 @@
         padding:0 1rem !important;
     }
     /* technical */
+
+    /* students */
+    .people-img {
+        width:120px;
+    }
+    .people-card-body {
+        padding:.5rem .5rem 0 3.5rem !important;
+    }
+    .student-pad {
+        padding:0 2rem !important;
+    }
+    /* students */
 }
 @media only screen and (max-width:768px) {
     /* stats */
@@ -319,6 +331,27 @@
         height:135rem;
     }
     /* technical*/
+
+    /* students */
+    .people-img {
+        width:150px;
+    }
+    .people-card-body {
+        padding:1.5rem .5rem 0 3.5rem !important;
+    }
+    .student-pad {
+        margin:0 2rem;
+    }
+    .carousel-inner.vv-3 .carousel-item-right.active,
+    .carousel-inner.vv-3 .carousel-item-next {
+    transform: translateX(100%);
+    }
+
+    .carousel-inner.vv-3 .carousel-item-left.active,
+    .carousel-inner.vv-3 .carousel-item-prev {
+    transform: translateX(-100%);
+    }
+    /* students */
 }
 @media only screen and (max-width:455px) {
     /* tech & extra-curricular */
@@ -355,6 +388,20 @@
         height:145rem;
     }
     /* technical */
+
+    /* students */
+    .student-height {
+        height:350px;
+    }
+    .people-img {
+        width:150px;
+        margin-top:.5rem;
+        margin-left:5rem;
+    }
+    .student-pad {
+        margin:0;
+    }
+    /* students */
 }
 @media only screen and (max-width:430px) {
     /* tech & extra-curricular */
@@ -371,6 +418,12 @@
         height:138rem;
     }
     /* technical*/
+
+    /* students */
+    .people-img {
+        margin-left:4rem;
+    }
+    /* students */
 }
 @media only screen and (max-width:375px) {
     /* tech & extra-curricular */
@@ -396,6 +449,16 @@
         height:142rem;
     }
     /* technical*/
+
+    /* students */
+    .people-img {
+        width:120px;
+        margin-left:3.2rem;
+    }
+    .people-card-body {
+        padding:1.2rem .5rem 0 2rem !important;
+    }
+    /* students */
 }
 @media only screen and (max-width:320px) {
     /* tech & extra-curricular */
@@ -416,6 +479,15 @@
         height:152rem;
     }
     /* technical */
+
+    /* students */
+    .student-pad {
+        padding: 0 .5rem !important;
+    }
+    .people-card-body {
+        padding:1.2rem .5rem 0 1.5rem !important;
+    }
+    /* students */
 }
 
 /* footer */
