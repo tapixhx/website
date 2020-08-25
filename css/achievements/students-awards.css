@@ -1,6 +1,6 @@
 /* common */
 .sec_pad {
-    padding: 4rem 0rem;
+    padding: 4rem 1rem;
 }
 .sec_heading {
     font-family: 'Raleway', sans-serif;
@@ -123,7 +123,7 @@
 
 /* student arards */
 .sec_pad_start {
-    padding:8.7rem 0 4rem 0;
+    padding:8.7rem 1rem 4rem 1rem;
 }
 .life_head{
     font-family: 'Raleway', sans-serif;
@@ -202,7 +202,7 @@
 
 /* tech & extra-curricular */
 .manage-head {
-    padding: 0 0 0 2.5rem !important;
+    padding: 0 0 0 2rem !important;
 }
 .manage_heading {
     font-family: 'Raleway', sans-serif;
@@ -259,13 +259,54 @@
 .award-height {
     height:84rem;
 }
+.manage-ul{
+    padding: 0rem!important;
+}
+.life-mybtn-blue{
+    border-radius: 2rem!important;
+    background-image: linear-gradient(#1ECBF4, #194DC3);
+    color: white!important;
+    margin:-2rem 0 6rem 2rem !important;
+    -webkit-tap-highlight-color: none!important;
+}
 /* technical */
 
+/* awards */
+
+.g-bg {
+    background:url('../../images/achievements/bg-vector2.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.awards-img{
+    margin-top: 4.5rem;
+    width: 65%;
+    border-radius: 10px;
+}
+.award-contain{
+    height: 400px;
+    margin:auto;
+}
+.medium{
+    display: none;
+}
+
+/* awards */
+
 @media only screen and (max-width:1024px) {
-    /* tech & extra-curricular */
-    .manage-head {
-        padding: 0 !important;
+     /* awards */
+     .award-contain{
+        height: 300px;
+        margin:auto;
+    }  
+    .awards-img{
+        margin-top: 3.2rem;
+        width: 70%;
     }
+
+    /* tech & extra-curricular */
+    
     .award-contain{
         height: 300px;
         margin:auto;
@@ -295,6 +336,20 @@
     /* students */
 }
 @media only screen and (max-width:768px) {
+     /* awards */
+     .award-contain{
+        height: 470px;
+    }
+    .awards-img{
+        width: 75%;
+    }
+    .medium{
+        display: block;
+    }
+    .large{
+        display: none;
+    }
+
     /* stats */
     .stats-m {
         margin-top:2rem;
@@ -354,6 +409,19 @@
     /* students */
 }
 @media only screen and (max-width:455px) {
+    /* awards */
+    .awards-img{
+        margin-top: 2.5rem;
+       
+    }
+    .award-contain{
+        height: 250px;
+    }
+
+    .life-mybtn-pink, .life-mybtn-blue{
+        padding: .7rem 1.5rem !important;
+    }
+
     /* tech & extra-curricular */
     .manage-head {
         margin: 0 !important;
@@ -459,8 +527,30 @@
         padding:1.2rem .5rem 0 2rem !important;
     }
     /* students */
+
+            /* common */
+.sec_pad {
+    padding: 4rem 0rem;
+}
+.sec_pad_start {
+    padding:8.7rem 0rem 4rem 0rem;
+}
+.life-mybtn-blue{
+    
+    margin:-2rem 0 5rem 1rem !important;
+   
+}
 }
 @media only screen and (max-width:320px) {
+     /* awards */
+     .awards-img{
+        margin-top: 2rem;
+        width: 78%;
+    }
+    .award-contain{
+        height: 200px;
+    }
+
     /* tech & extra-curricular */
     .g-bg,.g-padding {
         padding:0 !important;
