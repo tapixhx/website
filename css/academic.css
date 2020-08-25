@@ -121,6 +121,31 @@
 
 /* navbar */
 
+/* landing-illus */
+.sec-pad-large {
+    padding:12rem 2rem 2rem 2rem;
+}
+.homeland-pad {
+    padding:3rem 5rem 0 5rem!important;
+}
+.text-small {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-size:1.2rem;
+    font-weight: 800;
+}
+.text-main {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-size:2.8rem;
+    font-weight: 800;
+}
+.content {
+    font-family: 'Open Sans', sans-serif;
+    color:#1D194F;
+}
+/* landing-illus */
+
 /* landing */
 .sec_pad_landing{
     padding:10rem 0rem;
@@ -201,6 +226,12 @@
 
 /* media queries */
 @media only screen and (max-width:1024px) {
+    /* landing */
+    .homeland-pad {
+        padding:1rem 4.2rem !important;
+    }
+    /* landing */
+
     .landing_box_highlight{
         padding: 2.5rem 3.3rem;
         margin: 3rem 2rem 4rem!important;
@@ -219,6 +250,15 @@
     }
 }
 @media only screen and (max-width:768px) {
+    /* landing */
+    .homeland-pad {
+        padding:2rem 15px !important;
+    }
+    .text-small {
+        margin-top:.8rem;
+    }
+    /* landing */
+
     .landing_box_highlight {
         padding: 1rem 1.5rem;
         margin: 3rem 0rem 4rem!important;
@@ -243,6 +283,15 @@
     }
 }
 @media only screen and (max-width:455px) {
+    /* landing */
+    .sec-pad-large {
+        padding:8rem 2rem 0rem 2rem;
+    }
+    .text-main {
+        font-size:2.2rem;
+    }
+    /* landing */
+
     .landing_box_highlight{
         padding: 2.5rem 2.1rem 1.7rem;
         margin: 3rem 1.5rem 4rem!important;
