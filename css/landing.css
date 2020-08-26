@@ -820,10 +820,10 @@
         padding:0rem 2rem;
     }
     .people-img {
-        margin-left:2rem !important;
+        margin-left:.2rem !important;
     }
     .people-card-body {
-        padding:3rem 6rem !important;
+        padding:3rem 2rem 0 9rem!important;
     }
     /* what people will say */
 
