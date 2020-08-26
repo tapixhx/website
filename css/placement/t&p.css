@@ -182,24 +182,24 @@
 /* Scrollbar */
 /* width */
 .text-scroll::-webkit-scrollbar {
-    width: 15px;
+    width: 5px;
 }
 
 /* Track */
 .text-scroll::-webkit-scrollbar-track {
     border-radius: 10px;
-    background-color: #D4D2D2;
+    background-color: rgb(236, 236, 236, .5);
 }
 
 /* Handle */
 .text-scroll::-webkit-scrollbar-thumb {
-    background: #696969; 
+    background: rgb(188, 188, 188, .5); 
     border-radius: 10px;
 }
 
 /* Handle on hover */
 .text-scroll::-webkit-scrollbar-thumb:hover {
-    background: #696969; 
+    background: rgb(176, 176, 176, .5); 
 }
 /* Scrollbar */
 /* programs */
