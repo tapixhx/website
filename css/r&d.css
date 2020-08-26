@@ -387,6 +387,9 @@
         margin-top:2rem;
     }
     /* contact */
+    .sec_heading{
+        font-size: 1.7rem;
+    }
 }
 @media only screen and (max-width:430px) {
     /* what we do */

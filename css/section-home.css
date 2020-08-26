@@ -178,6 +178,9 @@
     }
 }
 @media only screen and (max-width:455px) {
+    .sec_heading{
+        font-size: 1.7rem;
+    }
     .col-pad {
         padding:0 2rem !important;
     }

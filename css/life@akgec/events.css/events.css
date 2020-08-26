@@ -300,6 +300,9 @@
     /* eventsection */
 }
 @media only screen and (max-width:455px) {
+    .sec_heading{
+        font-size: 1.7rem;
+    }
     /* eventsection */
     .medium_activity{
         height: 420px;

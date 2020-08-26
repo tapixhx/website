@@ -319,6 +319,9 @@
     /* award */
 }
 @media only screen and (max-width:455px) {
+    .sec_heading{
+        font-size: 1.7rem;
+    }
     /* honor */
     .achieve-desc {
         font-size:.8rem;

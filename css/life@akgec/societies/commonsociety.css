@@ -327,6 +327,9 @@
     /* activity */
 }
 @media only screen and (max-width:455px) {
+    .sec_heading{
+        font-size: 1.7rem;
+    }
     /* faculty head */
     .faculty_box {
         margin-right:2rem;

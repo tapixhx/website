@@ -415,6 +415,9 @@ input[type=radio]:checked ~ .check::before{
     }
     
     /* application form */
+    .sec_heading{
+        font-size: 1.7rem;
+    }
 }
 
 @media only screen and (max-width:430px) {
