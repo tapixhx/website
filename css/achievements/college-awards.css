@@ -281,7 +281,7 @@
 .one-card {
     height:28rem;
     overflow:hidden;
-    border-radius:50px !important;
+    border-radius:15px !important;
 }
 /* scrollbar */
 .card-text {
