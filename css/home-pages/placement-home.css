@@ -259,6 +259,13 @@
 .medium{
     display: none;
 }
+.recr-box {
+    border-radius:20px;
+    margin:0 1rem;
+}
+.r-margin {
+    margin-top:3rem;
+}
 /* awards */
 
 /* media queries */
@@ -291,6 +298,12 @@
         margin-top: 3.2rem;
         width: 70%;
     }
+
+    /* recruiters */
+    .recr-img {
+        width:70%;
+    }
+    /* recruiters */
 }
 @media only screen and (max-width:768px) {
     /* landing */
@@ -340,6 +353,18 @@
     .large{
         display: none;
     }
+
+    /* recruiters */
+    .recr-col {
+        margin-top:2.5rem;
+    }
+    .recr-box {
+        margin:0 5rem;
+    }
+    .r-margin {
+        margin-top:0rem;
+    }
+    /* recruiters */
 }
 @media only screen and (max-width:455px) {
     /* landing */
@@ -375,6 +400,12 @@
     .life-mybtn-pink, .life-mybtn-blue{
         padding: .7rem 1.5rem !important;
     }
+
+    /* recruiters */
+    .recr-box {
+        margin:0 6rem;
+    }
+    /* recruiters */
 }
 @media only screen and (max-width:430px) {
     /* head */
@@ -405,6 +436,12 @@
         margin:0 .2rem 4rem;
     }
     /* departments */
+
+    /* recruiters */
+    .recr-box {
+        margin:0 4rem;
+    }
+    /* recruiters */
 }
 @media only screen and (max-width:320px) {
     /* head */
@@ -433,6 +470,12 @@
     .award-contain{
         height: 200px;
     }
+
+    /* recruiters */
+    .recr-box {
+        margin:0 2rem;
+    }
+    /* recruiters */
 }
 /* media queries */
 
