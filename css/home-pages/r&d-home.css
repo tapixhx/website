@@ -129,7 +129,7 @@ html {
     padding:8rem 2rem 4rem 2rem;
 }
 .homeland-pad {
-    padding:5rem 5rem 0 5rem!important;
+    padding:0rem 5rem 0 5rem!important;
 }
 /* .land-img {
     padding:0 5rem 8rem!important;
@@ -200,6 +200,11 @@ html {
 /* departments */
 
 /* media queries */
+@media only screen and (max-width:1350px) {
+    .deptt-box {
+        height:390px;
+    }
+}
 @media only screen and (max-width:1024px) {
     /* landing */
     .homeland-pad {
