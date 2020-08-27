@@ -1,6 +1,6 @@
 /* Common */
 .sec_pad {
-    padding: 4rem 0rem;
+    padding: 4rem 1rem;
 }
 .sec_heading {
     font-family: 'Raleway', sans-serif;
@@ -540,9 +540,9 @@
  .placement_container {
      padding:2rem;
  }
- .placement_card{
+ /* .placement_card{
      height: 220px;
- }
+ } */
  .placement_number {
      color:#fccb67;
  }
@@ -852,6 +852,9 @@
     .medium_placement {
         display:block;
     }
+    /* .placement_card{
+        height: 260px;
+    } */
     /* placement */
 
     /* stories */
@@ -889,6 +892,13 @@
         padding:0 12rem !important;
     }
     /* featured courses */
+
+        /* industry */
+    .industry_card{
+        height: 125px!important;
+        padding:1.5rem;
+       
+    }
 
 }
 @media only screen and (max-width:455px) {
@@ -993,6 +1003,14 @@
     .sec_heading{
         font-size: 1.7rem;
     }
+
+    /* industry */
+    .industry_card{
+        height: 125px!important;
+        padding:1.5rem;
+        margin:0 2rem;
+       
+    }
 }
 @media only screen and (max-width:430px) {
     /* about */
@@ -1083,6 +1101,17 @@
         padding:0 2rem !important;
     }
     /* featured courses */
+
+    /* industry */
+    .industry_card{
+        height: 115px!important;
+        padding: 1.5rem;
+        margin:0rem;
+       
+    }
+    .sec_heading{
+        font-size: 1.5rem;
+    }
 }
 @media only screen and (max-width:320px) {
     /* about */

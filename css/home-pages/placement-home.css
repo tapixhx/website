@@ -266,6 +266,9 @@
 .r-margin {
     margin-top:3rem;
 }
+.recr-img {
+    padding: 1rem;
+}
 /* awards */
 
 /* media queries */
@@ -300,9 +303,7 @@
     }
 
     /* recruiters */
-    .recr-img {
-        width:70%;
-    }
+    
     /* recruiters */
 }
 @media only screen and (max-width:768px) {
@@ -406,7 +407,7 @@
 
     /* recruiters */
     .recr-box {
-        margin:0 6rem;
+        margin:0 5rem;
     }
     /* recruiters */
 }
