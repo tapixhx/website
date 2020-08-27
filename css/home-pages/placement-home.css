@@ -149,6 +149,34 @@
 }
 /* landing */
 
+/* deptt */
+.sec_pad_tp {
+    padding:8rem 0 4rem 0;
+}
+.faculty_box {
+    background-color:#fff;
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1);
+    padding:.8rem 1.5rem;
+    border-radius:5px;
+}
+.head_desc {
+    padding:0 !important;
+}
+.head_desc_single {
+    padding:0 20rem 0 0 !important;
+}
+.head_str {
+    font-weight:800;
+    color:#FDD329;
+}
+.faculty_head_name {
+    font-weight: 800;
+}
+.head_image {
+    text-align: right;
+}
+/* deptt */
+
 /* departments */
 .second-row {
     margin-top:4rem;
@@ -201,6 +229,38 @@
 }
 /* departments */
 
+/* awards */
+
+.g-bg {
+    background:url('../../images/achievements/bg-vector2.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.awards-img{
+    margin-top: 4.5rem;
+    width: 65%;
+    border-radius: 10px;
+}
+.award-contain{
+    height: 400px;
+    margin:auto;
+}
+.achieve-desc {
+    color:#1D194F;
+}
+.achieve-head {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    font-size:2.2rem;
+    letter-spacing:1.5px;
+}
+.medium{
+    display: none;
+}
+/* awards */
+
 /* media queries */
 @media only screen and (max-width:1024px) {
     /* landing */
@@ -209,12 +269,28 @@
     }
     /* landing */
 
+    /* head */
+    .head_desc_single {
+        padding:0 15rem 0 0 !important;
+    }
+    /* head */
+
     /* departments */
     .deptt-box {
         margin:0 .5rem;
         height:380px;
     }
     /* departments */
+
+    /* awards */
+    .award-contain{
+        height: 300px;
+        margin:auto;
+    }  
+    .awards-img{
+        margin-top: 3.2rem;
+        width: 70%;
+    }
 }
 @media only screen and (max-width:768px) {
     /* landing */
@@ -225,6 +301,18 @@
         margin-top:.8rem;
     }
     /* landing */
+
+    /* head */
+    .fac_head {
+        margin-bottom:2rem;
+    }
+    .faculty_box {
+        margin-right:6rem;
+    }
+    .head_desc_single {
+        padding:0 0rem 0 0 !important;
+    }
+    /* head */
 
     /* departments */
     .second-row {
@@ -238,6 +326,20 @@
         height:auto;
     }
     /* departments */
+
+    /* awards */
+    .award-contain{
+        height: 470px;
+    }
+    .awards-img{
+        width: 75%;
+    }
+    .medium{
+        display: block;
+    }
+    .large{
+        display: none;
+    }
 }
 @media only screen and (max-width:455px) {
     /* landing */
@@ -246,13 +348,41 @@
     }
     /* landing */
 
+    /* head */
+    .faculty_box {
+        margin-right:2rem;
+    }
+    .head_image{
+        padding-top:1rem;
+    }
+    /* head */
+
     /* departments */
     .deptt-box {
         margin:0 1rem 4rem;
     }
     /* departments */
+
+     /* awards */
+     .awards-img{
+        margin-top: 2.5rem;
+       
+    }
+    .award-contain{
+        height: 250px;
+    }
+
+    .life-mybtn-pink, .life-mybtn-blue{
+        padding: .7rem 1.5rem !important;
+    }
 }
 @media only screen and (max-width:430px) {
+    /* head */
+    .faculty_box {
+        margin-right:1.6rem;
+    }
+    /* head */
+
     /* departments */
     .deptt-box {
         margin:0 .5rem 4rem;
@@ -260,6 +390,13 @@
     /* departments */
 }
 @media only screen and (max-width:375px) {
+    /* head */
+    .faculty_box {
+        margin-right:1.4rem;
+        padding:.6rem 1.5rem;
+    }
+    /* head */
+
     /* departments */
     .container-deptt {
         padding:0 1.4rem;
@@ -270,6 +407,15 @@
     /* departments */
 }
 @media only screen and (max-width:320px) {
+    /* head */
+    .faculty_box {
+        padding:.1rem 1.5rem;
+    }
+    .head_image{
+        padding-top:2rem;
+    }
+    /* head */
+
     /* departments */
     .container-deptt {
         padding:0 1rem;
@@ -278,6 +424,15 @@
         margin:0 0rem 4rem;
     }
     /* departments */
+
+    /* awards */
+    .awards-img{
+        margin-top: 2rem;
+        width: 78%;
+    }
+    .award-contain{
+        height: 200px;
+    }
 }
 /* media queries */
 

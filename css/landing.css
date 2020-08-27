@@ -46,7 +46,7 @@
 
 /* First sec */
 .nav-content {
-    color:#1D194F;
+    color:#213F7F;
 }
 .navbar {
     box-shadow:0px 0px 0px 0px !important;
@@ -105,9 +105,9 @@
     padding:0rem 6rem;
 }
 .clg_name {
-    font-family: 'Raleway', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin:0px;
-    color:#1D194F;
+    color:#213F7F;
 }
 .students {
     margin-top:3rem !important;
@@ -118,8 +118,12 @@
     font-family: 'Open Sans', sans-serif;
     font-weight:lighter;
 }
+.nav-logo {
+    margin-right: .3rem !important;
+}
 .navbar-element {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    color:#213F7F !important;
 }
 .d-button:focus {
     outline:none;

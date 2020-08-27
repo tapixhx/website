@@ -292,6 +292,11 @@ input[type=radio]:checked ~ .check::before{
 
 
 /* media queries */
+@media only screen and (max-width:1350px) {
+    .link_desc {
+        font-size:20px;
+    }
+}
 @media only screen and (max-width:1440px) {
     /* application form */
     .sem{
