@@ -131,6 +131,9 @@
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
 }
+.med-land {
+    display:none;
+}
 /* landing */
 
 /* overview */
@@ -262,6 +265,15 @@
     /* research highlight */
 }
 @media only screen and (max-width:768px) {
+    /* landing */
+    .med-land {
+        display:block;
+    }
+    .large-land {
+        display:none;
+    }
+    /* landing */
+
     /* overview */
     .card_2_1 {
         padding:0rem 11rem;
