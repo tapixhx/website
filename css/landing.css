@@ -942,6 +942,9 @@
 
 }
 @media only screen and (max-width:455px) {
+    .event_card {
+        padding:2rem 1rem !important;
+    }
          /* Campus-Tour */
 .campusimage {
     height:35vh!important;    
@@ -1109,7 +1112,7 @@
     
     /* upcoming events */
     .event_card {
-        padding:2rem 2rem !important;
+        padding:2rem 1rem !important;
     }
     /* upcoming events */
 
