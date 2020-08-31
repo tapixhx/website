@@ -717,6 +717,15 @@
 /* Scrollbar */
 /* featured courses */
 
+/* stories */
+.large_story {
+    height: 580px;
+}
+.stories_info {
+    font-weight:800;
+}
+/* stories */
+
 /* media queries */
 @media only screen and (max-width:1024px) {
     /* about */
