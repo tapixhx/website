@@ -277,7 +277,7 @@
 
     /* overview */
     .card_2_1 {
-        padding:0rem 11rem;
+        padding:0rem 2rem;
     }
     /* overview */
 
@@ -372,6 +372,9 @@
     }
     .placement_col_img2 {
         margin-top:-1.5rem;
+    }
+    .placement_company {
+        margin-bottom:1rem;
     }
     /* placement insight */
 
