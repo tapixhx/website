@@ -1034,7 +1034,7 @@
     /* stories */
     .story_card {
         width:20rem;
-        margin-left:3rem;
+        margin-left:0rem;
     }
     /* stories */
 
@@ -1224,7 +1224,7 @@
     }
     .story_card {
         width:18rem;
-        margin-left:0rem;
+        margin-left:-.4rem;
     }
     /* stories */
 
