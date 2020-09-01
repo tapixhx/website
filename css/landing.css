@@ -277,31 +277,44 @@
 /* Campus-Tour */
 .campusimage {
     
-   height:110vh;
-  background:url(../images/home/college.png);
-    background-size: contain;
-  background-repeat: no-repeat;
+    background:url(../images/home/college1.png);
+    background-size: 100% auto;
+    background-attachment: fixed;
+  
+   background-repeat: no-repeat;
+    position:sticky;
+    top:0;
+    /* padding:18rem 6rem; */
+  
   
     
 }
-.textcampustour {
+/* .textcampustour {
     height: 100vh;
    
     background-color: rgba(0,0,0,0.5);
+} */
+.hidden-img{
+   position: relative;
+   
+    z-index: -3;
+
+  
 }
 
-
 .campushead {
- line-height: 1250%;
-   text-align: center;
+ 
+   
     font-family: 'Raleway', sans-serif;
     color:#ffffff;
     font-weight:1000 !important;
     font-size:3.6rem;
     letter-spacing:2px;
-    
-   
-  
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    width: 100%;
+   text-align: center;
 }
 /* Campus-Tour */
 
@@ -417,27 +430,30 @@
 
 /* Why AKGEC */
 .akg-img-first {
-    background:url(../images/home/college.png);
-    height:100vh;
-    width:100%;
-    background-size:100% 100%;
+    background:url(../images/home/college1.png);
+    background-size: 100% auto;
+    
+  
+   background-repeat: no-repeat;
     position:sticky;
     top:0;
+    padding:8rem 6rem;
 }
-.akg-text-first {
+
+/* .akg-text-first {
     height:100vh;
-    width:100%;
+    
     background-color:rgba(0,0,0,0.7);
     padding:8rem 6rem;
  
-}
+} */
 .whyakg-head-first {
     font-family: 'Raleway', sans-serif;
     font-weight:800;
     color:#FFFFFF;
 }
 .whyakg-desc-first {
-    height:auto;
+ 
     font-family: 'Open Sans', sans-serif;
     margin-top:2rem;
     border-radius:2px;
@@ -456,48 +472,23 @@
     margin-top:4rem;
 }
 .akg-img-second {
-    background:url(../images/home/whyakg.png);
-    height:100vh;
-    width:100%;
-    background-size:100% 100%;
+    background:url(../images/home/whyakg\ \(1\).png);
+   
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     position:sticky;
     top:0;
-}
-.akg-text-second {
-    height:100vh;
-    width:100%;
-    background-color:rgba(0,0,0,0.7);
     padding:8rem 6rem;
     
 }
-.akg-img-third {
-    background:url(../images/home/whyakg2.png);
+/* .akg-text-second {
     height:100vh;
-    width:100%;
-    background-size:100% 100%;
-    position:sticky;
-    top:0;
-}
-.akg-text-third {
-    height:100vh;
-    width:100%;
+    
     background-color:rgba(0,0,0,0.7);
     padding:8rem 6rem;
-}
-.akg-img-fourth {
-    background:url(../images/home/whyakg3.png);
-    height:100vh;
-    width:100%;
-    background-size:100% 100%;
-    position:sticky;
-    top:0;
-}
-.akg-text-fourth {
-    height:100vh;
-    width:100%;
-    background-color:rgba(0,0,0,0.5);
-    padding:8rem 6rem;
-}
+    
+} */
+
 .line {
     border:2px solid #1D194F;
     width:100%;
@@ -738,20 +729,18 @@
 @media only screen and (max-width:1440px){
     /* Campus-Tour */
 .campusimage {
-    height:55vh!important;    
- }
- .textcampustour{
-     height:49vh!important;
- }
+
+    background-attachment: unset;
+     
+}
 }
 @media only screen and (max-width:1024px) {
-     /* Campus-Tour */
-.campusimage {
-    height:40vh!important;    
- }
- .textcampustour {
-     height:38vh!important;
- }
+    /* Why AKGEC */
+.akg-img-first, .akg-img-second {
+   
+    padding:1rem 3rem;
+}
+    
     /* about */
     .card_2_1 {
         padding:0rem .8rem;
@@ -819,13 +808,14 @@
     /* what people will say */
 }
 @media only screen and (max-width:768px) {
-      /* Campus-Tour */
-.campusimage {
-    height:45vh!important;    
- }
- .textcampustour {
-     height:43vh!important;
- }
+         /* Why AKGEC */
+.akg-img-first, .akg-img-second {
+   
+    padding:1rem 1rem;
+}
+.why-akg{
+    display: none;
+}
     /* about */
     .card_2_1 {
         padding:0rem 12rem;
@@ -942,16 +932,10 @@
 
 }
 @media only screen and (max-width:455px) {
-    .event_card {
+    .event_card { 
         padding:2rem 1rem !important;
     }
-         /* Campus-Tour */
-.campusimage {
-    height:35vh!important;    
- }
- .textcampustour {
-     height:32vh!important;
- }
+        
     /* first section */
     .students {
         margin-top:1rem !important;
@@ -1082,13 +1066,7 @@
     /* register */
 }
 @media only screen and (max-width:375px) {
-            /* Campus-Tour */
-.campusimage {
-    height:30vh!important;    
- }
- .textcampustour {
-     height:28vh!important;
- }
+        
     /* first section */
     .contain-students {
         padding:0rem 1rem;
@@ -1171,13 +1149,7 @@
     }
 }
 @media only screen and (max-width:320px) {
-               /* Campus-Tour */
-.campusimage {
-    height:25vh!important;    
- }
- .textcampustour {
-     height:24vh!important;
- }
+            
     /* about */
     .card_2_1 {
         padding:0rem 0rem;
