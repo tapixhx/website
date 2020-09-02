@@ -288,6 +288,12 @@ input[type=radio]:checked ~ .check::before{
     font-size:22px;
     color:#1D194F;
 }
+.link_img {
+    width:75%;
+}
+.link_img_col {
+    padding-left:2rem !important;
+}
 /* quick links */
 
 
@@ -326,6 +332,15 @@ input[type=radio]:checked ~ .check::before{
         margin-left:2.2rem;
     }
     /* application form */
+
+    /* quick links */
+    .link_img {
+        width:100%;
+    }
+    .link_img_col {
+        padding:0 15px !important;
+    }
+    /* quick links */
 }
 
 @media only screen and (max-width:768px) {

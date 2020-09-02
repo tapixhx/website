@@ -266,6 +266,10 @@
     margin-top: 3rem;
 }
 
+.acr-img {
+    padding:0 2rem !important;
+}
+
 .acr_contain {
     padding: 2rem !important;
 }

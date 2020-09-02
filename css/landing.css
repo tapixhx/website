@@ -16,7 +16,7 @@
     font-weight:600;
 }
 .underline {
-    border:2px solid #FCCB67;
+    border-top:2px solid #FCCB67;
     width:4rem;
 }
 .sec_text {
@@ -170,7 +170,7 @@
     letter-spacing:1.5px;
 }
 .underline {
-    border:2px solid #FCCB67;
+    border-top:4px solid #FCCB67;
     width:4rem;
     margin-bottom:2rem;
 }
@@ -531,7 +531,7 @@
  /* upcoming events */
  
  .underline{
-     border: 2px solid #fccb67;
+     border-top: 4px solid #fccb67;
      width: 4rem
  }
  
