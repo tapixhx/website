@@ -363,7 +363,7 @@ input[type=radio]:checked ~ .check::before{
     }
 }
 
-@media only screen and (max-width:455px) {
+@media only screen and (max-width:460px) {
     /* landing */
     .sec-pad-large {
         padding:8rem 2rem 0rem 2rem;

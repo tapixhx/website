@@ -375,7 +375,7 @@
         padding:0 0rem 0 0 !important;
     }
 }
-@media only screen and (max-width:455px) {
+@media only screen and (max-width:460px) {
     /* what we do */
     .card_2 {
         padding:0rem 3rem;
