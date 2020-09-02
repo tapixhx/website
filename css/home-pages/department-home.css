@@ -229,12 +229,12 @@
         padding:0rem 0 4rem 0;
     }
     .deptt-box {
-        margin:0 4rem 4rem;
+        margin:0 2rem 4rem;
         height:auto;
     }
     /* departments */
 }
-@media only screen and (max-width:455px) {
+@media only screen and (max-width:460px) {
     .sec_heading{
         font-size: 1.7rem;
     }

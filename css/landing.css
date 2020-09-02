@@ -931,8 +931,9 @@
     }
 
 }
-@media only screen and (max-width:455px) {
-    .event_card { 
+
+@media only screen and (max-width:460px) {
+    .event_card {
         padding:2rem 1rem !important;
     }
         
