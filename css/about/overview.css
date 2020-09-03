@@ -226,6 +226,11 @@
     width: 35% !important;
 }
 
+.grey-color {
+    background-color:#F3F3F3;
+    border:0!important;
+}
+
 .abt-head {
     font-family: 'Raleway', sans-serif;
     font-weight: 800 !important;

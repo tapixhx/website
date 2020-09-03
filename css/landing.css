@@ -402,9 +402,10 @@
     padding:0rem 8rem;
 }
 .people-card {
-    background-color:#0C0D1E !important;
-    color:#FFFFFF;
+    background-color:#F3F3F3 !important;
+    color:#000000;
     font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.1) !important;
 }
 .people-carousel-start {
     margin-top:2rem;
@@ -414,10 +415,10 @@
     height:250px;
 }
 .people-education {
-    color:#FFDF3D;
+    color:#000000;
 }
 .people-text {
-    color:#FFFFFF !important;
+    color:#000000 !important;
     font-size:12px !important;
 }
 .people-img {
