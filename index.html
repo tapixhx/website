@@ -186,10 +186,10 @@
       <div class="content-1">
         <div class="row">
           <div class="col-lg-4">
-            <h1 class="whyakg-head-first text-center text-uppercase" >
+            <h1 class="whyakg-head-first text-center text-uppercase">
               Why Akgec
             </h1>
-            <div class="whyakg-desc-first" >
+            <div class="whyakg-desc-first">
               <p>
                 The college is accredited by NAAC. The college has been consistently maintaining excellent academic
                 results and placements.
@@ -202,31 +202,31 @@
           <div class="col-lg-8 whyakg-stats-first">
             <div class="row">
               <div class="col-md-4 text-center">
-                <h1 class="whyakg-head-first" >900+</h1>
-                <div class="whyakg-about-stats" >Students Placed</div>
-                <div class="whyakg-about-stats" >(2018-2019)</div>
+                <h1 class="whyakg-head-first">900+</h1>
+                <div class="whyakg-about-stats">Students Placed</div>
+                <div class="whyakg-about-stats">(2018-2019)</div>
               </div>
               <div class="col-md-4 text-center">
-                <h1 class="whyakg-head-first" >400</h1>
-                <div class="whyakg-about-stats" >Students are in</div>
-                <div class="whyakg-about-stats" >Univ. Merit list</div>
+                <h1 class="whyakg-head-first">400</h1>
+                <div class="whyakg-about-stats">Students are in</div>
+                <div class="whyakg-about-stats">Univ. Merit list</div>
               </div>
               <div class="col-md-4 text-center">
-                <h1 class="whyakg-head-first" >300+</h1>
-                <p class="whyakg-about-stats" >Faculties</p>
+                <h1 class="whyakg-head-first">300+</h1>
+                <p class="whyakg-about-stats">Faculties</p>
               </div>
             </div>
             <div class="row whyakg-second-line">
               <div class="col-md-3"></div>
               <div class="col-md-3 text-center">
-                <h1 class="whyakg-head-first" >12K</h1>
-                <div class="whyakg-about-stats" >Students are</div>
-                <div class="whyakg-about-stats" >Graduated</div>
+                <h1 class="whyakg-head-first">12K</h1>
+                <div class="whyakg-about-stats">Students are</div>
+                <div class="whyakg-about-stats">Graduated</div>
               </div>
               <div class="col-md-3 text-center">
-                <h1 class="whyakg-head-first" >85+</h1>
-                <div class="whyakg-about-stats" >Labs in Variuos</div>
-                <div class="whyakg-about-stats" >Programs</div>
+                <h1 class="whyakg-head-first">85+</h1>
+                <div class="whyakg-about-stats">Labs in Variuos</div>
+                <div class="whyakg-about-stats">Programs</div>
               </div>
             </div>
           </div>
@@ -238,10 +238,10 @@
       <div class="content-2">
         <div class="row">
           <div class="col-lg-4">
-            <h1 class="whyakg-head-first text-center text-uppercase" >
+            <h1 class="whyakg-head-first text-center text-uppercase">
               Akgec library
             </h1>
-            <div class="whyakg-desc-first" >
+            <div class="whyakg-desc-first">
               <p>
                 The AKGEC Library System comprises of a Central Library, eight Departmental Libraries and five Hostel
                 Libraries.
@@ -735,18 +735,23 @@
           <!-- Card -->
           <div class="card news-card active-news" data-aos="zoom-in-up">
             <!-- Card content -->
-            <div class="card-body news-body">
+            <div class="card-body news-body" id="first" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="first_img" alt="Card image cap">
               <div class="row">
                 <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">07</p>
-                  <h5 class="text-center text-uppercase month">JUL</h5>
+                  <p class="text-center text-uppercase date" id="first_date">07</p>
+                  <h5 class="text-center text-uppercase month" id="first_mon">JUL</h5>
                 </div>
                 <div class="col-lg-10">
                   <!-- Text -->
                   <div class="news-text">
-                    <p class="eventdesc">
+                    <p class="eventdesc" id="first_sdesc">
                       Webinars by VE Cell , AKGEC
                     </p>
+                    <p class="d-none" id="first_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -755,106 +760,139 @@
 
           <div class="card news-card" data-aos="zoom-in-up">
             <!-- Card content -->
-            <div class="card-body news-body">
+            <div class="card-body news-body" id="second" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="second_img" alt="Card image cap">
               <div class="row">
                 <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">17</p>
-                  <h5 class="text-center text-uppercase month">JUL</h5>
+                  <p class="text-center text-uppercase date" id="second_date">17</p>
+                  <h5 class="text-center text-uppercase month" id="second_mon">JUL</h5>
                 </div>
                 <div class="col-lg-10">
                   <!-- Text -->
                   <div class="news-text">
-                    <p class="eventdesc">FDP on Machine Learning and its Applications using python </p>
+                    <p class="eventdesc" id="second_sdesc">FDP on Machine Learning and its Applications using python </p>
+                    <p class="d-none" id="second_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
 
           <div class="card news-card" data-aos="zoom-in-up">
             <!-- Card content -->
-            <div class="card-body news-body">
+            <div class="card-body news-body" id="third" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="third_img" alt="Card image cap">
               <div class="row">
                 <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">12</p>
-                  <h5 class="text-center text-uppercase month">JUN</h5>
+                  <p class="text-center text-uppercase date" id="third_date">12</p>
+                  <h5 class="text-center text-uppercase month" id="third_mon">JUN</h5>
                 </div>
                 <div class="col-lg-10">
                   <!-- Text -->
                   <div class="news-text">
-                    <p class="eventdesc">
+                    <p class="eventdesc" id="third_sdesc">
                       Industrial Internship Program 2020
                     </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card news-card" data-aos="zoom-in-up">
-            <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
-                <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">03</p>
-                  <h5 class="text-center text-uppercase month">jun</h5>
-                </div>
-                <div class="col-lg-10">
-                  <!-- Text -->
-                  <div class="news-text">
-                    <p class="eventdesc">Webinar on Robotic Operations & Applications in Manufacturing Process</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card news-card" data-aos="zoom-in-up">
-            <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
-                <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">02</p>
-                  <h5 class="text-center text-uppercase month">mar</h5>
-                </div>
-                <div class="col-lg-10">
-                  <!-- Text -->
-                  <div class="news-text">
-                    <p class="eventdesc">Blood Donation Camp 2020</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card news-card" data-aos="zoom-in-up">
-            <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
-                <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">22</p>
-                  <h5 class="text-center text-uppercase month">feb</h5>
-                </div>
-                <div class="col-lg-10">
-                  <!-- Text -->
-                  <div class="news-text">
-                    <p class="eventdesc">
-                      Requirement for Research Assistant
+                    <p class="d-none" id="third_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
+
+          <div class="card news-card" data-aos="zoom-in-up">
+            <!-- Card content -->
+            <div class="card-body news-body" id="fourth" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="fourth_img" alt="Card image cap">
+              <div class="row">
+                <div class="col-lg-2 newsdate">
+                  <p class="text-center text-uppercase date" id="fourth_date">03</p>
+                  <h5 class="text-center text-uppercase month" id="fourth_mon">JUN</h5>
+                </div>
+                <div class="col-lg-10">
+                  <!-- Text -->
+                  <div class="news-text">
+                    <p class="eventdesc" id="fourth_sdesc">Webinar on Robotic Operations & Applications in Manufacturing Process</p>
+                    <p class="d-none" id="fourth_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card news-card" data-aos="zoom-in-up">
+            <!-- Card content -->
+            <div class="card-body news-body" id="fifth" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="fifth_img" alt="Card image cap">
+              <div class="row">
+                <div class="col-lg-2 newsdate">
+                  <p class="text-center text-uppercase date" id="fifth_date">02</p>
+                  <h5 class="text-center text-uppercase month" id="fifth_mon">MAR</h5>
+                </div>
+                <div class="col-lg-10">
+                  <!-- Text -->
+                  <div class="news-text">
+                    <p class="eventdesc" id="fifth_sdesc">Blood Donation Camp 2020</p>
+                    <p class="d-none" id="fifth_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card news-card" data-aos="zoom-in-up">
+            <!-- Card content -->
+            <div class="card-body news-body" id="sixth" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="sixth_img" alt="Card image cap">
+              <div class="row">
+                <div class="col-lg-2 newsdate">
+                  <p class="text-center text-uppercase date" id="sixth_date">22</p>
+                  <h5 class="text-center text-uppercase month" id="sixth_mon">FEB</h5>
+                </div>
+                <div class="col-lg-10">
+                  <!-- Text -->
+                  <div class="news-text">
+                    <p class="eventdesc" id="sixth_sdesc">
+                      Requirement for Research Assistant
+                    </p>
+                    <p class="d-none" id="sixth_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
 
         <!-- Single-News -->
         <div class="col-lg-5 col-md-12 news-particular">
+
           <!-- Card -->
           <div class="card news-card" data-aos="zoom-in" data-aos-duration="500">
 
             <!-- Card image -->
-            <img class="card-img-top" src="images/home/IMT7.png" alt="Card image cap">
+            <!-- <img class="card-img-top" src="./images/home/IMT7.png" id="setImg" alt="Card image cap"> -->
+            <img class="card-img-top" src="./images/home/IMT7.png" id="setImg" alt="Card image cap">
 
             <!-- Card content -->
             <div class="card-body">
@@ -862,25 +900,26 @@
                 <div class="col-lg-2 news-date-column">
                   <!-- Title -->
                   <h4 class="card-title my-auto text-center news-particular-info">
-                    11 FEB
+                    <span id="setDate">11</span> <span id="setMon">JUN</span>
                   </h4>
                   <!-- Text -->
                 </div>
                 <div class="col-lg-10 my-auto vertical-line">
                   <!-- Title -->
-                  <h4 class="news-particular-info">
-                    Participation in Techstars Startup Weekend 2020
+                  <h4 class="news-particular-info" id="setSdesc">
+                    SDC-SI
                   </h4>
                   <!-- Title -->
                 </div>
               </div>
-              <p class="news-text">
+              <p class="news-text" id="setDesc">
                 Software Development Centre (SDC), AKGEC, represented the College
                 at Techstars Startup Weekend 2020 powered by Google.
               </p>
             </div>
 
           </div>
+
         </div>
         <!-- Single-News -->
 
@@ -3076,6 +3115,7 @@
   <!-- AOS -->
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script type="text/javascript" src="./js/scroll.js"></script>
+  <script type="text/javascript" src="./js/news.js"></script>
 
 </body>
 
