@@ -1,12 +1,12 @@
 function news(info) {
-    console.log(info.id);
+    // console.log(info.id);
     let number = info.id;
     let imgPath = document.getElementById(number+'_img');
     let date = document.getElementById(number+'_date');
     let month = document.getElementById(number+'_mon');
     let sdesc = document.getElementById(number+'_sdesc');
     let desc = document.getElementById(number+'_desc');
-    console.log(imgPath.src, date.innerHTML, month.innerHTML, sdesc.innerHTML, desc.innerHTML);
+    // console.log(imgPath.src, date.innerHTML, month.innerHTML, sdesc.innerHTML, desc.innerHTML);
 
     // creating news
     let setImage = document.getElementById('setImg');
@@ -18,5 +18,5 @@ function news(info) {
     setMon.innerHTML = month.innerHTML;
     setSdesc.innerHTML = sdesc.innerHTML;
     setDesc.innerHTML = desc.innerHTML;
-    setImg.src =  imgPath.src;
+    setImage.src =  imgPath.src;
 }
