@@ -430,23 +430,29 @@
 
 /* Why AKGEC */
 .akg-img-first {
-    background:url(../images/home/college1.png);
+    background:url(../images/home/Group\ 1.png);
     background-size: 100% auto;
-    
-  
-   background-repeat: no-repeat;
-    position:sticky;
-    top:0;
-    padding:8rem 6rem;
+   background-repeat: no-repeat;   
+   position:sticky;
+   top:0;
 }
-
-/* .akg-text-first {
-    height:100vh;
+.hidden-img{
+    position: relative;
+     z-index: -3; 
+ }
+ .container-content{
+    padding:0rem 6rem;
+    position: absolute;
+    z-index: -2;
+    top: 30%;
+    width: 100%;
+   
+ }
+ .whyakg-stats-first{
+   
+    border-left:3px solid #FFFFFF;
     
-    background-color:rgba(0,0,0,0.7);
-    padding:8rem 6rem;
- 
-} */
+}
 .whyakg-head-first {
     font-family: 'Raleway', sans-serif;
     font-weight:800;
@@ -461,9 +467,7 @@
     color:#FFFFFF;
     background-color:rgba(255,255,255,0.2);
 }
-.whyakg-stats-first {
-    border-left:3px solid #FFFFFF;
-}
+
 .whyakg-about-stats {
     font-family: 'Open Sans', sans-serif;
     color:#FFFFFF;
@@ -471,7 +475,7 @@
 .whyakg-second-line {
     margin-top:4rem;
 }
-.akg-img-second {
+/* .akg-img-second {
     background:url(../images/home/whyakg\ \(1\).png);
    
     background-size: 100% auto;
@@ -480,7 +484,7 @@
     top:0;
     padding:8rem 6rem;
     
-}
+} */
 /* .akg-text-second {
     height:100vh;
     
@@ -736,10 +740,13 @@
 }
 @media only screen and (max-width:1024px) {
     /* Why AKGEC */
-.akg-img-first, .akg-img-second {
-   
-    padding:1rem 3rem;
-}
+    .container-content{
+        padding:0rem 2rem;
+        
+        top: 15%;
+      
+       
+     }
     
     /* about */
     .card_2_1 {

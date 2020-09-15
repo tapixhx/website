@@ -533,6 +533,10 @@
     /* education,career,exp */
 
     /* accredation */
+    .height-box-1 {
+        height: auto;
+      
+    }
     .height-box {
         height: auto;
     }
@@ -660,7 +664,7 @@
     }
 
     .acr-img {
-        padding-right: 14rem !important;
+        padding: .5rem !important;
     }
 
     .acr-box {
@@ -741,7 +745,7 @@
 
 @media only screen and (max-width:430px) {}
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:376px) {
 
     /* education,career,exp */
     .abt-col-pad {
@@ -832,9 +836,7 @@
         padding: 0 1rem !important;
     }
     
-    .acr-img {
-        padding-right: 13rem !important;
-    }
+    
     /* functionaries */
     .faculty_box {
         padding: .7rem;
@@ -854,9 +856,9 @@
     }
 
     /* accredation */
-    .acr-img {
+    /* .acr-img {
         padding-right: 10rem !important;
-    }
+    } */
      /* education,career,exp */
      .sec_heading {
         font-size: 1.5rem;
