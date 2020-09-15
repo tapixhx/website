@@ -182,6 +182,7 @@
   <!-- Why AKGEC -->
   <section class="why-akg">
 
+
     <div class="akg-img-first img-fluid" style="">
     
         <img class="hidden-img" src="images/home/Group 1.png" style="visibility: hidden;" width="100%" alt="">
@@ -216,6 +217,7 @@
           <div class="col-md-4 text-center">
           <h1 class="whyakg-head-first" >300+</h1>
           <p class="whyakg-about-stats" >Faculties</p>
+
           </div>
           </div>
           <div class="row whyakg-second-line">
@@ -240,10 +242,10 @@
       <div class="content-2">
         <div class="row">
           <div class="col-lg-4">
-            <h1 class="whyakg-head-first text-center text-uppercase" >
+            <h1 class="whyakg-head-first text-center text-uppercase">
               Akgec library
             </h1>
-            <div class="whyakg-desc-first" >
+            <div class="whyakg-desc-first">
               <p>
                 The AKGEC Library System comprises of a Central Library, eight Departmental Libraries and five Hostel
                 Libraries.
@@ -640,87 +642,6 @@
   </section>
   <!--FEATURED COURSES END-->
 
-  <!-- Register -->
-  <section class="regis_sec">
-    <div class="row">
-      <div class="col-lg-6 col-md-12">
-        <h2 class="regis_heading" data-aos="fade-up">Register Now</h2>
-        <div class="underline" data-aos="fade-up"></div>
-        <p class="regis_desc sec_text" data-aos="fade-up">
-          The college is accredited by NAAC. The college has been consistently maintaining excellent academic results
-          and placements.
-          The college has the distinction of being the first and only college in UP to receive the Acedemic Excellence
-          Award for the
-          Best Engineering College in UPTU from H.E. the Governor of UP for two successive years.
-        </p>
-        <div class="row regis_img-container">
-          <div class="col-md-4 col-sm-4 col-xs-4 text-center vertical_line" data-aos="fade-up">
-            <img src="images/home/regis1.png" class="regis_img" alt="No.1 Private college">
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-4 text-center vertical_line" data-aos="fade-up">
-            <img src="images/home/regis2.png" class="regis_img" alt="Institution Interaction Award">
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-4 text-center" data-aos="fade-up">
-            <img src="images/home/regis3.png" class="regis_img" alt="IIT Delhi">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-12 regis_form">
-        <!-- Material form subscription -->
-        <div class="card" data-aos="zoom-in" data-aos-duration="500">
-
-          <h5 class="text-center py-4">
-            <strong>APPLY NOW</strong>
-          </h5>
-
-          <!--Card content-->
-          <div class="card-body px-lg-5">
-
-            <!-- Form -->
-            <form class="text-center" style="color: #1D194F;" action="#!">
-
-              <!-- Name -->
-              <div class="md-form mt-3">
-                <input type="text" id="materialSubscriptionFormName" class="form-control">
-                <label for="materialSubscriptionFormName">YOUR NAME</label>
-              </div>
-
-              <!-- E-mai -->
-              <div class="md-form">
-                <input type="email" id="materialSubscriptionFormEmail" class="form-control">
-                <label for="materialSubscriptionFormEmail">E-MAIL</label>
-              </div>
-
-              <div class="md-form">
-                <select class="mdb-select regis_select">
-                  <option value="" disabled selected>SELECT COURSE</option>
-                  <option value="1">B.TECH</option>
-                  <option value="2">MCA</option>
-                  <option value="3">M.Tech</option>
-                  <option value="4">B.VOC</option>
-                </select>
-              </div>
-
-              <div class="md-form">
-                <input type="text" id="materialSubscriptionFormMessage" class="form-control">
-                <label for="materialSubscriptionFormMessage">MESSAGE</label>
-              </div>
-
-              <!-- Sign in button -->
-              <submit class="regis_btn" type="submit">SUBMIT</submit>
-
-            </form>
-            <!-- Form -->
-
-          </div>
-
-        </div>
-        <!-- Material form subscription -->
-      </div>
-    </div>
-  </section>
-  <!-- Register -->
-
   <!-- News -->
   <section class="sec_pad">
     <h2 class="text-center text-uppercase sec_heading" data-aos="fade-up">Latest News</h2>
@@ -737,18 +658,23 @@
           <!-- Card -->
           <div class="card news-card active-news" data-aos="zoom-in-up">
             <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
+            <div class="card-body news-body" id="first" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="first_img" alt="Card image cap">
+              <div class="row" style="cursor:pointer;">
                 <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">07</p>
-                  <h5 class="text-center text-uppercase month">JUL</h5>
+                  <p class="text-center text-uppercase date" id="first_date">07</p>
+                  <h5 class="text-center text-uppercase month" id="first_mon">JUL</h5>
                 </div>
                 <div class="col-lg-10">
                   <!-- Text -->
                   <div class="news-text">
-                    <p class="eventdesc">
+                    <p class="eventdesc" id="first_sdesc">
                       Webinars by VE Cell , AKGEC
                     </p>
+                    <p class="d-none" id="first_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -757,106 +683,139 @@
 
           <div class="card news-card" data-aos="zoom-in-up">
             <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
+            <div class="card-body news-body" id="second" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/news.png" id="second_img" alt="Card image cap">
+              <div class="row" style="cursor:pointer;">
                 <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">17</p>
-                  <h5 class="text-center text-uppercase month">JUL</h5>
+                  <p class="text-center text-uppercase date" id="second_date">17</p>
+                  <h5 class="text-center text-uppercase month" id="second_mon">JUL</h5>
                 </div>
                 <div class="col-lg-10">
                   <!-- Text -->
                   <div class="news-text">
-                    <p class="eventdesc">FDP on Machine Learning and its Applications using python </p>
+                    <p class="eventdesc" id="second_sdesc">FDP on Machine Learning and its Applications using python </p>
+                    <p class="d-none" id="second_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
 
           <div class="card news-card" data-aos="zoom-in-up">
             <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
+            <div class="card-body news-body" id="third" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="third_img" alt="Card image cap">
+              <div class="row" style="cursor:pointer;">
                 <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">12</p>
-                  <h5 class="text-center text-uppercase month">JUN</h5>
+                  <p class="text-center text-uppercase date" id="third_date">12</p>
+                  <h5 class="text-center text-uppercase month" id="third_mon">JUN</h5>
                 </div>
                 <div class="col-lg-10">
                   <!-- Text -->
                   <div class="news-text">
-                    <p class="eventdesc">
+                    <p class="eventdesc" id="third_sdesc">
                       Industrial Internship Program 2020
                     </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card news-card" data-aos="zoom-in-up">
-            <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
-                <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">03</p>
-                  <h5 class="text-center text-uppercase month">jun</h5>
-                </div>
-                <div class="col-lg-10">
-                  <!-- Text -->
-                  <div class="news-text">
-                    <p class="eventdesc">Webinar on Robotic Operations & Applications in Manufacturing Process</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card news-card" data-aos="zoom-in-up">
-            <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
-                <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">02</p>
-                  <h5 class="text-center text-uppercase month">mar</h5>
-                </div>
-                <div class="col-lg-10">
-                  <!-- Text -->
-                  <div class="news-text">
-                    <p class="eventdesc">Blood Donation Camp 2020</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card news-card" data-aos="zoom-in-up">
-            <!-- Card content -->
-            <div class="card-body news-body">
-              <div class="row">
-                <div class="col-lg-2 newsdate">
-                  <p class="text-center text-uppercase date">22</p>
-                  <h5 class="text-center text-uppercase month">feb</h5>
-                </div>
-                <div class="col-lg-10">
-                  <!-- Text -->
-                  <div class="news-text">
-                    <p class="eventdesc">
-                      Requirement for Research Assistant
+                    <p class="d-none" id="third_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
+
+          <div class="card news-card" data-aos="zoom-in-up">
+            <!-- Card content -->
+            <div class="card-body news-body" id="fourth" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/news.png" id="fourth_img" alt="Card image cap">
+              <div class="row" style="cursor:pointer;">
+                <div class="col-lg-2 newsdate">
+                  <p class="text-center text-uppercase date" id="fourth_date">03</p>
+                  <h5 class="text-center text-uppercase month" id="fourth_mon">JUN</h5>
+                </div>
+                <div class="col-lg-10">
+                  <!-- Text -->
+                  <div class="news-text">
+                    <p class="eventdesc" id="fourth_sdesc">Webinar on Robotic Operations & Applications in Manufacturing Process</p>
+                    <p class="d-none" id="fourth_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card news-card" data-aos="zoom-in-up">
+            <!-- Card content -->
+            <div class="card-body news-body" id="fifth" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/IMT7.png" id="fifth_img" alt="Card image cap">
+              <div class="row" style="cursor:pointer;">
+                <div class="col-lg-2 newsdate">
+                  <p class="text-center text-uppercase date" id="fifth_date">02</p>
+                  <h5 class="text-center text-uppercase month" id="fifth_mon">MAR</h5>
+                </div>
+                <div class="col-lg-10">
+                  <!-- Text -->
+                  <div class="news-text">
+                    <p class="eventdesc" id="fifth_sdesc">Blood Donation Camp 2020</p>
+                    <p class="d-none" id="fifth_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card news-card" data-aos="zoom-in-up">
+            <!-- Card content -->
+            <div class="card-body news-body" id="sixth" onclick="news(this)">
+              <img class="card-img-top d-none" src="./images/home/news.png" id="sixth_img" alt="Card image cap">
+              <div class="row" style="cursor:pointer;">
+                <div class="col-lg-2 newsdate">
+                  <p class="text-center text-uppercase date" id="sixth_date">22</p>
+                  <h5 class="text-center text-uppercase month" id="sixth_mon">FEB</h5>
+                </div>
+                <div class="col-lg-10">
+                  <!-- Text -->
+                  <div class="news-text">
+                    <p class="eventdesc" id="sixth_sdesc">
+                      Requirement for Research Assistant
+                    </p>
+                    <p class="d-none" id="sixth_desc">
+                      Software Development Centre (SDC), AKGEC, represented the College
+                      at Techstars Startup Weekend 2020 powered by Google.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
 
         <!-- Single-News -->
         <div class="col-lg-5 col-md-12 news-particular">
+
           <!-- Card -->
           <div class="card news-card" data-aos="zoom-in" data-aos-duration="500">
 
             <!-- Card image -->
-            <img class="card-img-top" src="images/home/IMT7.png" alt="Card image cap">
+            <!-- <img class="card-img-top" src="./images/home/IMT7.png" id="setImg" alt="Card image cap"> -->
+            <img class="card-img-top" src="./images/home/IMT7.png" id="setImg" alt="Card image cap">
 
             <!-- Card content -->
             <div class="card-body">
@@ -864,25 +823,26 @@
                 <div class="col-lg-2 news-date-column">
                   <!-- Title -->
                   <h4 class="card-title my-auto text-center news-particular-info">
-                    11 FEB
+                    <span id="setDate">11</span> <span id="setMon">JUN</span>
                   </h4>
                   <!-- Text -->
                 </div>
                 <div class="col-lg-10 my-auto vertical-line">
                   <!-- Title -->
-                  <h4 class="news-particular-info">
-                    Participation in Techstars Startup Weekend 2020
+                  <h4 class="news-particular-info" id="setSdesc">
+                    SDC-SI
                   </h4>
                   <!-- Title -->
                 </div>
               </div>
-              <p class="news-text">
+              <p class="news-text" id="setDesc">
                 Software Development Centre (SDC), AKGEC, represented the College
                 at Techstars Startup Weekend 2020 powered by Google.
               </p>
             </div>
 
           </div>
+
         </div>
         <!-- Single-News -->
 
@@ -1061,13 +1021,17 @@
                             Lorem
                             Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                           <div class="row">
-                            <div class="col-md-5 col-sm-5 col-xs-5">
-                              <h6 class="text-center stories_info" style="background-color: #FDC95D">
-                                B.Tech.</h6>
-                              <h6 class="text-center stories_info" style="background-color: #f1f1f1">
+                            <div class="col-md-7 col-sm-5 col-xs-5">
+                              <h6 class="text-center" style="background-color: #f1f1f1">
                                 AMIT TRIVEDI</h6>
+                              <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                B.Tech.</span>
+                              <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                2020</span>
+                              <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                CSE</span>
                             </div>
-                            <div class="col-md-7 col-sm-7 col-xs-7 text-right">
+                            <div class="col-md-5 col-sm-7 col-xs-7 text-right">
                               <img src="images/home/cap.png" height="35" alt="graduate">
                             </div>
                           </div>
@@ -1101,17 +1065,21 @@
                             since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem
                             Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                          <div class="row">
-                            <div class="col-md-5 col-sm-5 col-xs-5">
-                              <h6 class="text-center stories_info" style="background-color: #FDC95D">
-                                B.Tech.</h6>
-                              <h6 class="text-center stories_info" style="background-color: #f1f1f1">
-                                AMIT TRIVEDI</h6>
+                            <div class="row">
+                              <div class="col-md-7 col-sm-5 col-xs-5">
+                                <h6 class="text-center" style="background-color: #f1f1f1">
+                                  AMIT TRIVEDI</h6>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  B.Tech.</span>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  2020</span>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  CSE</span>
+                              </div>
+                              <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                                <img src="images/home/cap.png" height="35" alt="graduate">
+                              </div>
                             </div>
-                            <div class="col-md-7 col-sm-7 col-xs-7 text-right">
-                              <img src="images/home/cap.png" height="35" alt="graduate">
-                            </div>
-                          </div>
 
                         </div>
 
@@ -1142,17 +1110,21 @@
                             since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem
                             Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                          <div class="row">
-                            <div class="col-md-5 col-sm-5 col-xs-5">
-                              <h6 class="text-center stories_info" style="background-color: #FDC95D">
-                                B.Tech.</h6>
-                              <h6 class="text-center stories_info" style="background-color: #f1f1f1">
-                                AMIT TRIVEDI</h6>
+                            <div class="row">
+                              <div class="col-md-7 col-sm-5 col-xs-5">
+                                <h6 class="text-center" style="background-color: #f1f1f1">
+                                  AMIT TRIVEDI</h6>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  B.Tech.</span>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  2020</span>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  CSE</span>
+                              </div>
+                              <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                                <img src="images/home/cap.png" height="35" alt="graduate">
+                              </div>
                             </div>
-                            <div class="col-md-7 col-sm-7 col-xs-7 text-right">
-                              <img src="images/home/cap.png" height="35" alt="graduate">
-                            </div>
-                          </div>
 
                         </div>
 
@@ -1183,17 +1155,21 @@
                             since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem
                             Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                          <div class="row">
-                            <div class="col-md-5 col-sm-5 col-xs-5">
-                              <h6 class="text-center stories_info" style="background-color: #FDC95D">
-                                B.Tech.</h6>
-                              <h6 class="text-center stories_info" style="background-color: #f1f1f1">
-                                AMIT TRIVEDI</h6>
+                            <div class="row">
+                              <div class="col-md-7 col-sm-5 col-xs-5">
+                                <h6 class="text-center" style="background-color: #f1f1f1">
+                                  AMIT TRIVEDI</h6>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  B.Tech.</span>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  2020</span>
+                                <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                                  CSE</span>
+                              </div>
+                              <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                                <img src="images/home/cap.png" height="35" alt="graduate">
+                              </div>
                             </div>
-                            <div class="col-md-7 col-sm-7 col-xs-7 text-right">
-                              <img src="images/home/cap.png" height="35" alt="graduate">
-                            </div>
-                          </div>
 
                         </div>
 
@@ -1261,17 +1237,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5 col-sm-5 col-xs-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #f1f1f1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 col-sm-7 col-xs-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
 
               </div>
 
@@ -1301,17 +1281,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #f1f1f1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -1339,17 +1323,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #F1F1F1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -1381,17 +1369,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #f1f1f1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -1420,17 +1412,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #F1F1F1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -1457,17 +1453,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #F1F1F1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -1498,17 +1498,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #F1F1F1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -1537,17 +1541,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #F1F1F1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -1574,17 +1582,21 @@
                   printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                   the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                  <div class="col-md-5">
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #FDC95D">B.Tech.
-                    </h6>
-                    <h6 class="text-center stories_info" style="font-weight: lighter; background-color: #F1F1F1">AMIT
-                      TRIVEDI</h6>
+                  <div class="row">
+                    <div class="col-md-7 col-sm-5 col-xs-5">
+                      <h6 class="text-center" style="background-color: #f1f1f1">
+                        AMIT TRIVEDI</h6>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        B.Tech.</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        2020</span>
+                      <span class="text-center" style="padding:2px; background-color: #FDC95D">
+                        CSE</span>
+                    </div>
+                    <div class="col-md-5 col-sm-7 col-xs-7 text-right">
+                      <img src="images/home/cap.png" height="35" alt="graduate">
+                    </div>
                   </div>
-                  <div class="col-md-7 text-right">
-                    <img src="images/home/cap.png" height="35" alt="graduate">
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -2829,7 +2841,7 @@
 
           <!--First slide-->
           <div class="carousel-item">
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-lg-1"></div>
               <div class="col-lg-10 col-md-12 mx-auto">
                 <div class="card mb-2 people-card">
@@ -2855,7 +2867,7 @@
 
           <!--Second slide-->
           <div class="carousel-item active">
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-lg-1"></div>
               <div class="col-lg-10 col-md-12 mx-auto">
                 <div class="card mb-2 people-card">
@@ -2881,7 +2893,7 @@
 
           <!--Third slide-->
           <div class="carousel-item">
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-lg-1"></div>
               <div class="col-lg-10 col-md-12 mx-auto">
                 <div class="card mb-2 people-card">
@@ -2912,6 +2924,87 @@
     <!--/.Carousel Wrapper-->
   </section>
   <!-- What People Will Say -->
+
+  <!-- Register -->
+  <section class="regis_sec">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <h2 class="regis_heading" data-aos="fade-up">Register Now</h2>
+        <div class="underline" data-aos="fade-up"></div>
+        <p class="regis_desc sec_text" data-aos="fade-up">
+          The college is accredited by NAAC. The college has been consistently maintaining excellent academic results
+          and placements.
+          The college has the distinction of being the first and only college in UP to receive the Acedemic Excellence
+          Award for the
+          Best Engineering College in UPTU from H.E. the Governor of UP for two successive years.
+        </p>
+        <div class="row regis_img-container">
+          <div class="col-md-4 col-sm-4 col-xs-4 text-center vertical_line" data-aos="fade-up">
+            <img src="images/home/regis1.png" class="regis_img" alt="No.1 Private college">
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4 text-center vertical_line" data-aos="fade-up">
+            <img src="images/home/regis2.png" class="regis_img" alt="Institution Interaction Award">
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4 text-center" data-aos="fade-up">
+            <img src="images/home/regis3.png" class="regis_img" alt="IIT Delhi">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 regis_form">
+        <!-- Material form subscription -->
+        <div class="card" data-aos="zoom-in" data-aos-duration="500">
+
+          <h5 class="text-center py-4">
+            <strong>CONTACT US</strong>
+          </h5>
+
+          <!--Card content-->
+          <div class="card-body px-lg-5">
+
+            <!-- Form -->
+            <form class="text-center" style="color: #1D194F;" action="#!">
+
+              <!-- Name -->
+              <div class="md-form mt-3">
+                <input type="text" id="materialSubscriptionFormName" class="form-control">
+                <label for="materialSubscriptionFormName">YOUR NAME</label>
+              </div>
+
+              <!-- E-mai -->
+              <div class="md-form">
+                <input type="email" id="materialSubscriptionFormEmail" class="form-control">
+                <label for="materialSubscriptionFormEmail">E-MAIL</label>
+              </div>
+
+              <div class="md-form">
+                <select class="mdb-select regis_select">
+                  <option value="" disabled selected>SELECT COURSE</option>
+                  <option value="1">B.TECH</option>
+                  <option value="2">MCA</option>
+                  <option value="3">M.Tech</option>
+                  <option value="4">B.VOC</option>
+                </select>
+              </div>
+
+              <div class="md-form">
+                <input type="text" id="materialSubscriptionFormMessage" class="form-control">
+                <label for="materialSubscriptionFormMessage">MESSAGE</label>
+              </div>
+
+              <!-- Sign in button -->
+              <submit class="regis_btn" type="submit">SUBMIT</submit>
+
+            </form>
+            <!-- Form -->
+
+          </div>
+
+        </div>
+        <!-- Material form subscription -->
+      </div>
+    </div>
+  </section>
+  <!-- Register -->
 
   <!-- footer -->
   <footer>
@@ -3078,6 +3171,9 @@
   <!-- AOS -->
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script type="text/javascript" src="./js/scroll.js"></script>
+  <script type="text/javascript" src="./js/news.js"></script>
+  <!-- countUp -->
+  <script type="text/javascript" src="./js/countUp.js"></script>
 
 </body>
 

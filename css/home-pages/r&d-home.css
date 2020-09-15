@@ -200,9 +200,10 @@ html {
 /* departments */
 
 /* media queries */
-@media only screen and (max-width:1350px) {
+@media only screen and (max-width:1351px) {
     .deptt-box {
         height:390px;
+        margin:0 1rem;
     }
 }
 @media only screen and (max-width:1024px) {
