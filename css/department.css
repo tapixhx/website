@@ -206,6 +206,7 @@
 }
 .eventcards {
     margin-right:.5rem;
+    border-radius: 15px !important;
 }
 /* Labs */
 
@@ -307,6 +308,9 @@
     /* labs */
     .large_course {
         height:320px;
+    }
+    .eventcards_container{
+        padding: 0 1rem!important;
     }
     /* labs */
 
