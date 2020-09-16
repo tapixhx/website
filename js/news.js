@@ -1,5 +1,4 @@
 function news(info) {
-    // console.log(info.id);
     let number = info.id;
     let imgPath = document.getElementById(number+'_img');
     let date = document.getElementById(number+'_date');
