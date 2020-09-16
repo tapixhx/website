@@ -3,11 +3,11 @@ var header = document.getElementById("navbarSupportedContent1");
 var btns = header.getElementsByClassName("nav-link");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
+  var current = document.getElementsByClassName("active-tab");
   if (current.length > 0) { 
-    current[0].className = current[0].className.replace(" active", "");
+    current[0].className = current[0].className.replace(" active-tab", "");
   }
-  this.className += " active";
+  this.className += " active-tab";
   });
 }
 // navbar
