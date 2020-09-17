@@ -48,6 +48,9 @@
 .nav-content {
     color:#213F7F;
 }
+.active-tab {
+    color:#FCCB67 !important;
+}
 .navbar {
     box-shadow:0px 0px 0px 0px !important;
 }

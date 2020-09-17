@@ -121,6 +121,32 @@
 
 /* navbar */
 
+/* carousel */
+.carousel-inner.vv-3 .carousel-item.active,
+.carousel-inner.vv-3 .carousel-item-next,
+.carousel-inner.vv-3 .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner.vv-3 .carousel-item-right.active,
+.carousel-inner.vv-3 .carousel-item-next {
+  transform: translateX(34%);
+}
+
+.carousel-inner.vv-3 .carousel-item-left.active,
+.carousel-inner.vv-3 .carousel-item-prev {
+  transform: translateX(-34%);
+}
+
+.carousel-inner.vv-3 .carousel-item-right,
+.carousel-inner.vv-3 .carousel-item-left {
+  transform: translateX(0);
+}
+.c-padding {
+    padding:1rem 1rem;
+}
+/* carousel */
+
 /* landing */
 .sec_pad_landing{
     padding:10rem 0rem 4rem;
@@ -171,6 +197,16 @@
     background-color: #5E5E5E;
     font-family: 'Open Sans', sans-serif;
     color:#ffffff;
+}
+.large_course {
+    height:400px;
+}
+.eventcards_container{
+    padding: 0 5rem!important;
+}
+.eventcards {
+    margin-right:.5rem;
+    border-radius: 15px !important;
 }
 /* Labs */
 
@@ -234,12 +270,22 @@
 /* student achievement */
 
 /* faculty */
+.large_faculty {
+    height:560px;
+}
 .faculty_medium {
     display:none;
 }
 /* faculty */
 
 /* media queries */
+@media only screen and (max-width:1351px) {
+    /* faculty */
+    .large_faculty {
+        height:520px;
+    }
+    /* faculty */
+}
 @media only screen and (max-width:1024px) {
     /* overview */
     .card_2_1 {
@@ -258,6 +304,21 @@
         font-size:12px;
     }
     /* hod */
+
+    /* labs */
+    .large_course {
+        height:320px;
+    }
+    .eventcards_container{
+        padding: 0 1rem!important;
+    }
+    /* labs */
+
+    /* faculty */
+    .large_faculty {
+        height:520px;
+    }
+    /* faculty */
 
     /* research highlight */
     .research_box_1 {
