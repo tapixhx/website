@@ -1032,8 +1032,8 @@
 
     /* stories */
     .story_card {
-        width:20rem;
-        margin-left:2rem;
+        width:100%;
+        margin-left:0rem;
     }
     /* stories */
 
@@ -1077,7 +1077,7 @@
     }
     /* register */
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:376px) {
         
     /* first section */
     .contain-students {
@@ -1135,8 +1135,13 @@
     /* faculty */
 
     /* stories */
+    .medium_story {
+        height:550px !important;
+    }
+    
     .story_card {
-        margin-left:1rem !important;
+        width:100%;
+        margin-left:0 !important;
     }
     /* stories */
 
@@ -1207,11 +1212,11 @@
 
     /* stories */
     .medium_story {
-        height:550px !important;
+        height:520px !important;
     }
     .story_card {
-        width:18rem;
-        margin-left:-.4rem !important;
+        width:100%;
+        margin-left:0 !important;
     }
     /* stories */
 

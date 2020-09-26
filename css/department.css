@@ -2,6 +2,9 @@
 .sec_pad {
     padding: 4rem 0rem;
 }
+.sec_pad_start{
+    padding: 8rem 0rem;
+}
 .sec_heading {
     font-family: 'Raleway', sans-serif;
     color:#1D194F;
@@ -181,7 +184,9 @@
     padding : 0rem 2rem;
 }
 .box {
-    background-color: rgb(154, 167, 255 , 0.14) !important;
+    background-color: #FFFFFF !important;
+    border: 2px solid #FCCB67;
+    border-radius: 8px;
 }
 .overview_part_head {
     color:#1D194F;
@@ -278,6 +283,39 @@
 }
 /* faculty */
 
+/* all-faculty */
+.col-margin{
+    margin: 0 1rem;
+}
+.col-margin:hover{
+    box-shadow: 0px 8px 40px -4px rgba(0,0,0,0.1);
+}
+.fac-img{
+   border-radius:1rem !important;
+   padding:1rem 0rem;
+   width: 45%;
+  
+}
+.fac-name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    
+}
+.fac-post{
+    color:#818080;
+ 
+}
+.link{
+    color:#1D194F!important;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: .3rem 0;
+    
+}
+/* all-faculty */
+
+
 /* media queries */
 @media only screen and (max-width:1351px) {
     /* faculty */
@@ -287,6 +325,10 @@
     /* faculty */
 }
 @media only screen and (max-width:1024px) {
+    /* all-faculty */
+.col-margin{
+    margin: 0rem;
+}
     /* overview */
     .card_2_1 {
         padding:0rem;
@@ -327,6 +369,10 @@
     /* research highlight */
 }
 @media only screen and (max-width:768px) {
+       /* all-faculty */
+.col-margin{
+    margin: 1rem 12rem;
+}
     /* landing */
     .med-land {
         display:block;
@@ -399,6 +445,10 @@
     /* research highlight */
 }
 @media only screen and (max-width:460px) {
+           /* all-faculty */
+.col-margin{
+    margin: 1rem 5rem;
+}
     /* landing */
     .landing_text {
         padding: 0;
@@ -464,7 +514,8 @@
 
     /* faculty */
     .faculty_card {
-        margin-left:1rem;
+        width: 100%!important;
+        margin-left:0!important;
     }
     /* faculty */
 
@@ -481,6 +532,7 @@
     }
 }
 @media only screen and (max-width:430px) {
+  
     /* landing */
     .landing_text p {
         font-size:16px;
@@ -510,7 +562,11 @@
     }
     /* labs */
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:376px) {
+               /* all-faculty */
+.col-margin{
+    margin: 1rem 3.5rem;
+}
     /* overview */
     .card_2_1 {
         padding:0rem 1rem;
@@ -537,12 +593,12 @@
     /* hod */
 
     /* faculty */
-    .faculty_card {
+    /* .faculty_card {
         width:20rem !important;
         margin-left:1rem;
-    }
+    } */
     .faculty_medium_carousel {
-        height:460px !important;
+        height:480px !important;
     }
     /* faculty */
 
@@ -556,6 +612,9 @@
     /* research highlight */
 }
 @media only screen and (max-width:320px) {
+    .col-margin{
+        margin: 1rem 2rem;
+    }
     /* overview */
     .card_2_1 {
         padding:0rem;
@@ -591,10 +650,10 @@
     /* student achievement */
 
     /* faculty */
-    .faculty_card {
+    /* .faculty_card {
         width:18rem !important;
         margin-left:0rem;
-    }
+    } */
     .faculty_medium_carousel {
         height:440px !important;
     }

@@ -222,8 +222,8 @@
 
     /* carousel */
     .labs_card {
-        margin-left:.8rem;
-        width: 24.5rem!important;
+        margin-left:0rem;
+        width: 100%!important;
     }
     /* carousel */
 
@@ -247,18 +247,18 @@
 }
 @media only screen and (max-width:430px) {
     /* carousel */
-    .labs_card {
+    /* .labs_card {
         margin-left:1rem;
         width: 22.5rem!important;
-    }
+    } */
     /* carousel */
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:376px) {
     /* carousel */
-    .labs_card {
+    /* .labs_card {
         margin-left:1rem;
         width: 19rem!important;
-    }
+    } */
     /* carousel */
 
     /* deptt */
@@ -281,10 +281,10 @@
     /* heading */
 
     /* caousel */
-    .labs_card {
+    /* .labs_card {
         width:19.7rem !important;
         margin-left:-.8rem;
-    }
+    } */
     .labs_medium_carousel {
         height:350px !important;
     }
