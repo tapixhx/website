@@ -281,6 +281,12 @@
 .faculty_medium {
     display:none;
 }
+.allevents_link {
+    margin-top: 1.7rem;
+    letter-spacing: 1.5px;
+    font-family: 'Raleway', sans-serif;
+    color:#686868;
+}
 /* faculty */
 
 /* all-faculty */
@@ -291,8 +297,8 @@
     box-shadow: 0px 8px 40px -4px rgba(0,0,0,0.1);
 }
 .fac-img{
-   border-radius:1rem !important;
-   padding:1rem 0rem;
+   border-radius:100% !important;
+   margin:1rem 0rem;
    width: 45%;
   
 }
