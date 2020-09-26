@@ -219,6 +219,10 @@
     border-radius: 8px;
 }
 
+.abt-height {
+    height:320px;
+}
+
 .abt-img {
     display: block;
     margin-left: auto;
