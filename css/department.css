@@ -420,6 +420,9 @@
         width:23rem !important;
         margin-left:10rem;
     }
+    .student-card {
+        padding:2rem 10rem!important;
+    }
     /* labs */
 
     /* faculty */
@@ -509,6 +512,9 @@
     /* labs */
     .labs_card {
         margin-left:2rem;
+    }
+    .student-card {
+        padding:2rem 3rem!important;
     }
     /* labs */
 
@@ -640,6 +646,9 @@
     }
     .labs_medium_carousel {
         height:350px !important;
+    }
+    .student-card {
+        padding:1rem!important;
     }
     /* labs */
 
