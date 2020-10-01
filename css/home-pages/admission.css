@@ -279,6 +279,19 @@ html {
 }
 /* glory */
 
+/* process */
+.process-head {
+    font-family: 'Raleway', sans-serif;
+    color:#1D194F;
+    font-weight: 800;
+    font-size:1.3rem;
+}
+.process-desc {
+    color:#1D194F;
+    font-family: 'Open Sans', sans-serif;
+}
+/* process */
+
 
 @media only screen and (max-width:1025px) {
     /* honor */
@@ -362,6 +375,12 @@ html {
         height:auto;
     }
     /* award */
+
+    /* process */
+    .arrow-container {
+        visibility: hidden;
+    }
+    /* process */
 }
 @media only screen and (max-width:461px) {
      /* on-this-page */
