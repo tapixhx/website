@@ -296,14 +296,6 @@
 
 @media only screen and (max-width:1024px) {
      /* awards */
-     .award-contain{
-        height: 300px;
-        margin:auto;
-    }  
-    .awards-img{
-        margin-top: 3.2rem;
-        width: 70%;
-    }
 
     /* tech & extra-curricular */
     
