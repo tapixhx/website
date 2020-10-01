@@ -295,6 +295,7 @@
 }
 .col-margin:hover{
     box-shadow: 0px 8px 40px -4px rgba(0,0,0,0.1);
+    
 }
 .fac-img{
    border-radius:100% !important;
@@ -316,7 +317,7 @@
     color:#1D194F!important;
     font-size: .75rem;
     font-weight: 700;
-    padding: .3rem 0;
+    padding: .3rem 0 1rem;
     
 }
 /* all-faculty */
